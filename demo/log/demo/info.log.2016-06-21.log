@@ -1,0 +1,875 @@
+[06-21 22:46:27 499 INFO ] [main] server.bootstrap.Main - +++++++++++++++++++++ staring +++++++++++++++++++++
+
+[06-21 22:46:27 503 INFO ] [main] server.bootstrap.Main - user.dir: d:/scfV3/bin
+[06-21 22:46:27 504 INFO ] [main] server.bootstrap.Main - rootPath: d:/scfV3/bin/../
+[06-21 22:46:27 504 INFO ] [main] server.bootstrap.Main - service scf_config.xml: d:/scfV3/bin/../service/deploy/no service name please set it/scf_config.xml
+[06-21 22:46:27 505 INFO ] [main] server.bootstrap.Main - default scf_config.xml: d:/scfV3/bin/../conf/scf_config.xml
+[06-21 22:46:27 505 INFO ] [main] server.bootstrap.Main - service scf_log4j.xml: d:/scfV3/bin/../service/deploy/no service name please set it/scf_log4j.xml
+[06-21 22:46:27 506 INFO ] [main] server.bootstrap.Main - default scf_log4j.xml: d:/scfV3/bin/../conf/scf_log4j.xml
+[06-21 22:46:27 506 INFO ] [main] server.bootstrap.Main - load service config...
+[06-21 22:46:27 507 INFO ] [main] server.bootstrap.Main - scf.service.name:no service name please set it
+[06-21 22:46:27 507 INFO ] [main] server.bootstrap.Main - -----------------loading global jars------------------
+[06-21 22:46:27 523 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\service\lib\jyaml-1.3.jar
+[06-21 22:46:27 524 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\service\lib\mysql-connector-java-5.1.6-bin.jar
+[06-21 22:46:27 525 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\service\lib\sqljdbc4-2.0.jar
+[06-21 22:46:27 525 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\antlrall-2.7.2.jar
+[06-21 22:46:27 526 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\gson-2.2.4.jar
+[06-21 22:46:27 526 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\javassist-3.20.0-GA.jar
+[06-21 22:46:27 526 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\jcl-over-slf4j-1.7.8.jar
+[06-21 22:46:27 527 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\junit-4.8.jar
+[06-21 22:46:27 528 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\log4j-api-2.2.jar
+[06-21 22:46:27 528 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\log4j-core-2.2.jar
+[06-21 22:46:27 528 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\log4j-jcl-2.2.jar
+[06-21 22:46:27 529 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\log4j-slf4j-impl-2.2.jar
+[06-21 22:46:27 529 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\netty-3.1.5.GA.jar
+[06-21 22:46:27 530 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\org.spat.scf.protocol-3.0.0-SNAPSHOT.jar
+[06-21 22:46:27 530 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\org.spat.scf.serializer-3.0.0-SNAPSHOT.jar
+[06-21 22:46:27 531 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\org.spat.scf.server-3.0.0-SNAPSHOT.jar
+[06-21 22:46:27 532 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\org.spat.utility-3.0.0-SNAPSHOT.jar
+[06-21 22:46:27 533 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\slf4j-api-1.7.8.jar
+[06-21 22:46:27 534 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\tools.jar
+[06-21 22:46:27 534 INFO ] [main] server.bootstrap.Main - -------------------------end-------------------------
+
+[06-21 22:46:27 535 INFO ] [main] server.bootstrap.Main - --------------------loading proxys-------------------
+[06-21 22:46:27 542 INFO ] [main] deploy.bytecode.ScanClass - begin scan jar from path:d:/scfV3/bin/../service/deploy/no service name please set it/
+[06-21 22:46:27 545 INFO ] [main] deploy.bytecode.ScanClass - finish scan jar
+[06-21 22:46:27 552 INFO ] [main] deploy.bytecode.ProxyClassCreater - loading dynamic proxy ...
+[06-21 22:46:27 552 INFO ] [main] deploy.bytecode.ProxyClassCreater - load dynamic proxy success!!!
+[06-21 22:46:27 553 INFO ] [main] deploy.bytecode.CreateManager - proxy class buffer creater finish!!!
+[06-21 22:46:27 556 INFO ] [main] deploy.bytecode.ProxyFactoryCreater - begin create ProxyFactory:ProxyFactory1466520387545
+[06-21 22:46:28 569 INFO ] [main] deploy.bytecode.ProxyFactoryCreater - create ProxyFactory success!!!
+[06-21 22:46:28 573 INFO ] [main] deploy.bytecode.CreateManager - proxy factory buffer creater finish!!!
+[06-21 22:46:28 578 ERROR] [main] contract.log.SystemPrintStream - java.lang.ClassCastException: ProxyFactory1466520387545 cannot be cast to org.spat.scf.server.contract.context.IProxyFactory
+[06-21 22:46:28 580 ERROR] [main] contract.log.SystemPrintStream - 	at org.spat.scf.server.deploy.bytecode.CreateManager.careteProxy(CreateManager.java:40)
+[06-21 22:46:28 580 ERROR] [main] contract.log.SystemPrintStream - 	at org.spat.scf.server.deploy.hotdeploy.ProxyFactoryLoader.loadProxyFactory(ProxyFactoryLoader.java:25)
+[06-21 22:46:28 580 ERROR] [main] contract.log.SystemPrintStream - 	at org.spat.scf.server.bootstrap.Main.main(Main.java:149)
+[06-21 22:46:28 581 ERROR] [main] contract.log.SystemPrintStream - 	at org.spat.scf.maven.RunMojo.execute(RunMojo.java:47)
+[06-21 22:46:28 581 ERROR] [main] contract.log.SystemPrintStream - 	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:101)
+[06-21 22:46:28 581 ERROR] [main] contract.log.SystemPrintStream - 	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:209)
+[06-21 22:46:28 582 ERROR] [main] contract.log.SystemPrintStream - 	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:153)
+[06-21 22:46:28 582 ERROR] [main] contract.log.SystemPrintStream - 	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:145)
+[06-21 22:46:28 582 ERROR] [main] contract.log.SystemPrintStream - 	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:84)
+[06-21 22:46:28 583 ERROR] [main] contract.log.SystemPrintStream - 	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:59)
+[06-21 22:46:28 583 ERROR] [main] contract.log.SystemPrintStream - 	at org.apache.maven.lifecycle.internal.LifecycleStarter.singleThreadedBuild(LifecycleStarter.java:183)
+[06-21 22:46:28 583 ERROR] [main] contract.log.SystemPrintStream - 	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:161)
+[06-21 22:46:28 583 ERROR] [main] contract.log.SystemPrintStream - 	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:319)
+[06-21 22:46:28 584 ERROR] [main] contract.log.SystemPrintStream - 	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:156)
+[06-21 22:46:28 584 ERROR] [main] contract.log.SystemPrintStream - 	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:537)
+[06-21 22:46:28 584 ERROR] [main] contract.log.SystemPrintStream - 	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:196)
+[06-21 22:46:28 585 ERROR] [main] contract.log.SystemPrintStream - 	at org.apache.maven.cli.MavenCli.main(MavenCli.java:141)
+[06-21 22:46:28 585 ERROR] [main] contract.log.SystemPrintStream - 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[06-21 22:46:28 585 ERROR] [main] contract.log.SystemPrintStream - 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+[06-21 22:46:28 585 ERROR] [main] contract.log.SystemPrintStream - 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[06-21 22:46:28 586 ERROR] [main] contract.log.SystemPrintStream - 	at java.lang.reflect.Method.invoke(Method.java:606)
+[06-21 22:46:28 586 ERROR] [main] contract.log.SystemPrintStream - 	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:290)
+[06-21 22:46:28 586 ERROR] [main] contract.log.SystemPrintStream - 	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:230)
+[06-21 22:46:28 587 ERROR] [main] contract.log.SystemPrintStream - 	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:409)
+[06-21 22:46:28 587 ERROR] [main] contract.log.SystemPrintStream - 	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:352)
+[06-21 22:46:28 588 INFO ] [main] contract.log.SystemPrintStream - [INFO] 
+[06-21 22:46:28 588 INFO ] [main] contract.log.SystemPrintStream - ------------------------------------------------------------------------
+[06-21 22:46:28 588 INFO ] [main] contract.log.SystemPrintStream - [INFO] 
+[06-21 22:46:28 588 INFO ] [main] contract.log.SystemPrintStream - BUILD SUCCESS
+[06-21 22:46:28 589 INFO ] [main] contract.log.SystemPrintStream - [INFO] 
+[06-21 22:46:28 589 INFO ] [main] contract.log.SystemPrintStream - ------------------------------------------------------------------------
+[06-21 22:46:28 589 INFO ] [main] contract.log.SystemPrintStream - [INFO] 
+[06-21 22:46:28 590 INFO ] [main] contract.log.SystemPrintStream - Total time: 5.520s
+[06-21 22:46:28 594 INFO ] [main] contract.log.SystemPrintStream - [INFO] 
+[06-21 22:46:28 594 INFO ] [main] contract.log.SystemPrintStream - Finished at: Tue Jun 21 22:46:28 CST 2016
+[06-21 22:46:28 775 INFO ] [main] contract.log.SystemPrintStream - [INFO] 
+[06-21 22:46:28 775 INFO ] [main] contract.log.SystemPrintStream - Final Memory: 7M/156M
+[06-21 22:46:28 776 INFO ] [main] contract.log.SystemPrintStream - [INFO] 
+[06-21 22:46:28 776 INFO ] [main] contract.log.SystemPrintStream - ------------------------------------------------------------------------
+[06-21 22:54:47 648 INFO ] [main] server.bootstrap.Main - +++++++++++++++++++++ staring +++++++++++++++++++++
+
+[06-21 22:54:48 271 INFO ] [main] server.bootstrap.Main - user.dir: d:/scfV3/bin
+[06-21 22:54:48 582 INFO ] [main] server.bootstrap.Main - rootPath: d:/scfV3/bin/../
+[06-21 22:54:48 849 INFO ] [main] server.bootstrap.Main - service scf_config.xml: d:/scfV3/bin/../service/deploy/no service name please set it/scf_config.xml
+[06-21 22:54:50 041 INFO ] [main] server.bootstrap.Main - default scf_config.xml: d:/scfV3/bin/../conf/scf_config.xml
+[06-21 22:54:50 357 INFO ] [main] server.bootstrap.Main - service scf_log4j.xml: d:/scfV3/bin/../service/deploy/no service name please set it/scf_log4j.xml
+[06-21 22:54:50 711 INFO ] [main] server.bootstrap.Main - default scf_log4j.xml: d:/scfV3/bin/../conf/scf_log4j.xml
+[06-21 22:54:51 638 INFO ] [main] server.bootstrap.Main - load service config...
+[06-21 22:54:53 880 INFO ] [main] server.bootstrap.Main - scf.service.name:no service name please set it
+[06-21 22:59:31 568 INFO ] [main] server.bootstrap.Main - +++++++++++++++++++++ staring +++++++++++++++++++++
+
+[06-21 22:59:32 156 INFO ] [main] server.bootstrap.Main - user.dir: d:/scfV3/bin
+[06-21 22:59:34 280 INFO ] [main] server.bootstrap.Main - rootPath: d:/scfV3/bin/../
+[06-21 22:59:34 636 INFO ] [main] server.bootstrap.Main - service scf_config.xml: d:/scfV3/bin/../service/deploy/demo/scf_config.xml
+[06-21 22:59:34 906 INFO ] [main] server.bootstrap.Main - default scf_config.xml: d:/scfV3/bin/../conf/scf_config.xml
+[06-21 22:59:35 159 INFO ] [main] server.bootstrap.Main - service scf_log4j.xml: d:/scfV3/bin/../service/deploy/demo/scf_log4j.xml
+[06-21 22:59:36 072 INFO ] [main] server.bootstrap.Main - default scf_log4j.xml: d:/scfV3/bin/../conf/scf_log4j.xml
+[06-21 22:59:36 462 INFO ] [main] server.bootstrap.Main - load service config...
+[06-21 22:59:37 644 INFO ] [main] server.bootstrap.Main - scf.service.name: demo
+[06-21 22:59:40 560 INFO ] [main] server.bootstrap.Main - -----------------loading global jars------------------
+[06-21 22:59:43 961 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\service\deploy\demo\lib\org.spat.scf.demo.contract-0.0.1-SNAPSHOT.jar
+[06-21 22:59:43 963 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\service\deploy\demo\org.spat.scf.demo.component-0.0.1-SNAPSHOT.jar
+[06-21 22:59:43 965 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\service\lib\jyaml-1.3.jar
+[06-21 22:59:43 966 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\service\lib\mysql-connector-java-5.1.6-bin.jar
+[06-21 22:59:43 967 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\service\lib\sqljdbc4-2.0.jar
+[06-21 22:59:43 969 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\antlrall-2.7.2.jar
+[06-21 22:59:43 971 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\gson-2.2.4.jar
+[06-21 22:59:43 973 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\javassist-3.20.0-GA.jar
+[06-21 22:59:43 976 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\jcl-over-slf4j-1.7.8.jar
+[06-21 22:59:43 977 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\junit-4.8.jar
+[06-21 22:59:43 979 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\log4j-api-2.2.jar
+[06-21 22:59:43 980 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\log4j-core-2.2.jar
+[06-21 22:59:43 981 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\log4j-jcl-2.2.jar
+[06-21 22:59:43 983 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\log4j-slf4j-impl-2.2.jar
+[06-21 22:59:43 984 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\netty-3.1.5.GA.jar
+[06-21 22:59:43 986 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\org.spat.scf.protocol-3.0.0-SNAPSHOT.jar
+[06-21 22:59:43 991 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\org.spat.scf.serializer-3.0.0-SNAPSHOT.jar
+[06-21 22:59:43 992 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\org.spat.scf.server-3.0.0-SNAPSHOT.jar
+[06-21 22:59:43 994 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\org.spat.utility-3.0.0-SNAPSHOT.jar
+[06-21 22:59:43 995 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\slf4j-api-1.7.8.jar
+[06-21 22:59:43 997 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\tools.jar
+[06-21 22:59:44 775 INFO ] [main] server.bootstrap.Main - -------------------------end-------------------------
+
+[06-21 22:59:45 544 INFO ] [main] server.bootstrap.Main - --------------------loading proxys-------------------
+[06-21 22:59:45 914 INFO ] [main] deploy.bytecode.ScanClass - begin scan jar from path:d:/scfV3/bin/../service/deploy/demo/
+[06-21 22:59:46 309 INFO ] [main] deploy.bytecode.ScanClass - finish scan jar
+[06-21 22:59:46 343 INFO ] [main] deploy.bytecode.ProxyClassCreater - loading dynamic proxy ...
+[06-21 22:59:46 345 INFO ] [main] deploy.bytecode.ProxyClassCreater - load dynamic proxy success!!!
+[06-21 22:59:46 346 INFO ] [main] deploy.bytecode.CreateManager - proxy class buffer creater finish!!!
+[06-21 22:59:46 360 INFO ] [main] deploy.bytecode.ProxyFactoryCreater - begin create ProxyFactory:ProxyFactory1466521186310
+[06-21 22:59:48 515 INFO ] [main] deploy.bytecode.ProxyFactoryCreater - create ProxyFactory success!!!
+[06-21 22:59:48 532 INFO ] [main] deploy.bytecode.CreateManager - proxy factory buffer creater finish!!!
+[06-21 23:00:07 899 ERROR] [main] contract.log.SystemPrintStream - java.lang.ClassCastException: ProxyFactory1466521186310 cannot be cast to org.spat.scf.server.contract.context.IProxyFactory
+[06-21 23:00:07 903 ERROR] [main] contract.log.SystemPrintStream - 	at org.spat.scf.server.deploy.bytecode.CreateManager.careteProxy(CreateManager.java:40)
+[06-21 23:00:07 903 ERROR] [main] contract.log.SystemPrintStream - 	at org.spat.scf.server.deploy.hotdeploy.ProxyFactoryLoader.loadProxyFactory(ProxyFactoryLoader.java:25)
+[06-21 23:00:07 904 ERROR] [main] contract.log.SystemPrintStream - 	at org.spat.scf.server.bootstrap.Main.main(Main.java:149)
+[06-21 23:00:07 904 ERROR] [main] contract.log.SystemPrintStream - 	at org.spat.scf.maven.RunMojo.execute(RunMojo.java:47)
+[06-21 23:00:07 905 ERROR] [main] contract.log.SystemPrintStream - 	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:101)
+[06-21 23:00:07 905 ERROR] [main] contract.log.SystemPrintStream - 	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:209)
+[06-21 23:00:07 906 ERROR] [main] contract.log.SystemPrintStream - 	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:153)
+[06-21 23:00:07 906 ERROR] [main] contract.log.SystemPrintStream - 	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:145)
+[06-21 23:00:07 906 ERROR] [main] contract.log.SystemPrintStream - 	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:84)
+[06-21 23:00:07 906 ERROR] [main] contract.log.SystemPrintStream - 	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:59)
+[06-21 23:00:07 907 ERROR] [main] contract.log.SystemPrintStream - 	at org.apache.maven.lifecycle.internal.LifecycleStarter.singleThreadedBuild(LifecycleStarter.java:183)
+[06-21 23:00:07 907 ERROR] [main] contract.log.SystemPrintStream - 	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:161)
+[06-21 23:00:07 907 ERROR] [main] contract.log.SystemPrintStream - 	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:319)
+[06-21 23:00:07 908 ERROR] [main] contract.log.SystemPrintStream - 	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:156)
+[06-21 23:00:07 908 ERROR] [main] contract.log.SystemPrintStream - 	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:537)
+[06-21 23:00:07 908 ERROR] [main] contract.log.SystemPrintStream - 	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:196)
+[06-21 23:00:07 908 ERROR] [main] contract.log.SystemPrintStream - 	at org.apache.maven.cli.MavenCli.main(MavenCli.java:141)
+[06-21 23:00:07 909 ERROR] [main] contract.log.SystemPrintStream - 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[06-21 23:00:07 909 ERROR] [main] contract.log.SystemPrintStream - 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+[06-21 23:00:07 909 ERROR] [main] contract.log.SystemPrintStream - 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[06-21 23:00:07 910 ERROR] [main] contract.log.SystemPrintStream - 	at java.lang.reflect.Method.invoke(Method.java:606)
+[06-21 23:00:07 910 ERROR] [main] contract.log.SystemPrintStream - 	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:290)
+[06-21 23:00:07 911 ERROR] [main] contract.log.SystemPrintStream - 	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:230)
+[06-21 23:00:07 911 ERROR] [main] contract.log.SystemPrintStream - 	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:409)
+[06-21 23:00:07 911 ERROR] [main] contract.log.SystemPrintStream - 	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:352)
+[06-21 23:00:07 912 INFO ] [main] contract.log.SystemPrintStream - [INFO] 
+[06-21 23:00:07 912 INFO ] [main] contract.log.SystemPrintStream - ------------------------------------------------------------------------
+[06-21 23:00:07 913 INFO ] [main] contract.log.SystemPrintStream - [INFO] 
+[06-21 23:00:07 913 INFO ] [main] contract.log.SystemPrintStream - BUILD SUCCESS
+[06-21 23:00:07 913 INFO ] [main] contract.log.SystemPrintStream - [INFO] 
+[06-21 23:00:07 913 INFO ] [main] contract.log.SystemPrintStream - ------------------------------------------------------------------------
+[06-21 23:00:07 914 INFO ] [main] contract.log.SystemPrintStream - [INFO] 
+[06-21 23:00:07 914 INFO ] [main] contract.log.SystemPrintStream - Total time: 1:08.720s
+[06-21 23:00:07 919 INFO ] [main] contract.log.SystemPrintStream - [INFO] 
+[06-21 23:00:07 919 INFO ] [main] contract.log.SystemPrintStream - Finished at: Tue Jun 21 23:00:07 CST 2016
+[06-21 23:00:08 093 INFO ] [main] contract.log.SystemPrintStream - [INFO] 
+[06-21 23:00:08 095 INFO ] [main] contract.log.SystemPrintStream - Final Memory: 8M/155M
+[06-21 23:00:08 095 INFO ] [main] contract.log.SystemPrintStream - [INFO] 
+[06-21 23:00:08 096 INFO ] [main] contract.log.SystemPrintStream - ------------------------------------------------------------------------
+[06-21 23:01:29 550 INFO ] [main] server.bootstrap.Main - +++++++++++++++++++++ staring +++++++++++++++++++++
+
+[06-21 23:01:29 555 INFO ] [main] server.bootstrap.Main - user.dir: d:/scfV3/bin
+[06-21 23:01:29 555 INFO ] [main] server.bootstrap.Main - rootPath: d:/scfV3/bin/../
+[06-21 23:01:29 556 INFO ] [main] server.bootstrap.Main - service scf_config.xml: d:/scfV3/bin/../service/deploy/demo/scf_config.xml
+[06-21 23:01:29 557 INFO ] [main] server.bootstrap.Main - default scf_config.xml: d:/scfV3/bin/../conf/scf_config.xml
+[06-21 23:01:29 558 INFO ] [main] server.bootstrap.Main - service scf_log4j.xml: d:/scfV3/bin/../service/deploy/demo/scf_log4j.xml
+[06-21 23:01:29 558 INFO ] [main] server.bootstrap.Main - default scf_log4j.xml: d:/scfV3/bin/../conf/scf_log4j.xml
+[06-21 23:01:29 559 INFO ] [main] server.bootstrap.Main - load service config...
+[06-21 23:01:29 559 INFO ] [main] server.bootstrap.Main - scf.service.name: demo
+[06-21 23:01:29 560 INFO ] [main] server.bootstrap.Main - -----------------loading global jars------------------
+[06-21 23:01:29 577 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\service\deploy\demo\lib\org.spat.scf.demo.contract-0.0.1-SNAPSHOT.jar
+[06-21 23:01:29 578 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\service\deploy\demo\org.spat.scf.demo.component-0.0.1-SNAPSHOT.jar
+[06-21 23:01:29 578 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\service\lib\jyaml-1.3.jar
+[06-21 23:01:29 597 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\service\lib\mysql-connector-java-5.1.6-bin.jar
+[06-21 23:01:29 597 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\service\lib\sqljdbc4-2.0.jar
+[06-21 23:01:29 598 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\antlrall-2.7.2.jar
+[06-21 23:01:29 598 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\gson-2.2.4.jar
+[06-21 23:01:29 599 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\javassist-3.20.0-GA.jar
+[06-21 23:01:29 606 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\jcl-over-slf4j-1.7.8.jar
+[06-21 23:01:29 607 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\junit-4.8.jar
+[06-21 23:01:29 607 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\log4j-api-2.2.jar
+[06-21 23:01:29 607 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\log4j-core-2.2.jar
+[06-21 23:01:29 608 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\log4j-jcl-2.2.jar
+[06-21 23:01:29 608 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\log4j-slf4j-impl-2.2.jar
+[06-21 23:01:29 609 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\netty-3.1.5.GA.jar
+[06-21 23:01:29 609 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\org.spat.scf.protocol-3.0.0-SNAPSHOT.jar
+[06-21 23:01:29 613 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\org.spat.scf.serializer-3.0.0-SNAPSHOT.jar
+[06-21 23:01:29 614 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\org.spat.scf.server-3.0.0-SNAPSHOT.jar
+[06-21 23:01:29 614 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\org.spat.utility-3.0.0-SNAPSHOT.jar
+[06-21 23:01:29 614 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\slf4j-api-1.7.8.jar
+[06-21 23:01:29 614 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\tools.jar
+[06-21 23:01:29 615 INFO ] [main] server.bootstrap.Main - -------------------------end-------------------------
+
+[06-21 23:01:29 615 INFO ] [main] server.bootstrap.Main - --------------------loading proxys-------------------
+[06-21 23:03:52 713 INFO ] [main] deploy.bytecode.ScanClass - begin scan jar from path:d:/scfV3/bin/../service/deploy/demo/
+[06-21 23:03:53 193 INFO ] [main] deploy.bytecode.ScanClass - finish scan jar
+[06-21 23:04:10 055 INFO ] [main] deploy.bytecode.ProxyClassCreater - loading dynamic proxy ...
+[06-21 23:04:10 056 INFO ] [main] deploy.bytecode.ProxyClassCreater - load dynamic proxy success!!!
+[06-21 23:04:12 079 INFO ] [main] deploy.bytecode.CreateManager - proxy class buffer creater finish!!!
+[06-21 23:04:19 761 INFO ] [main] deploy.bytecode.ProxyFactoryCreater - begin create ProxyFactory:ProxyFactory1466521442818
+[06-21 23:04:21 928 INFO ] [main] deploy.bytecode.ProxyFactoryCreater - create ProxyFactory success!!!
+[06-21 23:05:11 934 INFO ] [main] deploy.bytecode.CreateManager - proxy factory buffer creater finish!!!
+[06-21 23:08:33 731 ERROR] [main] contract.log.SystemPrintStream - java.lang.ClassCastException: ProxyFactory1466521442818 cannot be cast to org.spat.scf.server.contract.context.IProxyFactory
+[06-21 23:08:33 734 ERROR] [main] contract.log.SystemPrintStream - 	at org.spat.scf.server.deploy.bytecode.CreateManager.careteProxy(CreateManager.java:40)
+[06-21 23:08:33 735 ERROR] [main] contract.log.SystemPrintStream - 	at org.spat.scf.server.deploy.hotdeploy.ProxyFactoryLoader.loadProxyFactory(ProxyFactoryLoader.java:25)
+[06-21 23:08:33 736 ERROR] [main] contract.log.SystemPrintStream - 	at org.spat.scf.server.bootstrap.Main.main(Main.java:149)
+[06-21 23:08:33 737 ERROR] [main] contract.log.SystemPrintStream - 	at org.spat.scf.maven.RunMojo.execute(RunMojo.java:47)
+[06-21 23:08:33 739 ERROR] [main] contract.log.SystemPrintStream - 	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:101)
+[06-21 23:08:33 740 ERROR] [main] contract.log.SystemPrintStream - 	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:209)
+[06-21 23:08:33 740 ERROR] [main] contract.log.SystemPrintStream - 	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:153)
+[06-21 23:08:33 741 ERROR] [main] contract.log.SystemPrintStream - 	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:145)
+[06-21 23:08:33 742 ERROR] [main] contract.log.SystemPrintStream - 	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:84)
+[06-21 23:08:33 744 ERROR] [main] contract.log.SystemPrintStream - 	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:59)
+[06-21 23:08:33 745 ERROR] [main] contract.log.SystemPrintStream - 	at org.apache.maven.lifecycle.internal.LifecycleStarter.singleThreadedBuild(LifecycleStarter.java:183)
+[06-21 23:08:33 745 ERROR] [main] contract.log.SystemPrintStream - 	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:161)
+[06-21 23:08:33 746 ERROR] [main] contract.log.SystemPrintStream - 	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:319)
+[06-21 23:08:33 747 ERROR] [main] contract.log.SystemPrintStream - 	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:156)
+[06-21 23:08:33 748 ERROR] [main] contract.log.SystemPrintStream - 	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:537)
+[06-21 23:08:33 748 ERROR] [main] contract.log.SystemPrintStream - 	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:196)
+[06-21 23:08:33 749 ERROR] [main] contract.log.SystemPrintStream - 	at org.apache.maven.cli.MavenCli.main(MavenCli.java:141)
+[06-21 23:08:33 750 ERROR] [main] contract.log.SystemPrintStream - 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[06-21 23:08:33 751 ERROR] [main] contract.log.SystemPrintStream - 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+[06-21 23:08:33 752 ERROR] [main] contract.log.SystemPrintStream - 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[06-21 23:08:33 753 ERROR] [main] contract.log.SystemPrintStream - 	at java.lang.reflect.Method.invoke(Method.java:606)
+[06-21 23:08:33 753 ERROR] [main] contract.log.SystemPrintStream - 	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:290)
+[06-21 23:08:33 754 ERROR] [main] contract.log.SystemPrintStream - 	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:230)
+[06-21 23:08:33 755 ERROR] [main] contract.log.SystemPrintStream - 	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:409)
+[06-21 23:08:33 755 ERROR] [main] contract.log.SystemPrintStream - 	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:352)
+[06-21 23:08:33 756 INFO ] [main] contract.log.SystemPrintStream - [INFO] 
+[06-21 23:08:33 756 INFO ] [main] contract.log.SystemPrintStream - ------------------------------------------------------------------------
+[06-21 23:08:33 758 INFO ] [main] contract.log.SystemPrintStream - [INFO] 
+[06-21 23:08:33 759 INFO ] [main] contract.log.SystemPrintStream - BUILD SUCCESS
+[06-21 23:08:33 760 INFO ] [main] contract.log.SystemPrintStream - [INFO] 
+[06-21 23:08:33 760 INFO ] [main] contract.log.SystemPrintStream - ------------------------------------------------------------------------
+[06-21 23:08:33 761 INFO ] [main] contract.log.SystemPrintStream - [INFO] 
+[06-21 23:08:33 761 INFO ] [main] contract.log.SystemPrintStream - Total time: 7:13.362s
+[06-21 23:08:33 765 INFO ] [main] contract.log.SystemPrintStream - [INFO] 
+[06-21 23:08:33 766 INFO ] [main] contract.log.SystemPrintStream - Finished at: Tue Jun 21 23:08:33 CST 2016
+[06-21 23:08:33 974 INFO ] [main] contract.log.SystemPrintStream - [INFO] 
+[06-21 23:08:33 975 INFO ] [main] contract.log.SystemPrintStream - Final Memory: 9M/222M
+[06-21 23:08:33 976 INFO ] [main] contract.log.SystemPrintStream - [INFO] 
+[06-21 23:08:33 976 INFO ] [main] contract.log.SystemPrintStream - ------------------------------------------------------------------------
+[06-21 23:08:55 847 INFO ] [main] server.bootstrap.Main - +++++++++++++++++++++ staring +++++++++++++++++++++
+
+[06-21 23:08:55 850 INFO ] [main] server.bootstrap.Main - user.dir: d:/scfV3/bin
+[06-21 23:08:55 851 INFO ] [main] server.bootstrap.Main - rootPath: d:/scfV3/bin/../
+[06-21 23:08:55 851 INFO ] [main] server.bootstrap.Main - service scf_config.xml: d:/scfV3/bin/../service/deploy/demo/scf_config.xml
+[06-21 23:08:55 851 INFO ] [main] server.bootstrap.Main - default scf_config.xml: d:/scfV3/bin/../conf/scf_config.xml
+[06-21 23:08:55 852 INFO ] [main] server.bootstrap.Main - service scf_log4j.xml: d:/scfV3/bin/../service/deploy/demo/scf_log4j.xml
+[06-21 23:08:55 852 INFO ] [main] server.bootstrap.Main - default scf_log4j.xml: d:/scfV3/bin/../conf/scf_log4j.xml
+[06-21 23:08:55 853 INFO ] [main] server.bootstrap.Main - load service config...
+[06-21 23:08:55 853 INFO ] [main] server.bootstrap.Main - scf.service.name: demo
+[06-21 23:08:55 853 INFO ] [main] server.bootstrap.Main - -----------------loading global jars------------------
+[06-21 23:08:55 869 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\service\deploy\demo\lib\org.spat.scf.demo.contract-0.0.1-SNAPSHOT.jar
+[06-21 23:08:55 869 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\service\deploy\demo\org.spat.scf.demo.component-0.0.1-SNAPSHOT.jar
+[06-21 23:08:55 870 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\service\lib\jyaml-1.3.jar
+[06-21 23:08:55 871 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\service\lib\mysql-connector-java-5.1.6-bin.jar
+[06-21 23:08:55 871 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\service\lib\sqljdbc4-2.0.jar
+[06-21 23:08:55 872 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\antlrall-2.7.2.jar
+[06-21 23:08:55 872 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\gson-2.2.4.jar
+[06-21 23:08:55 873 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\javassist-3.20.0-GA.jar
+[06-21 23:08:55 873 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\jcl-over-slf4j-1.7.8.jar
+[06-21 23:08:55 874 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\junit-4.8.jar
+[06-21 23:08:55 874 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\log4j-api-2.2.jar
+[06-21 23:08:55 875 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\log4j-core-2.2.jar
+[06-21 23:08:55 875 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\log4j-jcl-2.2.jar
+[06-21 23:08:55 876 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\log4j-slf4j-impl-2.2.jar
+[06-21 23:08:55 876 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\netty-3.1.5.GA.jar
+[06-21 23:08:55 877 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\org.spat.scf.protocol-3.0.0-SNAPSHOT.jar
+[06-21 23:08:55 878 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\org.spat.scf.serializer-3.0.0-SNAPSHOT.jar
+[06-21 23:08:55 878 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\org.spat.scf.server-3.0.0-SNAPSHOT.jar
+[06-21 23:08:55 879 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\org.spat.utility-3.0.0-SNAPSHOT.jar
+[06-21 23:08:55 879 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\slf4j-api-1.7.8.jar
+[06-21 23:08:55 880 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\tools.jar
+[06-21 23:08:55 880 INFO ] [main] server.bootstrap.Main - -------------------------end-------------------------
+
+[06-21 23:08:55 881 INFO ] [main] server.bootstrap.Main - --------------------loading proxys-------------------
+[06-21 23:09:39 698 INFO ] [main] deploy.bytecode.ScanClass - begin scan jar from path:d:/scfV3/bin/../service/deploy/demo/
+[06-21 23:09:40 106 INFO ] [main] deploy.bytecode.ScanClass - finish scan jar
+[06-21 23:10:56 082 INFO ] [main] deploy.bytecode.ProxyClassCreater - loading dynamic proxy ...
+[06-21 23:10:56 083 INFO ] [main] deploy.bytecode.ProxyClassCreater - load dynamic proxy success!!!
+[06-21 23:10:56 083 INFO ] [main] deploy.bytecode.CreateManager - proxy class buffer creater finish!!!
+[06-21 23:10:56 085 INFO ] [main] deploy.bytecode.ProxyFactoryCreater - begin create ProxyFactory:ProxyFactory1466521856079
+[06-21 23:10:56 702 INFO ] [main] deploy.bytecode.ProxyFactoryCreater - create ProxyFactory success!!!
+[06-21 23:10:56 706 INFO ] [main] deploy.bytecode.CreateManager - proxy factory buffer creater finish!!!
+[06-21 23:10:56 709 ERROR] [main] contract.log.SystemPrintStream - java.lang.ClassCastException: ProxyFactory1466521856079 cannot be cast to org.spat.scf.server.contract.context.IProxyFactory
+[06-21 23:10:56 711 ERROR] [main] contract.log.SystemPrintStream - 	at org.spat.scf.server.deploy.bytecode.CreateManager.careteProxy(CreateManager.java:40)
+[06-21 23:10:56 711 ERROR] [main] contract.log.SystemPrintStream - 	at org.spat.scf.server.deploy.hotdeploy.ProxyFactoryLoader.loadProxyFactory(ProxyFactoryLoader.java:25)
+[06-21 23:10:56 711 ERROR] [main] contract.log.SystemPrintStream - 	at org.spat.scf.server.bootstrap.Main.main(Main.java:149)
+[06-21 23:10:56 712 ERROR] [main] contract.log.SystemPrintStream - 	at org.spat.scf.maven.RunMojo.execute(RunMojo.java:47)
+[06-21 23:10:56 713 ERROR] [main] contract.log.SystemPrintStream - 	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:101)
+[06-21 23:10:56 713 ERROR] [main] contract.log.SystemPrintStream - 	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:209)
+[06-21 23:10:56 714 ERROR] [main] contract.log.SystemPrintStream - 	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:153)
+[06-21 23:10:56 714 ERROR] [main] contract.log.SystemPrintStream - 	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:145)
+[06-21 23:10:56 714 ERROR] [main] contract.log.SystemPrintStream - 	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:84)
+[06-21 23:10:56 715 ERROR] [main] contract.log.SystemPrintStream - 	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:59)
+[06-21 23:10:56 715 ERROR] [main] contract.log.SystemPrintStream - 	at org.apache.maven.lifecycle.internal.LifecycleStarter.singleThreadedBuild(LifecycleStarter.java:183)
+[06-21 23:10:56 715 ERROR] [main] contract.log.SystemPrintStream - 	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:161)
+[06-21 23:10:56 716 ERROR] [main] contract.log.SystemPrintStream - 	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:319)
+[06-21 23:10:56 716 ERROR] [main] contract.log.SystemPrintStream - 	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:156)
+[06-21 23:10:56 717 ERROR] [main] contract.log.SystemPrintStream - 	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:537)
+[06-21 23:10:56 717 ERROR] [main] contract.log.SystemPrintStream - 	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:196)
+[06-21 23:10:56 717 ERROR] [main] contract.log.SystemPrintStream - 	at org.apache.maven.cli.MavenCli.main(MavenCli.java:141)
+[06-21 23:10:56 718 ERROR] [main] contract.log.SystemPrintStream - 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[06-21 23:10:56 718 ERROR] [main] contract.log.SystemPrintStream - 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+[06-21 23:10:56 718 ERROR] [main] contract.log.SystemPrintStream - 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[06-21 23:10:56 719 ERROR] [main] contract.log.SystemPrintStream - 	at java.lang.reflect.Method.invoke(Method.java:606)
+[06-21 23:10:56 719 ERROR] [main] contract.log.SystemPrintStream - 	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:290)
+[06-21 23:10:56 719 ERROR] [main] contract.log.SystemPrintStream - 	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:230)
+[06-21 23:10:56 720 ERROR] [main] contract.log.SystemPrintStream - 	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:409)
+[06-21 23:10:56 720 ERROR] [main] contract.log.SystemPrintStream - 	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:352)
+[06-21 23:10:56 721 INFO ] [main] contract.log.SystemPrintStream - [INFO] 
+[06-21 23:10:56 721 INFO ] [main] contract.log.SystemPrintStream - ------------------------------------------------------------------------
+[06-21 23:10:56 722 INFO ] [main] contract.log.SystemPrintStream - [INFO] 
+[06-21 23:10:56 722 INFO ] [main] contract.log.SystemPrintStream - BUILD SUCCESS
+[06-21 23:10:56 722 INFO ] [main] contract.log.SystemPrintStream - [INFO] 
+[06-21 23:10:56 722 INFO ] [main] contract.log.SystemPrintStream - ------------------------------------------------------------------------
+[06-21 23:10:56 723 INFO ] [main] contract.log.SystemPrintStream - [INFO] 
+[06-21 23:10:56 723 INFO ] [main] contract.log.SystemPrintStream - Total time: 2:10.923s
+[06-21 23:10:56 727 INFO ] [main] contract.log.SystemPrintStream - [INFO] 
+[06-21 23:10:56 728 INFO ] [main] contract.log.SystemPrintStream - Finished at: Tue Jun 21 23:10:56 CST 2016
+[06-21 23:10:56 895 INFO ] [main] contract.log.SystemPrintStream - [INFO] 
+[06-21 23:10:56 897 INFO ] [main] contract.log.SystemPrintStream - Final Memory: 9M/219M
+[06-21 23:10:56 898 INFO ] [main] contract.log.SystemPrintStream - [INFO] 
+[06-21 23:10:56 898 INFO ] [main] contract.log.SystemPrintStream - ------------------------------------------------------------------------
+[06-21 23:19:30 073 INFO ] [main] server.bootstrap.Main - +++++++++++++++++++++ staring +++++++++++++++++++++
+
+[06-21 23:19:30 077 INFO ] [main] server.bootstrap.Main - user.dir: d:/scfV3/bin
+[06-21 23:19:30 077 INFO ] [main] server.bootstrap.Main - rootPath: d:/scfV3/bin/../
+[06-21 23:19:30 077 INFO ] [main] server.bootstrap.Main - service scf_config.xml: d:/scfV3/bin/../service/deploy/demo/scf_config.xml
+[06-21 23:19:30 078 INFO ] [main] server.bootstrap.Main - default scf_config.xml: d:/scfV3/bin/../conf/scf_config.xml
+[06-21 23:19:30 078 INFO ] [main] server.bootstrap.Main - service scf_log4j.xml: d:/scfV3/bin/../service/deploy/demo/scf_log4j.xml
+[06-21 23:19:30 078 INFO ] [main] server.bootstrap.Main - default scf_log4j.xml: d:/scfV3/bin/../conf/scf_log4j.xml
+[06-21 23:19:30 079 INFO ] [main] server.bootstrap.Main - load service config...
+[06-21 23:19:30 079 INFO ] [main] server.bootstrap.Main - scf.service.name: demo
+[06-21 23:19:30 080 INFO ] [main] server.bootstrap.Main - -----------------loading global jars------------------
+[06-21 23:20:49 344 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\service\deploy\demo\lib\org.spat.scf.demo.contract-0.0.1-SNAPSHOT.jar
+[06-21 23:20:49 346 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\service\deploy\demo\org.spat.scf.demo.component-0.0.1-SNAPSHOT.jar
+[06-21 23:20:49 347 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\service\lib\jyaml-1.3.jar
+[06-21 23:20:49 348 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\service\lib\mysql-connector-java-5.1.6-bin.jar
+[06-21 23:20:49 350 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\service\lib\sqljdbc4-2.0.jar
+[06-21 23:20:49 351 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\antlrall-2.7.2.jar
+[06-21 23:20:49 353 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\gson-2.2.4.jar
+[06-21 23:20:49 354 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\javassist-3.20.0-GA.jar
+[06-21 23:20:49 355 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\jcl-over-slf4j-1.7.8.jar
+[06-21 23:20:49 356 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\junit-4.8.jar
+[06-21 23:20:49 358 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\log4j-api-2.2.jar
+[06-21 23:20:49 359 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\log4j-core-2.2.jar
+[06-21 23:20:49 361 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\log4j-jcl-2.2.jar
+[06-21 23:20:49 363 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\log4j-slf4j-impl-2.2.jar
+[06-21 23:20:49 364 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\netty-3.1.5.GA.jar
+[06-21 23:20:49 365 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\org.spat.scf.protocol-3.0.0-SNAPSHOT.jar
+[06-21 23:20:49 369 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\org.spat.scf.serializer-3.0.0-SNAPSHOT.jar
+[06-21 23:20:49 371 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\org.spat.scf.server-3.0.0-SNAPSHOT.jar
+[06-21 23:20:49 373 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\org.spat.utility-3.0.0-SNAPSHOT.jar
+[06-21 23:20:49 374 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\slf4j-api-1.7.8.jar
+[06-21 23:20:49 375 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\tools.jar
+[06-21 23:24:10 254 INFO ] [main] server.bootstrap.Main - +++++++++++++++++++++ staring +++++++++++++++++++++
+
+[06-21 23:24:10 257 INFO ] [main] server.bootstrap.Main - user.dir: d:/scfV3/bin
+[06-21 23:24:10 258 INFO ] [main] server.bootstrap.Main - rootPath: d:/scfV3/bin/../
+[06-21 23:24:10 259 INFO ] [main] server.bootstrap.Main - service scf_config.xml: d:/scfV3/bin/../service/deploy/demo/scf_config.xml
+[06-21 23:24:10 259 INFO ] [main] server.bootstrap.Main - default scf_config.xml: d:/scfV3/bin/../conf/scf_config.xml
+[06-21 23:24:10 260 INFO ] [main] server.bootstrap.Main - service scf_log4j.xml: d:/scfV3/bin/../service/deploy/demo/scf_log4j.xml
+[06-21 23:24:10 260 INFO ] [main] server.bootstrap.Main - default scf_log4j.xml: d:/scfV3/bin/../conf/scf_log4j.xml
+[06-21 23:24:10 261 INFO ] [main] server.bootstrap.Main - load service config...
+[06-21 23:24:10 262 INFO ] [main] server.bootstrap.Main - scf.service.name: demo
+[06-21 23:24:10 262 INFO ] [main] server.bootstrap.Main - -----------------loading global jars------------------
+[06-21 23:24:20 714 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\service\deploy\demo\lib\org.spat.scf.demo.contract-0.0.1-SNAPSHOT.jar
+[06-21 23:24:20 716 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\service\deploy\demo\org.spat.scf.demo.component-0.0.1-SNAPSHOT.jar
+[06-21 23:24:20 717 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\service\lib\jyaml-1.3.jar
+[06-21 23:24:20 719 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\service\lib\mysql-connector-java-5.1.6-bin.jar
+[06-21 23:24:20 720 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\service\lib\sqljdbc4-2.0.jar
+[06-21 23:24:20 722 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\antlrall-2.7.2.jar
+[06-21 23:24:20 723 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\gson-2.2.4.jar
+[06-21 23:24:20 725 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\javassist-3.20.0-GA.jar
+[06-21 23:24:20 726 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\jcl-over-slf4j-1.7.8.jar
+[06-21 23:24:20 727 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\junit-4.8.jar
+[06-21 23:24:20 729 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\log4j-api-2.2.jar
+[06-21 23:24:20 731 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\log4j-core-2.2.jar
+[06-21 23:24:20 732 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\log4j-jcl-2.2.jar
+[06-21 23:24:20 733 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\log4j-slf4j-impl-2.2.jar
+[06-21 23:24:20 734 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\netty-3.1.5.GA.jar
+[06-21 23:24:20 736 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\org.spat.scf.protocol-3.0.0-SNAPSHOT.jar
+[06-21 23:24:20 737 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\org.spat.scf.serializer-3.0.0-SNAPSHOT.jar
+[06-21 23:24:20 738 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\org.spat.scf.server-3.0.0-SNAPSHOT.jar
+[06-21 23:24:20 739 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\org.spat.utility-3.0.0-SNAPSHOT.jar
+[06-21 23:24:20 740 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\slf4j-api-1.7.8.jar
+[06-21 23:24:20 742 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\tools.jar
+[06-21 23:24:39 381 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\service\deploy\demo\lib\org.spat.scf.demo.contract-0.0.1-SNAPSHOT.jar
+[06-21 23:24:39 382 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\service\deploy\demo\org.spat.scf.demo.component-0.0.1-SNAPSHOT.jar
+[06-21 23:24:39 383 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\service\lib\jyaml-1.3.jar
+[06-21 23:24:39 386 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\service\lib\mysql-connector-java-5.1.6-bin.jar
+[06-21 23:24:39 387 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\service\lib\sqljdbc4-2.0.jar
+[06-21 23:24:39 388 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\antlrall-2.7.2.jar
+[06-21 23:24:39 390 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\gson-2.2.4.jar
+[06-21 23:24:39 391 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\javassist-3.20.0-GA.jar
+[06-21 23:24:39 392 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\jcl-over-slf4j-1.7.8.jar
+[06-21 23:24:39 393 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\junit-4.8.jar
+[06-21 23:24:39 395 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\log4j-api-2.2.jar
+[06-21 23:24:39 396 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\log4j-core-2.2.jar
+[06-21 23:24:39 397 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\log4j-jcl-2.2.jar
+[06-21 23:24:39 398 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\log4j-slf4j-impl-2.2.jar
+[06-21 23:24:39 400 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\netty-3.1.5.GA.jar
+[06-21 23:24:39 401 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\org.spat.scf.protocol-3.0.0-SNAPSHOT.jar
+[06-21 23:24:39 406 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\org.spat.scf.serializer-3.0.0-SNAPSHOT.jar
+[06-21 23:24:39 408 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\org.spat.scf.server-3.0.0-SNAPSHOT.jar
+[06-21 23:24:39 409 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\org.spat.utility-3.0.0-SNAPSHOT.jar
+[06-21 23:24:39 411 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\slf4j-api-1.7.8.jar
+[06-21 23:24:39 412 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\tools.jar
+[06-21 23:24:40 425 INFO ] [main] server.bootstrap.Main - -------------------------end-------------------------
+
+[06-21 23:25:04 843 INFO ] [main] server.bootstrap.Main - --------------------loading proxys-------------------
+[06-21 23:25:51 803 INFO ] [main] deploy.bytecode.ScanClass - begin scan jar from path:d:/scfV3/bin/../service/deploy/demo/
+[06-21 23:25:52 228 INFO ] [main] deploy.bytecode.ScanClass - finish scan jar
+[06-21 23:26:12 193 INFO ] [main] deploy.bytecode.ProxyClassCreater - loading dynamic proxy ...
+[06-21 23:26:12 195 INFO ] [main] deploy.bytecode.ProxyClassCreater - load dynamic proxy success!!!
+[06-21 23:26:16 586 INFO ] [main] deploy.bytecode.CreateManager - proxy class buffer creater finish!!!
+[06-21 23:26:16 591 INFO ] [main] deploy.bytecode.ProxyFactoryCreater - begin create ProxyFactory:ProxyFactory1466522772184
+[06-21 23:26:17 297 INFO ] [main] deploy.bytecode.ProxyFactoryCreater - create ProxyFactory success!!!
+[06-21 23:26:17 300 INFO ] [main] deploy.bytecode.CreateManager - proxy factory buffer creater finish!!!
+[06-21 23:26:17 302 ERROR] [main] contract.log.SystemPrintStream - java.lang.ClassCastException: ProxyFactory1466522772184 cannot be cast to org.spat.scf.server.contract.context.IProxyFactory
+[06-21 23:26:17 303 ERROR] [main] contract.log.SystemPrintStream - 	at org.spat.scf.server.deploy.bytecode.CreateManager.careteProxy(CreateManager.java:40)
+[06-21 23:26:17 304 ERROR] [main] contract.log.SystemPrintStream - 	at org.spat.scf.server.deploy.hotdeploy.ProxyFactoryLoader.loadProxyFactory(ProxyFactoryLoader.java:25)
+[06-21 23:26:17 304 ERROR] [main] contract.log.SystemPrintStream - 	at org.spat.scf.server.bootstrap.Main.main(Main.java:149)
+[06-21 23:26:17 305 ERROR] [main] contract.log.SystemPrintStream - 	at org.spat.scf.maven.RunMojo.execute(RunMojo.java:47)
+[06-21 23:26:17 305 ERROR] [main] contract.log.SystemPrintStream - 	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:101)
+[06-21 23:26:17 305 ERROR] [main] contract.log.SystemPrintStream - 	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:209)
+[06-21 23:26:17 306 ERROR] [main] contract.log.SystemPrintStream - 	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:153)
+[06-21 23:26:17 306 ERROR] [main] contract.log.SystemPrintStream - 	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:145)
+[06-21 23:26:17 306 ERROR] [main] contract.log.SystemPrintStream - 	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:84)
+[06-21 23:26:17 306 ERROR] [main] contract.log.SystemPrintStream - 	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:59)
+[06-21 23:26:17 307 ERROR] [main] contract.log.SystemPrintStream - 	at org.apache.maven.lifecycle.internal.LifecycleStarter.singleThreadedBuild(LifecycleStarter.java:183)
+[06-21 23:26:17 308 ERROR] [main] contract.log.SystemPrintStream - 	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:161)
+[06-21 23:26:17 308 ERROR] [main] contract.log.SystemPrintStream - 	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:319)
+[06-21 23:26:17 308 ERROR] [main] contract.log.SystemPrintStream - 	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:156)
+[06-21 23:26:17 309 ERROR] [main] contract.log.SystemPrintStream - 	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:537)
+[06-21 23:26:17 309 ERROR] [main] contract.log.SystemPrintStream - 	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:196)
+[06-21 23:26:17 309 ERROR] [main] contract.log.SystemPrintStream - 	at org.apache.maven.cli.MavenCli.main(MavenCli.java:141)
+[06-21 23:26:17 310 ERROR] [main] contract.log.SystemPrintStream - 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[06-21 23:26:17 310 ERROR] [main] contract.log.SystemPrintStream - 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+[06-21 23:26:17 310 ERROR] [main] contract.log.SystemPrintStream - 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[06-21 23:26:17 310 ERROR] [main] contract.log.SystemPrintStream - 	at java.lang.reflect.Method.invoke(Method.java:606)
+[06-21 23:26:17 311 ERROR] [main] contract.log.SystemPrintStream - 	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:290)
+[06-21 23:26:17 311 ERROR] [main] contract.log.SystemPrintStream - 	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:230)
+[06-21 23:26:17 311 ERROR] [main] contract.log.SystemPrintStream - 	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:409)
+[06-21 23:26:17 312 ERROR] [main] contract.log.SystemPrintStream - 	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:352)
+[06-21 23:26:17 312 INFO ] [main] contract.log.SystemPrintStream - [INFO] 
+[06-21 23:26:17 313 INFO ] [main] contract.log.SystemPrintStream - ------------------------------------------------------------------------
+[06-21 23:26:17 313 INFO ] [main] contract.log.SystemPrintStream - [INFO] 
+[06-21 23:26:17 313 INFO ] [main] contract.log.SystemPrintStream - BUILD SUCCESS
+[06-21 23:26:17 313 INFO ] [main] contract.log.SystemPrintStream - [INFO] 
+[06-21 23:26:17 314 INFO ] [main] contract.log.SystemPrintStream - ------------------------------------------------------------------------
+[06-21 23:26:17 314 INFO ] [main] contract.log.SystemPrintStream - [INFO] 
+[06-21 23:26:17 315 INFO ] [main] contract.log.SystemPrintStream - Total time: 2:13.680s
+[06-21 23:26:17 318 INFO ] [main] contract.log.SystemPrintStream - [INFO] 
+[06-21 23:26:17 319 INFO ] [main] contract.log.SystemPrintStream - Finished at: Tue Jun 21 23:26:17 CST 2016
+[06-21 23:26:17 512 INFO ] [main] contract.log.SystemPrintStream - [INFO] 
+[06-21 23:26:17 513 INFO ] [main] contract.log.SystemPrintStream - Final Memory: 9M/222M
+[06-21 23:26:17 514 INFO ] [main] contract.log.SystemPrintStream - [INFO] 
+[06-21 23:26:17 515 INFO ] [main] contract.log.SystemPrintStream - ------------------------------------------------------------------------
+[06-21 23:26:33 640 INFO ] [main] server.bootstrap.Main - +++++++++++++++++++++ staring +++++++++++++++++++++
+
+[06-21 23:26:33 643 INFO ] [main] server.bootstrap.Main - user.dir: d:/scfV3/bin
+[06-21 23:26:33 643 INFO ] [main] server.bootstrap.Main - rootPath: d:/scfV3/bin/../
+[06-21 23:26:33 643 INFO ] [main] server.bootstrap.Main - service scf_config.xml: d:/scfV3/bin/../service/deploy/demo/scf_config.xml
+[06-21 23:26:33 644 INFO ] [main] server.bootstrap.Main - default scf_config.xml: d:/scfV3/bin/../conf/scf_config.xml
+[06-21 23:26:33 645 INFO ] [main] server.bootstrap.Main - service scf_log4j.xml: d:/scfV3/bin/../service/deploy/demo/scf_log4j.xml
+[06-21 23:26:33 646 INFO ] [main] server.bootstrap.Main - default scf_log4j.xml: d:/scfV3/bin/../conf/scf_log4j.xml
+[06-21 23:26:33 646 INFO ] [main] server.bootstrap.Main - load service config...
+[06-21 23:26:33 647 INFO ] [main] server.bootstrap.Main - scf.service.name: demo
+[06-21 23:26:33 647 INFO ] [main] server.bootstrap.Main - -----------------loading global jars------------------
+[06-21 23:26:36 365 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\service\deploy\demo\lib\org.spat.scf.demo.contract-0.0.1-SNAPSHOT.jar
+[06-21 23:26:36 366 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\service\deploy\demo\org.spat.scf.demo.component-0.0.1-SNAPSHOT.jar
+[06-21 23:26:36 366 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\service\lib\jyaml-1.3.jar
+[06-21 23:26:36 366 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\service\lib\mysql-connector-java-5.1.6-bin.jar
+[06-21 23:26:36 366 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\service\lib\sqljdbc4-2.0.jar
+[06-21 23:26:36 367 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\antlrall-2.7.2.jar
+[06-21 23:26:36 367 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\gson-2.2.4.jar
+[06-21 23:26:36 367 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\javassist-3.20.0-GA.jar
+[06-21 23:26:36 368 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\jcl-over-slf4j-1.7.8.jar
+[06-21 23:26:36 368 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\junit-4.8.jar
+[06-21 23:26:36 368 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\log4j-api-2.2.jar
+[06-21 23:26:36 369 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\log4j-core-2.2.jar
+[06-21 23:26:36 369 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\log4j-jcl-2.2.jar
+[06-21 23:26:36 370 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\log4j-slf4j-impl-2.2.jar
+[06-21 23:26:36 370 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\netty-3.1.5.GA.jar
+[06-21 23:26:36 371 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\org.spat.scf.protocol-3.0.0-SNAPSHOT.jar
+[06-21 23:26:36 371 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\org.spat.scf.serializer-3.0.0-SNAPSHOT.jar
+[06-21 23:26:36 371 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\org.spat.scf.server-3.0.0-SNAPSHOT.jar
+[06-21 23:26:36 372 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\org.spat.utility-3.0.0-SNAPSHOT.jar
+[06-21 23:26:36 372 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\slf4j-api-1.7.8.jar
+[06-21 23:26:36 372 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\tools.jar
+[06-21 23:26:36 378 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\service\deploy\demo\lib\org.spat.scf.demo.contract-0.0.1-SNAPSHOT.jar
+[06-21 23:26:36 379 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\service\deploy\demo\org.spat.scf.demo.component-0.0.1-SNAPSHOT.jar
+[06-21 23:26:36 379 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\service\lib\jyaml-1.3.jar
+[06-21 23:26:36 380 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\service\lib\mysql-connector-java-5.1.6-bin.jar
+[06-21 23:26:36 380 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\service\lib\sqljdbc4-2.0.jar
+[06-21 23:26:36 380 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\antlrall-2.7.2.jar
+[06-21 23:26:36 381 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\gson-2.2.4.jar
+[06-21 23:26:36 381 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\javassist-3.20.0-GA.jar
+[06-21 23:26:36 381 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\jcl-over-slf4j-1.7.8.jar
+[06-21 23:26:36 382 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\junit-4.8.jar
+[06-21 23:26:36 382 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\log4j-api-2.2.jar
+[06-21 23:26:36 383 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\log4j-core-2.2.jar
+[06-21 23:26:36 383 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\log4j-jcl-2.2.jar
+[06-21 23:26:36 383 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\log4j-slf4j-impl-2.2.jar
+[06-21 23:26:36 384 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\netty-3.1.5.GA.jar
+[06-21 23:26:36 384 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\org.spat.scf.protocol-3.0.0-SNAPSHOT.jar
+[06-21 23:26:36 385 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\org.spat.scf.serializer-3.0.0-SNAPSHOT.jar
+[06-21 23:26:36 386 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\org.spat.scf.server-3.0.0-SNAPSHOT.jar
+[06-21 23:26:36 387 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\org.spat.utility-3.0.0-SNAPSHOT.jar
+[06-21 23:26:36 387 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\slf4j-api-1.7.8.jar
+[06-21 23:26:36 439 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\tools.jar
+[06-21 23:26:36 439 INFO ] [main] server.bootstrap.Main - -------------------------end-------------------------
+
+[06-21 23:26:36 440 INFO ] [main] server.bootstrap.Main - --------------------loading proxys-------------------
+[06-21 23:27:03 712 INFO ] [main] deploy.bytecode.ScanClass - begin scan jar from path:d:/scfV3/bin/../service/deploy/demo/
+[06-21 23:38:56 948 INFO ] [main] server.bootstrap.Main - +++++++++++++++++++++ staring +++++++++++++++++++++
+
+[06-21 23:38:56 951 INFO ] [main] server.bootstrap.Main - user.dir: d:/scfV3/bin
+[06-21 23:38:56 951 INFO ] [main] server.bootstrap.Main - rootPath: d:/scfV3/bin/../
+[06-21 23:38:56 952 INFO ] [main] server.bootstrap.Main - service scf_config.xml: d:/scfV3/bin/../service/deploy/demo/scf_config.xml
+[06-21 23:38:56 952 INFO ] [main] server.bootstrap.Main - default scf_config.xml: d:/scfV3/bin/../conf/scf_config.xml
+[06-21 23:38:56 952 INFO ] [main] server.bootstrap.Main - service scf_log4j.xml: d:/scfV3/bin/../service/deploy/demo/scf_log4j.xml
+[06-21 23:38:56 953 INFO ] [main] server.bootstrap.Main - default scf_log4j.xml: d:/scfV3/bin/../conf/scf_log4j.xml
+[06-21 23:38:56 953 INFO ] [main] server.bootstrap.Main - load service config...
+[06-21 23:38:56 953 INFO ] [main] server.bootstrap.Main - scf.service.name: demo
+[06-21 23:38:56 954 INFO ] [main] server.bootstrap.Main - -----------------loading global jars------------------
+[06-21 23:39:01 491 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\service\deploy\demo\lib\org.spat.scf.demo.contract-0.0.1-SNAPSHOT.jar
+[06-21 23:39:01 492 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\service\deploy\demo\org.spat.scf.demo.component-0.0.1-SNAPSHOT.jar
+[06-21 23:39:01 492 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\service\lib\jyaml-1.3.jar
+[06-21 23:39:01 495 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\service\lib\mysql-connector-java-5.1.6-bin.jar
+[06-21 23:39:01 496 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\service\lib\sqljdbc4-2.0.jar
+[06-21 23:39:01 496 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\antlrall-2.7.2.jar
+[06-21 23:39:01 497 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\gson-2.2.4.jar
+[06-21 23:39:01 497 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\javassist-3.20.0-GA.jar
+[06-21 23:39:01 498 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\jcl-over-slf4j-1.7.8.jar
+[06-21 23:39:01 499 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\junit-4.8.jar
+[06-21 23:39:01 499 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\log4j-api-2.2.jar
+[06-21 23:39:01 500 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\log4j-core-2.2.jar
+[06-21 23:39:01 500 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\log4j-jcl-2.2.jar
+[06-21 23:39:01 501 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\log4j-slf4j-impl-2.2.jar
+[06-21 23:39:01 502 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\netty-3.1.5.GA.jar
+[06-21 23:39:01 503 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\org.spat.scf.protocol-3.0.0-SNAPSHOT.jar
+[06-21 23:39:01 504 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\org.spat.scf.serializer-3.0.0-SNAPSHOT.jar
+[06-21 23:39:01 504 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\org.spat.scf.server-3.0.0-SNAPSHOT.jar
+[06-21 23:39:01 504 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\org.spat.utility-3.0.0-SNAPSHOT.jar
+[06-21 23:39:01 504 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\slf4j-api-1.7.8.jar
+[06-21 23:39:01 505 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\tools.jar
+[06-21 23:39:01 508 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\service\deploy\demo\lib\org.spat.scf.demo.contract-0.0.1-SNAPSHOT.jar
+[06-21 23:39:01 509 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\service\deploy\demo\org.spat.scf.demo.component-0.0.1-SNAPSHOT.jar
+[06-21 23:39:01 509 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\service\lib\jyaml-1.3.jar
+[06-21 23:39:01 510 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\service\lib\mysql-connector-java-5.1.6-bin.jar
+[06-21 23:39:01 510 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\service\lib\sqljdbc4-2.0.jar
+[06-21 23:39:01 510 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\antlrall-2.7.2.jar
+[06-21 23:39:01 510 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\gson-2.2.4.jar
+[06-21 23:39:01 511 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\javassist-3.20.0-GA.jar
+[06-21 23:39:01 511 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\jcl-over-slf4j-1.7.8.jar
+[06-21 23:39:01 512 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\junit-4.8.jar
+[06-21 23:39:01 512 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\log4j-api-2.2.jar
+[06-21 23:39:01 513 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\log4j-core-2.2.jar
+[06-21 23:39:01 513 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\log4j-jcl-2.2.jar
+[06-21 23:39:01 513 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\log4j-slf4j-impl-2.2.jar
+[06-21 23:39:01 513 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\netty-3.1.5.GA.jar
+[06-21 23:39:01 514 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\org.spat.scf.protocol-3.0.0-SNAPSHOT.jar
+[06-21 23:39:01 550 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\org.spat.scf.serializer-3.0.0-SNAPSHOT.jar
+[06-21 23:39:01 551 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\org.spat.scf.server-3.0.0-SNAPSHOT.jar
+[06-21 23:39:01 551 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\org.spat.utility-3.0.0-SNAPSHOT.jar
+[06-21 23:39:01 551 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\slf4j-api-1.7.8.jar
+[06-21 23:39:01 552 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\tools.jar
+[06-21 23:39:01 552 INFO ] [main] server.bootstrap.Main - -------------------------end-------------------------
+
+[06-21 23:39:01 552 INFO ] [main] server.bootstrap.Main - --------------------loading proxys-------------------
+[06-21 23:39:04 408 INFO ] [main] deploy.bytecode.ScanClass - begin scan jar from path:d:/scfV3/bin/../service/deploy/demo/
+[06-21 23:42:08 151 INFO ] [main] server.bootstrap.Main - +++++++++++++++++++++ staring +++++++++++++++++++++
+
+[06-21 23:42:08 156 INFO ] [main] server.bootstrap.Main - user.dir: d:/scfV3/bin
+[06-21 23:42:08 157 INFO ] [main] server.bootstrap.Main - rootPath: d:/scfV3/bin/../
+[06-21 23:42:08 157 INFO ] [main] server.bootstrap.Main - service scf_config.xml: d:/scfV3/bin/../service/deploy/demo/scf_config.xml
+[06-21 23:42:08 157 INFO ] [main] server.bootstrap.Main - default scf_config.xml: d:/scfV3/bin/../conf/scf_config.xml
+[06-21 23:42:08 158 INFO ] [main] server.bootstrap.Main - service scf_log4j.xml: d:/scfV3/bin/../service/deploy/demo/scf_log4j.xml
+[06-21 23:42:08 158 INFO ] [main] server.bootstrap.Main - default scf_log4j.xml: d:/scfV3/bin/../conf/scf_log4j.xml
+[06-21 23:42:08 159 INFO ] [main] server.bootstrap.Main - load service config...
+[06-21 23:42:08 159 INFO ] [main] server.bootstrap.Main - scf.service.name: demo
+[06-21 23:42:08 160 INFO ] [main] server.bootstrap.Main - -----------------loading global jars------------------
+[06-21 23:42:12 172 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\service\deploy\demo\lib\org.spat.scf.demo.contract-0.0.1-SNAPSHOT.jar
+[06-21 23:42:12 173 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\service\deploy\demo\org.spat.scf.demo.component-0.0.1-SNAPSHOT.jar
+[06-21 23:42:12 173 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\service\lib\jyaml-1.3.jar
+[06-21 23:42:12 173 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\service\lib\mysql-connector-java-5.1.6-bin.jar
+[06-21 23:42:12 174 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\service\lib\sqljdbc4-2.0.jar
+[06-21 23:42:12 174 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\antlrall-2.7.2.jar
+[06-21 23:42:12 174 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\gson-2.2.4.jar
+[06-21 23:42:12 174 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\javassist-3.20.0-GA.jar
+[06-21 23:42:12 175 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\jcl-over-slf4j-1.7.8.jar
+[06-21 23:42:12 175 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\junit-4.8.jar
+[06-21 23:42:12 175 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\log4j-api-2.2.jar
+[06-21 23:42:12 175 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\log4j-core-2.2.jar
+[06-21 23:42:12 175 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\log4j-jcl-2.2.jar
+[06-21 23:42:12 176 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\log4j-slf4j-impl-2.2.jar
+[06-21 23:42:12 176 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\netty-3.1.5.GA.jar
+[06-21 23:42:12 177 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\org.spat.scf.protocol-3.0.0-SNAPSHOT.jar
+[06-21 23:42:12 177 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\org.spat.scf.serializer-3.0.0-SNAPSHOT.jar
+[06-21 23:42:12 177 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\org.spat.scf.server-3.0.0-SNAPSHOT.jar
+[06-21 23:42:12 177 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\org.spat.utility-3.0.0-SNAPSHOT.jar
+[06-21 23:42:12 178 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\slf4j-api-1.7.8.jar
+[06-21 23:42:12 178 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\tools.jar
+[06-21 23:42:12 181 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\service\deploy\demo\lib\org.spat.scf.demo.contract-0.0.1-SNAPSHOT.jar
+[06-21 23:42:12 181 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\service\deploy\demo\org.spat.scf.demo.component-0.0.1-SNAPSHOT.jar
+[06-21 23:42:12 182 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\service\lib\jyaml-1.3.jar
+[06-21 23:42:12 182 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\service\lib\mysql-connector-java-5.1.6-bin.jar
+[06-21 23:42:12 182 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\service\lib\sqljdbc4-2.0.jar
+[06-21 23:42:12 182 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\antlrall-2.7.2.jar
+[06-21 23:42:12 183 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\gson-2.2.4.jar
+[06-21 23:42:12 183 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\javassist-3.20.0-GA.jar
+[06-21 23:42:12 185 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\jcl-over-slf4j-1.7.8.jar
+[06-21 23:42:12 185 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\junit-4.8.jar
+[06-21 23:42:12 185 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\log4j-api-2.2.jar
+[06-21 23:42:12 186 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\log4j-core-2.2.jar
+[06-21 23:42:12 186 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\log4j-jcl-2.2.jar
+[06-21 23:42:12 186 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\log4j-slf4j-impl-2.2.jar
+[06-21 23:42:12 186 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\netty-3.1.5.GA.jar
+[06-21 23:42:12 186 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\org.spat.scf.protocol-3.0.0-SNAPSHOT.jar
+[06-21 23:42:12 187 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\org.spat.scf.serializer-3.0.0-SNAPSHOT.jar
+[06-21 23:42:12 188 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\org.spat.scf.server-3.0.0-SNAPSHOT.jar
+[06-21 23:42:12 188 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\org.spat.utility-3.0.0-SNAPSHOT.jar
+[06-21 23:42:12 188 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\slf4j-api-1.7.8.jar
+[06-21 23:42:12 188 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\tools.jar
+[06-21 23:42:12 189 INFO ] [main] server.bootstrap.Main - -------------------------end-------------------------
+
+[06-21 23:42:12 189 INFO ] [main] server.bootstrap.Main - --------------------loading proxys-------------------
+[06-21 23:42:17 872 INFO ] [main] deploy.bytecode.ScanClass - begin scan jar from path:d:/scfV3/bin/../service/deploy/demo/
+[06-21 23:45:59 727 INFO ] [main] server.bootstrap.Main - +++++++++++++++++++++ staring +++++++++++++++++++++
+
+[06-21 23:45:59 729 INFO ] [main] server.bootstrap.Main - user.dir: d:/scfV3/bin
+[06-21 23:45:59 730 INFO ] [main] server.bootstrap.Main - rootPath: d:/scfV3/bin/../
+[06-21 23:45:59 730 INFO ] [main] server.bootstrap.Main - service scf_config.xml: d:/scfV3/bin/../service/deploy/demo/scf_config.xml
+[06-21 23:45:59 730 INFO ] [main] server.bootstrap.Main - default scf_config.xml: d:/scfV3/bin/../conf/scf_config.xml
+[06-21 23:45:59 731 INFO ] [main] server.bootstrap.Main - service scf_log4j.xml: d:/scfV3/bin/../service/deploy/demo/scf_log4j.xml
+[06-21 23:45:59 731 INFO ] [main] server.bootstrap.Main - default scf_log4j.xml: d:/scfV3/bin/../conf/scf_log4j.xml
+[06-21 23:45:59 732 INFO ] [main] server.bootstrap.Main - load service config...
+[06-21 23:45:59 733 INFO ] [main] server.bootstrap.Main - scf.service.name: demo
+[06-21 23:45:59 733 INFO ] [main] server.bootstrap.Main - -----------------loading global jars------------------
+[06-21 23:45:59 743 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\service\deploy\demo\lib\org.spat.scf.demo.contract-0.0.1-SNAPSHOT.jar
+[06-21 23:45:59 744 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\service\deploy\demo\org.spat.scf.demo.component-0.0.1-SNAPSHOT.jar
+[06-21 23:45:59 744 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\service\lib\jyaml-1.3.jar
+[06-21 23:45:59 745 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\service\lib\mysql-connector-java-5.1.6-bin.jar
+[06-21 23:45:59 745 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\service\lib\sqljdbc4-2.0.jar
+[06-21 23:45:59 746 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\antlrall-2.7.2.jar
+[06-21 23:45:59 746 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\gson-2.2.4.jar
+[06-21 23:45:59 746 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\javassist-3.20.0-GA.jar
+[06-21 23:45:59 747 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\jcl-over-slf4j-1.7.8.jar
+[06-21 23:45:59 747 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\junit-4.8.jar
+[06-21 23:45:59 747 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\log4j-api-2.2.jar
+[06-21 23:45:59 748 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\log4j-core-2.2.jar
+[06-21 23:45:59 748 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\log4j-jcl-2.2.jar
+[06-21 23:45:59 748 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\log4j-slf4j-impl-2.2.jar
+[06-21 23:45:59 749 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\netty-3.1.5.GA.jar
+[06-21 23:45:59 749 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\org.spat.scf.protocol-3.0.0-SNAPSHOT.jar
+[06-21 23:45:59 749 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\org.spat.scf.serializer-3.0.0-SNAPSHOT.jar
+[06-21 23:45:59 750 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\org.spat.scf.server-3.0.0-SNAPSHOT.jar
+[06-21 23:45:59 750 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\org.spat.utility-3.0.0-SNAPSHOT.jar
+[06-21 23:45:59 750 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\slf4j-api-1.7.8.jar
+[06-21 23:45:59 751 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\tools.jar
+[06-21 23:45:59 782 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\service\deploy\demo\lib\org.spat.scf.demo.contract-0.0.1-SNAPSHOT.jar
+[06-21 23:45:59 783 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\service\deploy\demo\org.spat.scf.demo.component-0.0.1-SNAPSHOT.jar
+[06-21 23:45:59 783 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\service\lib\jyaml-1.3.jar
+[06-21 23:45:59 783 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\service\lib\mysql-connector-java-5.1.6-bin.jar
+[06-21 23:45:59 784 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\service\lib\sqljdbc4-2.0.jar
+[06-21 23:45:59 784 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\antlrall-2.7.2.jar
+[06-21 23:45:59 784 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\gson-2.2.4.jar
+[06-21 23:45:59 785 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\javassist-3.20.0-GA.jar
+[06-21 23:45:59 785 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\jcl-over-slf4j-1.7.8.jar
+[06-21 23:45:59 785 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\junit-4.8.jar
+[06-21 23:45:59 785 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\log4j-api-2.2.jar
+[06-21 23:45:59 786 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\log4j-core-2.2.jar
+[06-21 23:45:59 786 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\log4j-jcl-2.2.jar
+[06-21 23:45:59 786 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\log4j-slf4j-impl-2.2.jar
+[06-21 23:45:59 786 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\netty-3.1.5.GA.jar
+[06-21 23:45:59 787 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\org.spat.scf.protocol-3.0.0-SNAPSHOT.jar
+[06-21 23:45:59 788 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\org.spat.scf.serializer-3.0.0-SNAPSHOT.jar
+[06-21 23:45:59 788 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\org.spat.scf.server-3.0.0-SNAPSHOT.jar
+[06-21 23:45:59 788 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\org.spat.utility-3.0.0-SNAPSHOT.jar
+[06-21 23:45:59 789 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\slf4j-api-1.7.8.jar
+[06-21 23:45:59 789 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\tools.jar
+[06-21 23:45:59 789 INFO ] [main] server.bootstrap.Main - -------------------------end-------------------------
+
+[06-21 23:45:59 789 INFO ] [main] server.bootstrap.Main - --------------------loading proxys-------------------
+[06-21 23:46:06 282 INFO ] [main] deploy.bytecode.ScanClass - begin scan jar from path:d:/scfV3/bin/../service/deploy/demo/
+[06-21 23:47:19 139 INFO ] [main] server.bootstrap.Main - +++++++++++++++++++++ staring +++++++++++++++++++++
+
+[06-21 23:47:19 142 INFO ] [main] server.bootstrap.Main - user.dir: d:/scfV3/bin
+[06-21 23:47:19 143 INFO ] [main] server.bootstrap.Main - rootPath: d:/scfV3/bin/../
+[06-21 23:47:19 143 INFO ] [main] server.bootstrap.Main - service scf_config.xml: d:/scfV3/bin/../service/deploy/demo/scf_config.xml
+[06-21 23:47:19 143 INFO ] [main] server.bootstrap.Main - default scf_config.xml: d:/scfV3/bin/../conf/scf_config.xml
+[06-21 23:47:19 144 INFO ] [main] server.bootstrap.Main - service scf_log4j.xml: d:/scfV3/bin/../service/deploy/demo/scf_log4j.xml
+[06-21 23:47:19 144 INFO ] [main] server.bootstrap.Main - default scf_log4j.xml: d:/scfV3/bin/../conf/scf_log4j.xml
+[06-21 23:47:19 144 INFO ] [main] server.bootstrap.Main - load service config...
+[06-21 23:47:19 145 INFO ] [main] server.bootstrap.Main - scf.service.name: demo
+[06-21 23:47:19 145 INFO ] [main] server.bootstrap.Main - -----------------loading global jars------------------
+[06-21 23:47:19 178 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\service\deploy\demo\lib\org.spat.scf.demo.contract-0.0.1-SNAPSHOT.jar
+[06-21 23:47:19 179 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\service\deploy\demo\org.spat.scf.demo.component-0.0.1-SNAPSHOT.jar
+[06-21 23:47:19 180 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\service\lib\jyaml-1.3.jar
+[06-21 23:47:19 180 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\service\lib\mysql-connector-java-5.1.6-bin.jar
+[06-21 23:47:19 180 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\service\lib\sqljdbc4-2.0.jar
+[06-21 23:47:19 181 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\antlrall-2.7.2.jar
+[06-21 23:47:19 181 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\gson-2.2.4.jar
+[06-21 23:47:19 181 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\javassist-3.20.0-GA.jar
+[06-21 23:47:19 182 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\jcl-over-slf4j-1.7.8.jar
+[06-21 23:47:19 182 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\junit-4.8.jar
+[06-21 23:47:19 182 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\log4j-api-2.2.jar
+[06-21 23:47:19 183 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\log4j-core-2.2.jar
+[06-21 23:47:19 183 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\log4j-jcl-2.2.jar
+[06-21 23:47:19 184 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\log4j-slf4j-impl-2.2.jar
+[06-21 23:47:19 184 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\netty-3.1.5.GA.jar
+[06-21 23:47:19 185 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\org.spat.scf.protocol-3.0.0-SNAPSHOT.jar
+[06-21 23:47:19 185 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\org.spat.scf.serializer-3.0.0-SNAPSHOT.jar
+[06-21 23:47:19 185 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\org.spat.scf.server-3.0.0-SNAPSHOT.jar
+[06-21 23:47:19 185 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\org.spat.utility-3.0.0-SNAPSHOT.jar
+[06-21 23:47:19 186 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\slf4j-api-1.7.8.jar
+[06-21 23:47:19 186 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\tools.jar
+[06-21 23:47:19 189 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\service\deploy\demo\lib\org.spat.scf.demo.contract-0.0.1-SNAPSHOT.jar
+[06-21 23:47:19 190 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\service\deploy\demo\org.spat.scf.demo.component-0.0.1-SNAPSHOT.jar
+[06-21 23:47:19 190 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\service\lib\jyaml-1.3.jar
+[06-21 23:47:19 190 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\service\lib\mysql-connector-java-5.1.6-bin.jar
+[06-21 23:47:19 191 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\service\lib\sqljdbc4-2.0.jar
+[06-21 23:47:19 191 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\antlrall-2.7.2.jar
+[06-21 23:47:19 191 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\gson-2.2.4.jar
+[06-21 23:47:19 191 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\javassist-3.20.0-GA.jar
+[06-21 23:47:19 192 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\jcl-over-slf4j-1.7.8.jar
+[06-21 23:47:19 192 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\junit-4.8.jar
+[06-21 23:47:19 192 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\log4j-api-2.2.jar
+[06-21 23:47:19 193 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\log4j-core-2.2.jar
+[06-21 23:47:19 193 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\log4j-jcl-2.2.jar
+[06-21 23:47:19 193 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\log4j-slf4j-impl-2.2.jar
+[06-21 23:47:19 193 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\netty-3.1.5.GA.jar
+[06-21 23:47:19 193 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\org.spat.scf.protocol-3.0.0-SNAPSHOT.jar
+[06-21 23:47:19 194 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\org.spat.scf.serializer-3.0.0-SNAPSHOT.jar
+[06-21 23:47:19 195 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\org.spat.scf.server-3.0.0-SNAPSHOT.jar
+[06-21 23:47:19 195 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\org.spat.utility-3.0.0-SNAPSHOT.jar
+[06-21 23:47:19 195 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\slf4j-api-1.7.8.jar
+[06-21 23:47:19 195 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\tools.jar
+[06-21 23:47:19 196 INFO ] [main] server.bootstrap.Main - -------------------------end-------------------------
+
+[06-21 23:47:19 196 INFO ] [main] server.bootstrap.Main - --------------------loading proxys-------------------
+[06-21 23:47:28 524 INFO ] [main] deploy.bytecode.ScanClass - begin scan jar from path:d:/scfV3/bin/../service/deploy/demo/
+[06-21 23:54:33 994 INFO ] [main] server.bootstrap.Main - +++++++++++++++++++++ staring +++++++++++++++++++++
+
+[06-21 23:54:33 997 INFO ] [main] server.bootstrap.Main - user.dir: d:/scfV3/bin
+[06-21 23:54:33 997 INFO ] [main] server.bootstrap.Main - rootPath: d:/scfV3/bin/../
+[06-21 23:54:33 998 INFO ] [main] server.bootstrap.Main - service scf_config.xml: d:/scfV3/bin/../service/deploy/demo/scf_config.xml
+[06-21 23:54:33 998 INFO ] [main] server.bootstrap.Main - default scf_config.xml: d:/scfV3/bin/../conf/scf_config.xml
+[06-21 23:54:33 998 INFO ] [main] server.bootstrap.Main - service scf_log4j.xml: d:/scfV3/bin/../service/deploy/demo/scf_log4j.xml
+[06-21 23:54:33 999 INFO ] [main] server.bootstrap.Main - default scf_log4j.xml: d:/scfV3/bin/../conf/scf_log4j.xml
+[06-21 23:54:33 999 INFO ] [main] server.bootstrap.Main - load service config...
+[06-21 23:54:34 000 INFO ] [main] server.bootstrap.Main - scf.service.name: demo
+[06-21 23:54:34 000 INFO ] [main] server.bootstrap.Main - -----------------loading global jars------------------
+[06-21 23:54:34 011 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\service\deploy\demo\lib\org.spat.scf.demo.contract-0.0.1-SNAPSHOT.jar
+[06-21 23:54:34 012 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\service\deploy\demo\org.spat.scf.demo.component-0.0.1-SNAPSHOT.jar
+[06-21 23:54:34 013 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\service\lib\jyaml-1.3.jar
+[06-21 23:54:34 013 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\service\lib\mysql-connector-java-5.1.6-bin.jar
+[06-21 23:54:34 014 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\service\lib\sqljdbc4-2.0.jar
+[06-21 23:54:34 014 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\antlrall-2.7.2.jar
+[06-21 23:54:34 015 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\gson-2.2.4.jar
+[06-21 23:54:34 015 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\javassist-3.20.0-GA.jar
+[06-21 23:54:34 016 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\jcl-over-slf4j-1.7.8.jar
+[06-21 23:54:34 016 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\junit-4.8.jar
+[06-21 23:54:34 016 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\log4j-api-2.2.jar
+[06-21 23:54:34 017 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\log4j-core-2.2.jar
+[06-21 23:54:34 017 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\log4j-jcl-2.2.jar
+[06-21 23:54:34 034 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\log4j-slf4j-impl-2.2.jar
+[06-21 23:54:34 035 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\netty-3.1.5.GA.jar
+[06-21 23:54:34 036 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\org.spat.scf.protocol-3.0.0-SNAPSHOT.jar
+[06-21 23:54:34 037 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\org.spat.scf.serializer-3.0.0-SNAPSHOT.jar
+[06-21 23:54:34 037 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\org.spat.scf.server-3.0.0-SNAPSHOT.jar
+[06-21 23:54:34 037 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\org.spat.utility-3.0.0-SNAPSHOT.jar
+[06-21 23:54:34 037 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\slf4j-api-1.7.8.jar
+[06-21 23:54:34 038 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\tools.jar
+[06-21 23:54:34 045 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\service\deploy\demo\lib\org.spat.scf.demo.contract-0.0.1-SNAPSHOT.jar
+[06-21 23:54:34 046 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\service\deploy\demo\org.spat.scf.demo.component-0.0.1-SNAPSHOT.jar
+[06-21 23:54:34 046 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\service\lib\jyaml-1.3.jar
+[06-21 23:54:34 046 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\service\lib\mysql-connector-java-5.1.6-bin.jar
+[06-21 23:54:34 046 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\service\lib\sqljdbc4-2.0.jar
+[06-21 23:54:34 047 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\antlrall-2.7.2.jar
+[06-21 23:54:34 047 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\gson-2.2.4.jar
+[06-21 23:54:34 047 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\javassist-3.20.0-GA.jar
+[06-21 23:54:34 047 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\jcl-over-slf4j-1.7.8.jar
+[06-21 23:54:34 048 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\junit-4.8.jar
+[06-21 23:54:34 048 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\log4j-api-2.2.jar
+[06-21 23:54:34 048 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\log4j-core-2.2.jar
+[06-21 23:54:34 049 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\log4j-jcl-2.2.jar
+[06-21 23:54:34 049 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\log4j-slf4j-impl-2.2.jar
+[06-21 23:54:34 049 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\netty-3.1.5.GA.jar
+[06-21 23:54:34 050 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\org.spat.scf.protocol-3.0.0-SNAPSHOT.jar
+[06-21 23:54:34 051 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\org.spat.scf.serializer-3.0.0-SNAPSHOT.jar
+[06-21 23:54:34 052 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\org.spat.scf.server-3.0.0-SNAPSHOT.jar
+[06-21 23:54:34 052 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\org.spat.utility-3.0.0-SNAPSHOT.jar
+[06-21 23:54:34 052 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\slf4j-api-1.7.8.jar
+[06-21 23:54:34 053 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\tools.jar
+[06-21 23:54:34 053 INFO ] [main] server.bootstrap.Main - -------------------------end-------------------------
+
+[06-21 23:54:34 053 INFO ] [main] server.bootstrap.Main - --------------------loading proxys-------------------
+[06-21 23:54:45 664 INFO ] [main] deploy.bytecode.ScanClass - begin scan jar from path:d:/scfV3/bin/../service/deploy/demo/
+[06-21 23:57:17 921 INFO ] [main] server.bootstrap.Main - +++++++++++++++++++++ staring +++++++++++++++++++++
+
+[06-21 23:57:17 923 INFO ] [main] server.bootstrap.Main - user.dir: d:/scfV3/bin
+[06-21 23:57:17 924 INFO ] [main] server.bootstrap.Main - rootPath: d:/scfV3/bin/../
+[06-21 23:57:17 924 INFO ] [main] server.bootstrap.Main - service scf_config.xml: d:/scfV3/bin/../service/deploy/demo/scf_config.xml
+[06-21 23:57:17 925 INFO ] [main] server.bootstrap.Main - default scf_config.xml: d:/scfV3/bin/../conf/scf_config.xml
+[06-21 23:57:17 925 INFO ] [main] server.bootstrap.Main - service scf_log4j.xml: d:/scfV3/bin/../service/deploy/demo/scf_log4j.xml
+[06-21 23:57:17 926 INFO ] [main] server.bootstrap.Main - default scf_log4j.xml: d:/scfV3/bin/../conf/scf_log4j.xml
+[06-21 23:57:17 926 INFO ] [main] server.bootstrap.Main - load service config...
+[06-21 23:57:17 926 INFO ] [main] server.bootstrap.Main - scf.service.name: demo
+[06-21 23:57:17 927 INFO ] [main] server.bootstrap.Main - -----------------loading global jars------------------
+[06-21 23:57:17 965 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\service\deploy\demo\lib\org.spat.scf.demo.contract-0.0.1-SNAPSHOT.jar
+[06-21 23:57:17 966 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\service\deploy\demo\org.spat.scf.demo.component-0.0.1-SNAPSHOT.jar
+[06-21 23:57:17 966 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\service\lib\jyaml-1.3.jar
+[06-21 23:57:17 967 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\service\lib\mysql-connector-java-5.1.6-bin.jar
+[06-21 23:57:17 967 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\service\lib\sqljdbc4-2.0.jar
+[06-21 23:57:17 967 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\antlrall-2.7.2.jar
+[06-21 23:57:17 967 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\gson-2.2.4.jar
+[06-21 23:57:17 967 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\javassist-3.20.0-GA.jar
+[06-21 23:57:17 968 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\jcl-over-slf4j-1.7.8.jar
+[06-21 23:57:17 968 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\junit-4.8.jar
+[06-21 23:57:17 968 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\log4j-api-2.2.jar
+[06-21 23:57:17 968 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\log4j-core-2.2.jar
+[06-21 23:57:17 968 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\log4j-jcl-2.2.jar
+[06-21 23:57:17 969 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\log4j-slf4j-impl-2.2.jar
+[06-21 23:57:17 969 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\netty-3.1.5.GA.jar
+[06-21 23:57:17 969 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\org.spat.scf.protocol-3.0.0-SNAPSHOT.jar
+[06-21 23:57:17 969 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\org.spat.scf.serializer-3.0.0-SNAPSHOT.jar
+[06-21 23:57:17 970 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\org.spat.scf.server-3.0.0-SNAPSHOT.jar
+[06-21 23:57:17 970 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\org.spat.utility-3.0.0-SNAPSHOT.jar
+[06-21 23:57:17 970 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\slf4j-api-1.7.8.jar
+[06-21 23:57:17 970 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\tools.jar
+[06-21 23:57:17 973 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\service\deploy\demo\lib\org.spat.scf.demo.contract-0.0.1-SNAPSHOT.jar
+[06-21 23:57:17 974 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\service\deploy\demo\org.spat.scf.demo.component-0.0.1-SNAPSHOT.jar
+[06-21 23:57:17 974 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\service\lib\jyaml-1.3.jar
+[06-21 23:57:17 974 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\service\lib\mysql-connector-java-5.1.6-bin.jar
+[06-21 23:57:17 974 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\service\lib\sqljdbc4-2.0.jar
+[06-21 23:57:17 975 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\antlrall-2.7.2.jar
+[06-21 23:57:17 975 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\gson-2.2.4.jar
+[06-21 23:57:17 975 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\javassist-3.20.0-GA.jar
+[06-21 23:57:17 975 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\jcl-over-slf4j-1.7.8.jar
+[06-21 23:57:17 976 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\junit-4.8.jar
+[06-21 23:57:17 976 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\log4j-api-2.2.jar
+[06-21 23:57:17 976 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\log4j-core-2.2.jar
+[06-21 23:57:17 976 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\log4j-jcl-2.2.jar
+[06-21 23:57:17 977 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\log4j-slf4j-impl-2.2.jar
+[06-21 23:57:17 977 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\netty-3.1.5.GA.jar
+[06-21 23:57:17 977 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\org.spat.scf.protocol-3.0.0-SNAPSHOT.jar
+[06-21 23:57:17 978 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\org.spat.scf.serializer-3.0.0-SNAPSHOT.jar
+[06-21 23:57:17 979 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\org.spat.scf.server-3.0.0-SNAPSHOT.jar
+[06-21 23:57:17 979 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\org.spat.utility-3.0.0-SNAPSHOT.jar
+[06-21 23:57:17 979 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\slf4j-api-1.7.8.jar
+[06-21 23:57:17 980 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\tools.jar
+[06-21 23:57:17 980 INFO ] [main] server.bootstrap.Main - -------------------------end-------------------------
+
+[06-21 23:57:17 980 INFO ] [main] server.bootstrap.Main - --------------------loading proxys-------------------
+[06-21 23:57:20 859 INFO ] [main] deploy.bytecode.ScanClass - begin scan jar from path:d:/scfV3/bin/../service/deploy/demo/

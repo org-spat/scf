@@ -1,0 +1,21 @@
+[06-23 09:27:19 452 ERROR] [main] contract.log.SystemPrintStream - 开始扫描全部引用jar包，如果扫描过程过长请在启动vm参数中设置scf.serializer.basepakage或者设置scf.serializer.scantype=asyn使用异步模式扫描。
+[06-23 09:27:19 457 ERROR] [main] contract.log.SystemPrintStream - java.lang.ClassCastException: org.spat.scf.server.deploy.hotdeploy.DynamicClassLoader cannot be cast to java.net.URLClassLoader
+[06-23 09:27:19 458 ERROR] [main] contract.log.SystemPrintStream - 	at org.spat.scf.serializer.component.ClassScaner.scanByURLClassLoader(ClassScaner.java:111)
+[06-23 09:27:19 458 ERROR] [main] contract.log.SystemPrintStream - 	at org.spat.scf.serializer.component.ClassScaner.scan(ClassScaner.java:45)
+[06-23 09:27:19 459 ERROR] [main] contract.log.SystemPrintStream - 	at org.spat.scf.serializer.component.TypeMap.LoadCustmeType(TypeMap.java:101)
+[06-23 09:27:19 459 ERROR] [main] contract.log.SystemPrintStream - 	at org.spat.scf.serializer.component.TypeMap.InitTypeMap(TypeMap.java:86)
+[06-23 09:27:19 459 ERROR] [main] contract.log.SystemPrintStream - 	at org.spat.scf.serializer.serializer.Serializer.Init(Serializer.java:28)
+[06-23 09:27:19 460 ERROR] [main] contract.log.SystemPrintStream - 	at org.spat.scf.serializer.serializer.Serializer.<clinit>(Serializer.java:24)
+[06-23 09:27:19 460 ERROR] [main] contract.log.SystemPrintStream - 	at org.spat.scf.protocol.serializer.SCFSerialize.<clinit>(SCFSerialize.java:14)
+[06-23 09:27:19 460 ERROR] [main] contract.log.SystemPrintStream - 	at org.spat.scf.protocol.serializer.SerializeBaseFactory.<clinit>(SerializeBaseFactory.java:7)
+[06-23 09:27:19 460 ERROR] [main] contract.log.SystemPrintStream - 	at org.spat.scf.server.contract.context.SerializerClassInit.init(SerializerClassInit.java:14)
+[06-23 09:27:19 461 ERROR] [main] contract.log.SystemPrintStream - 	at org.spat.scf.server.bootstrap.Main.loadInitBeans(Main.java:270)
+[06-23 09:27:19 461 ERROR] [main] contract.log.SystemPrintStream - 	at org.spat.scf.server.bootstrap.Main.main(Main.java:156)
+[06-23 09:27:19 461 ERROR] [main] contract.log.SystemPrintStream - 	at org.spat.scf.maven.RunMojo.execute(RunMojo.java:78)
+[06-23 09:27:19 462 ERROR] [main] contract.log.SystemPrintStream - 	at org.spat.scf.maven.RunMojo.main(RunMojo.java:33)
+[06-23 09:29:09 654 ERROR] [main] contract.log.SystemPrintStream - 开始扫描全部引用jar包，如果扫描过程过长请在启动vm参数中设置scf.serializer.basepakage或者设置scf.serializer.scantype=asyn使用异步模式扫描。
+[06-23 09:38:53 193 ERROR] [main] contract.log.SystemPrintStream - 开始扫描全部引用jar包，如果扫描过程过长请在启动vm参数中设置scf.serializer.basepakage或者设置scf.serializer.scantype=asyn使用异步模式扫描。
+[06-23 10:06:17 901 ERROR] [main] contract.log.SystemPrintStream - 开始扫描全部引用jar包，如果扫描过程过长请在启动vm参数中设置scf.serializer.basepakage或者设置scf.serializer.scantype=asyn使用异步模式扫描。
+[06-23 10:06:34 838 ERROR] [main] contract.log.SystemPrintStream - 开始扫描全部引用jar包，如果扫描过程过长请在启动vm参数中设置scf.serializer.basepakage或者设置scf.serializer.scantype=asyn使用异步模式扫描。
+[06-23 10:21:55 899 ERROR] [main] contract.log.SystemPrintStream - 开始扫描全部引用jar包，如果扫描过程过长请在启动vm参数中设置scf.serializer.basepakage或者设置scf.serializer.scantype=asyn使用异步模式扫描。
+[06-23 11:31:10 228 ERROR] [main] contract.log.SystemPrintStream - 开始扫描全部引用jar包，如果扫描过程过长请在启动vm参数中设置scf.serializer.basepakage或者设置scf.serializer.scantype=asyn使用异步模式扫描。

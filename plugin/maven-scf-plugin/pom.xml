@@ -1,0 +1,57 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>org.apache.maven.plugins</groupId>
+	<artifactId>maven-scf-plugin</artifactId>
+	<packaging>maven-plugin</packaging>
+	<version>1.0-SNAPSHOT</version>
+	<name>maven-scf-plugin Maven Mojo</name>
+	<url>http://maven.apache.org</url>
+
+	<distributionManagement>
+		<repository>
+			<id>releases</id>
+			<name>Internal Releases</name>
+			<url>http://182.92.224.157:8058/nexus/content/repositories/releases</url>
+		</repository>
+		<snapshotRepository>
+			<id>Snapshots</id>
+			<name>Internal Snapshots</name>
+			<url>http://182.92.224.157:8058/nexus/content/repositories/snapshots</url>
+		</snapshotRepository>
+	</distributionManagement>
+	<dependencies>
+	<!--  
+		<dependency>
+			<groupId>org.spat.scf</groupId>
+			<artifactId>org.spat.scf.server</artifactId>
+			<version>3.0.0-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>org.spat.scf</groupId>
+			<artifactId>org.spat.scf.protocol</artifactId>
+			<version>3.0.0-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>org.spat</groupId>
+			<artifactId>org.spat.utility</artifactId>
+			<version>3.0.0-SNAPSHOT</version>
+		</dependency>-->
+		<dependency>
+			<groupId>org.apache.maven</groupId>
+			<artifactId>maven-plugin-api</artifactId>
+			<version>2.0</version>
+		</dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>3.8.1</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.maven.plugins</groupId>
+			<artifactId>maven-install-plugin</artifactId>
+			<version>2.5.2</version>
+		</dependency>
+	</dependencies>
+</project>

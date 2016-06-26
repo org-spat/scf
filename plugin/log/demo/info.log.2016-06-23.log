@@ -1,0 +1,1556 @@
+[06-23 07:47:43 573 INFO ] [main] server.bootstrap.Main - +++++++++++++++++++++ staring +++++++++++++++++++++
+
+[06-23 07:47:43 581 INFO ] [main] server.bootstrap.Main - user.dir: d:/scfV3/bin
+[06-23 07:47:43 582 INFO ] [main] server.bootstrap.Main - rootPath: d:/scfV3/bin/../
+[06-23 07:47:43 582 INFO ] [main] server.bootstrap.Main - service scf_config.xml: d:/scfV3/bin/../service/deploy/demo/scf_config.xml
+[06-23 07:47:43 583 INFO ] [main] server.bootstrap.Main - default scf_config.xml: d:/scfV3/bin/../conf/scf_config.xml
+[06-23 07:47:43 583 INFO ] [main] server.bootstrap.Main - service scf_log4j.xml: d:/scfV3/bin/../service/deploy/demo/scf_log4j.xml
+[06-23 07:47:43 584 INFO ] [main] server.bootstrap.Main - default scf_log4j.xml: d:/scfV3/bin/../conf/scf_log4j.xml
+[06-23 07:47:43 584 INFO ] [main] server.bootstrap.Main - load service config...
+[06-23 07:47:43 585 INFO ] [main] server.bootstrap.Main - scf.service.name: demo
+[06-23 07:47:43 585 INFO ] [main] server.bootstrap.Main - -----------------loading global jars------------------
+[06-23 07:47:43 602 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\service\deploy\demo\lib\org.spat.scf.demo.contract-0.0.1-SNAPSHOT.jar
+[06-23 07:47:43 603 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\service\deploy\demo\org.spat.scf.demo.component-0.0.1-SNAPSHOT.jar
+[06-23 07:47:43 603 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\service\lib\jyaml-1.3.jar
+[06-23 07:47:43 603 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\service\lib\mysql-connector-java-5.1.6-bin.jar
+[06-23 07:47:43 604 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\service\lib\sqljdbc4-2.0.jar
+[06-23 07:47:43 604 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\antlrall-2.7.2.jar
+[06-23 07:47:43 604 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\gson-2.2.4.jar
+[06-23 07:47:43 604 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\javassist-3.20.0-GA.jar
+[06-23 07:47:43 605 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\jcl-over-slf4j-1.7.8.jar
+[06-23 07:47:43 605 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\junit-4.8.jar
+[06-23 07:47:43 605 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\log4j-api-2.2.jar
+[06-23 07:47:43 605 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\log4j-core-2.2.jar
+[06-23 07:47:43 606 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\log4j-jcl-2.2.jar
+[06-23 07:47:43 606 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\log4j-slf4j-impl-2.2.jar
+[06-23 07:47:43 606 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\netty-3.1.5.GA.jar
+[06-23 07:47:43 607 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\org.spat.scf.protocol-3.0.0-SNAPSHOT.jar
+[06-23 07:47:43 607 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\org.spat.scf.serializer-3.0.0-SNAPSHOT.jar
+[06-23 07:47:43 607 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\org.spat.scf.server-3.0.0-SNAPSHOT.jar
+[06-23 07:47:43 607 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\org.spat.utility-3.0.0-SNAPSHOT.jar
+[06-23 07:47:43 608 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\slf4j-api-1.7.8.jar
+[06-23 07:47:43 608 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\tools.jar
+[06-23 07:47:43 613 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\service\deploy\demo\lib\org.spat.scf.demo.contract-0.0.1-SNAPSHOT.jar
+[06-23 07:47:43 613 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\service\deploy\demo\org.spat.scf.demo.component-0.0.1-SNAPSHOT.jar
+[06-23 07:47:43 614 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\service\lib\jyaml-1.3.jar
+[06-23 07:47:43 614 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\service\lib\mysql-connector-java-5.1.6-bin.jar
+[06-23 07:47:43 614 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\service\lib\sqljdbc4-2.0.jar
+[06-23 07:47:43 615 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\antlrall-2.7.2.jar
+[06-23 07:47:43 615 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\gson-2.2.4.jar
+[06-23 07:47:43 615 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\javassist-3.20.0-GA.jar
+[06-23 07:47:43 616 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\jcl-over-slf4j-1.7.8.jar
+[06-23 07:47:43 616 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\junit-4.8.jar
+[06-23 07:47:43 616 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\log4j-api-2.2.jar
+[06-23 07:47:43 617 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\log4j-core-2.2.jar
+[06-23 07:47:43 617 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\log4j-jcl-2.2.jar
+[06-23 07:47:43 617 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\log4j-slf4j-impl-2.2.jar
+[06-23 07:47:43 618 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\netty-3.1.5.GA.jar
+[06-23 07:47:43 619 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\org.spat.scf.protocol-3.0.0-SNAPSHOT.jar
+[06-23 07:47:43 620 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\org.spat.scf.serializer-3.0.0-SNAPSHOT.jar
+[06-23 07:47:43 621 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\org.spat.scf.server-3.0.0-SNAPSHOT.jar
+[06-23 07:47:43 621 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\org.spat.utility-3.0.0-SNAPSHOT.jar
+[06-23 07:47:43 621 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\slf4j-api-1.7.8.jar
+[06-23 07:47:43 622 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\tools.jar
+[06-23 07:47:43 622 INFO ] [main] server.bootstrap.Main - -------------------------end-------------------------
+
+[06-23 07:47:43 622 INFO ] [main] server.bootstrap.Main - --------------------loading proxys-------------------
+[06-23 07:47:43 651 INFO ] [main] deploy.bytecode.ScanClass - begin scan jar from path:d:/scfV3/bin/../service/deploy/demo/
+[06-23 09:27:18 957 INFO ] [main] server.bootstrap.Main - +++++++++++++++++++++ staring +++++++++++++++++++++
+
+[06-23 09:27:18 962 INFO ] [main] server.bootstrap.Main - user.dir: d:/scfV3/bin
+[06-23 09:27:18 963 INFO ] [main] server.bootstrap.Main - rootPath: d:/scfV3/bin/../
+[06-23 09:27:18 963 INFO ] [main] server.bootstrap.Main - service scf_config.xml: d:/scfV3/bin/../service/deploy/demo/scf_config.xml
+[06-23 09:27:18 963 INFO ] [main] server.bootstrap.Main - default scf_config.xml: d:/scfV3/bin/../conf/scf_config.xml
+[06-23 09:27:18 963 INFO ] [main] server.bootstrap.Main - service scf_log4j.xml: d:/scfV3/bin/../service/deploy/demo/scf_log4j.xml
+[06-23 09:27:18 964 INFO ] [main] server.bootstrap.Main - default scf_log4j.xml: d:/scfV3/bin/../conf/scf_log4j.xml
+[06-23 09:27:18 964 INFO ] [main] server.bootstrap.Main - load service config...
+[06-23 09:27:18 964 INFO ] [main] server.bootstrap.Main - scf.service.name: demo
+[06-23 09:27:18 965 INFO ] [main] server.bootstrap.Main - -----------------loading global jars------------------
+[06-23 09:27:18 970 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\service\deploy\demo\lib\org.spat.scf.demo.contract-0.0.1-SNAPSHOT.jar
+[06-23 09:27:18 970 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\service\deploy\demo\org.spat.scf.demo.component-0.0.1-SNAPSHOT.jar
+[06-23 09:27:18 971 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\service\lib\jyaml-1.3.jar
+[06-23 09:27:18 971 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\service\lib\mysql-connector-java-5.1.6-bin.jar
+[06-23 09:27:18 971 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\service\lib\sqljdbc4-2.0.jar
+[06-23 09:27:18 971 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\antlrall-2.7.2.jar
+[06-23 09:27:18 972 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\gson-2.2.4.jar
+[06-23 09:27:18 972 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\javassist-3.20.0-GA.jar
+[06-23 09:27:18 972 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\jcl-over-slf4j-1.7.8.jar
+[06-23 09:27:18 973 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\junit-4.8.jar
+[06-23 09:27:18 973 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\log4j-api-2.2.jar
+[06-23 09:27:18 973 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\log4j-core-2.2.jar
+[06-23 09:27:18 973 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\log4j-jcl-2.2.jar
+[06-23 09:27:18 974 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\log4j-slf4j-impl-2.2.jar
+[06-23 09:27:18 974 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\netty-3.1.5.GA.jar
+[06-23 09:27:18 974 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\org.spat.scf.protocol-3.0.0-SNAPSHOT.jar
+[06-23 09:27:18 974 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\org.spat.scf.serializer-3.0.0-SNAPSHOT.jar
+[06-23 09:27:18 975 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\org.spat.scf.server-3.0.0-SNAPSHOT.jar
+[06-23 09:27:18 975 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\org.spat.utility-3.0.0-SNAPSHOT.jar
+[06-23 09:27:18 975 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\slf4j-api-1.7.8.jar
+[06-23 09:27:18 976 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\tools.jar
+[06-23 09:27:18 978 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\service\deploy\demo\lib\org.spat.scf.demo.contract-0.0.1-SNAPSHOT.jar
+[06-23 09:27:18 979 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\service\deploy\demo\org.spat.scf.demo.component-0.0.1-SNAPSHOT.jar
+[06-23 09:27:18 979 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\service\lib\jyaml-1.3.jar
+[06-23 09:27:18 980 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\service\lib\mysql-connector-java-5.1.6-bin.jar
+[06-23 09:27:18 980 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\service\lib\sqljdbc4-2.0.jar
+[06-23 09:27:18 980 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\antlrall-2.7.2.jar
+[06-23 09:27:18 981 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\gson-2.2.4.jar
+[06-23 09:27:18 981 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\javassist-3.20.0-GA.jar
+[06-23 09:27:18 981 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\jcl-over-slf4j-1.7.8.jar
+[06-23 09:27:18 982 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\junit-4.8.jar
+[06-23 09:27:18 982 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\log4j-api-2.2.jar
+[06-23 09:27:18 982 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\log4j-core-2.2.jar
+[06-23 09:27:18 983 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\log4j-jcl-2.2.jar
+[06-23 09:27:18 983 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\log4j-slf4j-impl-2.2.jar
+[06-23 09:27:18 983 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\netty-3.1.5.GA.jar
+[06-23 09:27:18 984 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\org.spat.scf.protocol-3.0.0-SNAPSHOT.jar
+[06-23 09:27:18 985 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\org.spat.scf.serializer-3.0.0-SNAPSHOT.jar
+[06-23 09:27:18 985 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\org.spat.scf.server-3.0.0-SNAPSHOT.jar
+[06-23 09:27:18 986 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\org.spat.utility-3.0.0-SNAPSHOT.jar
+[06-23 09:27:18 986 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\slf4j-api-1.7.8.jar
+[06-23 09:27:18 986 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\tools.jar
+[06-23 09:27:18 987 INFO ] [main] server.bootstrap.Main - -------------------------end-------------------------
+
+[06-23 09:27:18 987 INFO ] [main] server.bootstrap.Main - --------------------loading proxys-------------------
+[06-23 09:27:18 990 INFO ] [main] deploy.bytecode.ScanClass - begin scan jar from path:d:/scfV3/bin/../service/deploy/demo/
+[06-23 09:27:19 120 INFO ] [main] deploy.bytecode.ScanClass - finish scan jar
+[06-23 09:27:19 124 INFO ] [main] deploy.bytecode.ProxyClassCreater - loading dynamic proxy ...
+[06-23 09:27:19 124 INFO ] [main] deploy.bytecode.ProxyClassCreater - loading => UserInfoServiceProxyStub1466645239121
+[06-23 09:27:19 125 INFO ] [main] deploy.bytecode.ProxyClassCreater - class name:org.spat.scf.demo.component.UserInfoService
+[06-23 09:27:19 314 INFO ] [main] deploy.bytecode.ProxyClassCreater - load dynamic proxy success!!!
+[06-23 09:27:19 314 INFO ] [main] deploy.bytecode.CreateManager - proxy class buffer creater finish!!!
+[06-23 09:27:19 316 INFO ] [main] deploy.bytecode.ProxyFactoryCreater - begin create ProxyFactory:ProxyFactory1466645239121
+[06-23 09:27:19 322 INFO ] [main] deploy.bytecode.ProxyFactoryCreater - create ProxyFactory success!!!
+[06-23 09:27:19 325 INFO ] [main] deploy.bytecode.CreateManager - proxy factory buffer creater finish!!!
+[06-23 09:27:19 326 INFO ] [main] deploy.bytecode.CreateManager - dynamic load class:UserInfoServiceProxyStub1466645239121
+[06-23 09:27:19 327 INFO ] [main] deploy.bytecode.CreateManager - crate ProxyFactory instance!!!
+[06-23 09:27:19 328 INFO ] [main] deploy.bytecode.ProxyClassCreater - loading dynamic proxy ...
+[06-23 09:27:19 328 INFO ] [main] deploy.bytecode.ProxyClassCreater - loading => UserInfoServiceProxyStub1466645239328
+[06-23 09:27:19 328 INFO ] [main] deploy.bytecode.ProxyClassCreater - class name:org.spat.scf.demo.component.UserInfoService
+[06-23 09:27:19 363 INFO ] [main] deploy.bytecode.ProxyClassCreater - load dynamic proxy success!!!
+[06-23 09:27:19 364 INFO ] [main] deploy.bytecode.CreateManager - proxy class buffer creater finish!!!
+[06-23 09:27:19 365 INFO ] [main] deploy.bytecode.ProxyFactoryCreater - begin create ProxyFactory:ProxyFactory1466645239328
+[06-23 09:27:19 374 INFO ] [main] deploy.bytecode.ProxyFactoryCreater - create ProxyFactory success!!!
+[06-23 09:27:19 375 INFO ] [main] deploy.bytecode.CreateManager - proxy factory buffer creater finish!!!
+[06-23 09:27:19 376 INFO ] [main] deploy.bytecode.CreateManager - dynamic load class:UserInfoServiceProxyStub1466645239328
+[06-23 09:27:19 377 INFO ] [main] deploy.bytecode.CreateManager - crate ProxyFactory instance!!!
+[06-23 09:27:19 378 INFO ] [main] server.bootstrap.Main - -------------------------end-------------------------
+
+[06-23 09:27:19 378 INFO ] [main] server.bootstrap.Main - -----------------loading init beans------------------
+[06-23 09:27:19 379 INFO ] [main] server.bootstrap.Main - load: org.spat.scf.server.contract.context.SerializerClassInit
+[06-23 09:27:19 449 INFO ] [main] contract.log.SystemPrintStream - Scan jar files begin!
+[06-23 09:27:19 451 INFO ] [main] contract.log.SystemPrintStream - scf.serializer.basepakage 
+[06-23 09:27:19 452 ERROR] [main] contract.log.SystemPrintStream - 开始扫描全部引用jar包，如果扫描过程过长请在启动vm参数中设置scf.serializer.basepakage或者设置scf.serializer.scantype=asyn使用异步模式扫描。
+[06-23 09:27:19 457 ERROR] [main] contract.log.SystemPrintStream - java.lang.ClassCastException: org.spat.scf.server.deploy.hotdeploy.DynamicClassLoader cannot be cast to java.net.URLClassLoader
+[06-23 09:27:19 458 ERROR] [main] contract.log.SystemPrintStream - 	at org.spat.scf.serializer.component.ClassScaner.scanByURLClassLoader(ClassScaner.java:111)
+[06-23 09:27:19 458 ERROR] [main] contract.log.SystemPrintStream - 	at org.spat.scf.serializer.component.ClassScaner.scan(ClassScaner.java:45)
+[06-23 09:27:19 459 ERROR] [main] contract.log.SystemPrintStream - 	at org.spat.scf.serializer.component.TypeMap.LoadCustmeType(TypeMap.java:101)
+[06-23 09:27:19 459 ERROR] [main] contract.log.SystemPrintStream - 	at org.spat.scf.serializer.component.TypeMap.InitTypeMap(TypeMap.java:86)
+[06-23 09:27:19 459 ERROR] [main] contract.log.SystemPrintStream - 	at org.spat.scf.serializer.serializer.Serializer.Init(Serializer.java:28)
+[06-23 09:27:19 460 ERROR] [main] contract.log.SystemPrintStream - 	at org.spat.scf.serializer.serializer.Serializer.<clinit>(Serializer.java:24)
+[06-23 09:27:19 460 ERROR] [main] contract.log.SystemPrintStream - 	at org.spat.scf.protocol.serializer.SCFSerialize.<clinit>(SCFSerialize.java:14)
+[06-23 09:27:19 460 ERROR] [main] contract.log.SystemPrintStream - 	at org.spat.scf.protocol.serializer.SerializeBaseFactory.<clinit>(SerializeBaseFactory.java:7)
+[06-23 09:27:19 460 ERROR] [main] contract.log.SystemPrintStream - 	at org.spat.scf.server.contract.context.SerializerClassInit.init(SerializerClassInit.java:14)
+[06-23 09:27:19 461 ERROR] [main] contract.log.SystemPrintStream - 	at org.spat.scf.server.bootstrap.Main.loadInitBeans(Main.java:270)
+[06-23 09:27:19 461 ERROR] [main] contract.log.SystemPrintStream - 	at org.spat.scf.server.bootstrap.Main.main(Main.java:156)
+[06-23 09:27:19 461 ERROR] [main] contract.log.SystemPrintStream - 	at org.spat.scf.maven.RunMojo.execute(RunMojo.java:78)
+[06-23 09:27:19 462 ERROR] [main] contract.log.SystemPrintStream - 	at org.spat.scf.maven.RunMojo.main(RunMojo.java:33)
+[06-23 09:27:19 462 INFO ] [main] contract.log.SystemPrintStream - Scan jar files completed!
+[06-23 09:27:19 467 INFO ] [main] server.bootstrap.Main - -------------------------end-------------------------
+
+[06-23 09:27:19 468 INFO ] [main] server.bootstrap.Main - -----------loading global request filters------------
+[06-23 09:27:19 468 INFO ] [main] server.bootstrap.Main - load: org.spat.scf.server.filter.ProtocolParseFilter
+[06-23 09:27:19 469 INFO ] [main] server.bootstrap.Main - load: org.spat.scf.server.filter.HandclaspFilter
+[06-23 09:27:19 470 INFO ] [main] server.bootstrap.Main - load: org.spat.scf.server.filter.ExecuteMethodFilter
+[06-23 09:27:19 471 INFO ] [main] server.bootstrap.Main - -------------------------end-------------------------
+
+[06-23 09:27:19 472 INFO ] [main] server.bootstrap.Main - -----------loading global response filters-----------
+[06-23 09:27:19 472 INFO ] [main] server.bootstrap.Main - load: org.spat.scf.server.filter.ProtocolCreateFilter
+[06-23 09:27:19 490 INFO ] [main] server.bootstrap.Main - load: org.spat.scf.server.filter.ExecuteTimeFilter
+[06-23 09:27:19 495 INFO ] [main] server.bootstrap.Main - -------------------------end-------------------------
+
+[06-23 09:27:19 496 INFO ] [main] server.bootstrap.Main - -----------loading connection filters-----------
+[06-23 09:27:19 496 INFO ] [main] server.bootstrap.Main - load: org.spat.scf.server.filter.IPFilter
+[06-23 09:27:19 497 INFO ] [main] server.bootstrap.Main - -------------------------end-------------------------
+
+[06-23 09:27:19 497 INFO ] [main] server.bootstrap.Main - ------------------load secureKey start---------------------
+[06-23 09:27:19 497 INFO ] [main] server.bootstrap.Main - ------------------load secureKey end----------------------
+
+[06-23 09:27:19 498 INFO ] [main] server.bootstrap.Main - ------------------signal registr start---------------------
+[06-23 09:27:19 498 INFO ] [main] server.bootstrap.Main - ------------------signal registr success----------------------
+
+[06-23 09:27:19 498 INFO ] [main] server.bootstrap.Main - ------------------ starting servers -----------------
+[06-23 09:27:19 498 INFO ] [main] server.bootstrap.Main - scf.server.tcp is starting...
+[06-23 09:27:19 530 INFO ] [main] communication.tcp.SocketServer - loading invoker...
+[06-23 09:27:19 581 INFO ] [main] server.proxy.AsyncInvokerHandle - async worker steal:false
+[06-23 09:27:19 582 INFO ] [main] server.proxy.AsyncInvokerHandle - async worker limitSize:0
+[06-23 09:27:19 582 INFO ] [main] server.proxy.AsyncInvokerHandle - async worker mode:false
+[06-23 09:27:19 582 INFO ] [main] server.proxy.AsyncInvokerHandle - async worker count:64
+[06-23 09:27:19 582 INFO ] [main] communication.tcp.SocketServer - initing server...
+[06-23 09:27:19 582 INFO ] [main] communication.tcp.SocketServer - -- socket server config --
+[06-23 09:27:19 583 INFO ] [main] communication.tcp.SocketServer - -- listen ip: 0.0.0.0
+[06-23 09:27:19 583 INFO ] [main] communication.tcp.SocketServer - -- port: 10019
+[06-23 09:27:19 583 INFO ] [main] communication.tcp.SocketServer - -- tcpNoDelay: true
+[06-23 09:27:19 583 INFO ] [main] communication.tcp.SocketServer - -- receiveBufferSize: 65536
+[06-23 09:27:19 584 INFO ] [main] communication.tcp.SocketServer - -- sendBufferSize: 65536
+[06-23 09:27:19 584 INFO ] [main] communication.tcp.SocketServer - -- frameMaxLength: 524288
+[06-23 09:27:19 584 INFO ] [main] communication.tcp.SocketServer - -- worker thread count: 32
+[06-23 09:27:19 584 INFO ] [main] communication.tcp.SocketServer - --------------------------
+[06-23 09:27:19 584 INFO ] [main] communication.tcp.SocketServer - demo SocketServer starting...
+[06-23 09:27:19 643 INFO ] [main] server.bootstrap.Main - scf.server.tcpstarted success!!!
+
+[06-23 09:27:19 643 INFO ] [main] server.bootstrap.Main - scf.server.telnet is starting...
+[06-23 09:27:19 645 INFO ] [main] communication.telnet.TelnetServer - ----------------telnet server config------------------
+[06-23 09:27:19 645 INFO ] [main] communication.telnet.TelnetServer - -- telnet server listen ip: 0.0.0.0
+[06-23 09:27:19 645 INFO ] [main] communication.telnet.TelnetServer - -- telnet server port: 20019
+[06-23 09:27:19 646 INFO ] [main] communication.telnet.TelnetServer - ------------------------------------------------------
+[06-23 09:27:19 649 INFO ] [main] server.bootstrap.Main - scf.server.telnetstarted success!!!
+
+[06-23 09:27:19 649 INFO ] [main] server.bootstrap.Main - -------------------------end-------------------------
+
+[06-23 09:27:19 649 INFO ] [main] server.bootstrap.Main - ------------------init file monitor-----------------
+[06-23 09:27:19 652 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:d:\scfV3\bin\..\service\deploy\demo\lib\org.spat.scf.demo.contract-0.0.1-SNAPSHOT.jar
+[06-23 09:27:19 653 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:d:\scfV3\bin\..\service\deploy\demo\org.spat.scf.demo.component-0.0.1-SNAPSHOT.jar
+[06-23 09:27:19 653 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:d:\scfV3\bin\..\service\deploy\demo\scf_config.xml
+[06-23 09:27:19 654 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:d:\scfV3\bin\..\service\deploy\demo\scf_log4j.xml
+[06-23 09:27:19 657 INFO ] [main] server.bootstrap.Main - -------------------------end-------------------------
+
+[06-23 09:27:19 657 INFO ] [main] server.bootstrap.Main - +++++++++++++++++++++ server start success!!! +++++++++++++++++++++
+
+[06-23 09:29:09 258 INFO ] [main] server.bootstrap.Main - +++++++++++++++++++++ staring +++++++++++++++++++++
+
+[06-23 09:29:09 260 INFO ] [main] server.bootstrap.Main - user.dir: d:/scfV3/bin
+[06-23 09:29:09 261 INFO ] [main] server.bootstrap.Main - rootPath: d:/scfV3/bin/../
+[06-23 09:29:09 261 INFO ] [main] server.bootstrap.Main - service scf_config.xml: d:/scfV3/bin/../service/deploy/demo/scf_config.xml
+[06-23 09:29:09 262 INFO ] [main] server.bootstrap.Main - default scf_config.xml: d:/scfV3/bin/../conf/scf_config.xml
+[06-23 09:29:09 262 INFO ] [main] server.bootstrap.Main - service scf_log4j.xml: d:/scfV3/bin/../service/deploy/demo/scf_log4j.xml
+[06-23 09:29:09 262 INFO ] [main] server.bootstrap.Main - default scf_log4j.xml: d:/scfV3/bin/../conf/scf_log4j.xml
+[06-23 09:29:09 262 INFO ] [main] server.bootstrap.Main - load service config...
+[06-23 09:29:09 263 INFO ] [main] server.bootstrap.Main - scf.service.name: demo
+[06-23 09:29:09 263 INFO ] [main] server.bootstrap.Main - -----------------loading global jars------------------
+[06-23 09:29:09 268 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\service\deploy\demo\lib\org.spat.scf.demo.contract-0.0.1-SNAPSHOT.jar
+[06-23 09:29:09 269 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\service\deploy\demo\org.spat.scf.demo.component-0.0.1-SNAPSHOT.jar
+[06-23 09:29:09 269 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\service\lib\jyaml-1.3.jar
+[06-23 09:29:09 269 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\service\lib\mysql-connector-java-5.1.6-bin.jar
+[06-23 09:29:09 270 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\service\lib\sqljdbc4-2.0.jar
+[06-23 09:29:09 270 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\antlrall-2.7.2.jar
+[06-23 09:29:09 270 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\gson-2.2.4.jar
+[06-23 09:29:09 270 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\javassist-3.20.0-GA.jar
+[06-23 09:29:09 271 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\jcl-over-slf4j-1.7.8.jar
+[06-23 09:29:09 271 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\junit-4.8.jar
+[06-23 09:29:09 271 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\log4j-api-2.2.jar
+[06-23 09:29:09 271 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\log4j-core-2.2.jar
+[06-23 09:29:09 272 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\log4j-jcl-2.2.jar
+[06-23 09:29:09 272 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\log4j-slf4j-impl-2.2.jar
+[06-23 09:29:09 272 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\netty-3.1.5.GA.jar
+[06-23 09:29:09 272 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\org.spat.scf.protocol-3.0.0-SNAPSHOT.jar
+[06-23 09:29:09 273 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\org.spat.scf.serializer-3.0.0-SNAPSHOT.jar
+[06-23 09:29:09 273 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\org.spat.scf.server-3.0.0-SNAPSHOT.jar
+[06-23 09:29:09 273 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\org.spat.utility-3.0.0-SNAPSHOT.jar
+[06-23 09:29:09 274 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\slf4j-api-1.7.8.jar
+[06-23 09:29:09 274 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\tools.jar
+[06-23 09:29:09 278 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\service\deploy\demo\lib\org.spat.scf.demo.contract-0.0.1-SNAPSHOT.jar
+[06-23 09:29:09 279 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\service\deploy\demo\org.spat.scf.demo.component-0.0.1-SNAPSHOT.jar
+[06-23 09:29:09 279 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\service\lib\jyaml-1.3.jar
+[06-23 09:29:09 280 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\service\lib\mysql-connector-java-5.1.6-bin.jar
+[06-23 09:29:09 280 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\service\lib\sqljdbc4-2.0.jar
+[06-23 09:29:09 281 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\antlrall-2.7.2.jar
+[06-23 09:29:09 281 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\gson-2.2.4.jar
+[06-23 09:29:09 281 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\javassist-3.20.0-GA.jar
+[06-23 09:29:09 282 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\jcl-over-slf4j-1.7.8.jar
+[06-23 09:29:09 282 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\junit-4.8.jar
+[06-23 09:29:09 282 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\log4j-api-2.2.jar
+[06-23 09:29:09 282 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\log4j-core-2.2.jar
+[06-23 09:29:09 283 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\log4j-jcl-2.2.jar
+[06-23 09:29:09 283 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\log4j-slf4j-impl-2.2.jar
+[06-23 09:29:09 283 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\netty-3.1.5.GA.jar
+[06-23 09:29:09 284 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\org.spat.scf.protocol-3.0.0-SNAPSHOT.jar
+[06-23 09:29:09 285 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\org.spat.scf.serializer-3.0.0-SNAPSHOT.jar
+[06-23 09:29:09 285 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\org.spat.scf.server-3.0.0-SNAPSHOT.jar
+[06-23 09:29:09 286 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\org.spat.utility-3.0.0-SNAPSHOT.jar
+[06-23 09:29:09 286 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\slf4j-api-1.7.8.jar
+[06-23 09:29:09 286 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\tools.jar
+[06-23 09:29:09 287 INFO ] [main] server.bootstrap.Main - -------------------------end-------------------------
+
+[06-23 09:29:09 287 INFO ] [main] server.bootstrap.Main - --------------------loading proxys-------------------
+[06-23 09:29:09 290 INFO ] [main] deploy.bytecode.ScanClass - begin scan jar from path:d:/scfV3/bin/../service/deploy/demo/
+[06-23 09:29:09 407 INFO ] [main] deploy.bytecode.ScanClass - finish scan jar
+[06-23 09:29:09 412 INFO ] [main] deploy.bytecode.ProxyClassCreater - loading dynamic proxy ...
+[06-23 09:29:09 412 INFO ] [main] deploy.bytecode.ProxyClassCreater - loading => UserInfoServiceProxyStub1466645349407
+[06-23 09:29:09 413 INFO ] [main] deploy.bytecode.ProxyClassCreater - class name:org.spat.scf.demo.component.UserInfoService
+[06-23 09:29:09 568 INFO ] [main] deploy.bytecode.ProxyClassCreater - load dynamic proxy success!!!
+[06-23 09:29:09 569 INFO ] [main] deploy.bytecode.CreateManager - proxy class buffer creater finish!!!
+[06-23 09:29:09 570 INFO ] [main] deploy.bytecode.ProxyFactoryCreater - begin create ProxyFactory:ProxyFactory1466645349407
+[06-23 09:29:09 576 INFO ] [main] deploy.bytecode.ProxyFactoryCreater - create ProxyFactory success!!!
+[06-23 09:29:09 580 INFO ] [main] deploy.bytecode.CreateManager - proxy factory buffer creater finish!!!
+[06-23 09:29:09 581 INFO ] [main] deploy.bytecode.CreateManager - dynamic load class:UserInfoServiceProxyStub1466645349407
+[06-23 09:29:09 582 INFO ] [main] deploy.bytecode.CreateManager - crate ProxyFactory instance!!!
+[06-23 09:29:09 582 INFO ] [main] deploy.bytecode.ProxyClassCreater - loading dynamic proxy ...
+[06-23 09:29:09 582 INFO ] [main] deploy.bytecode.ProxyClassCreater - loading => UserInfoServiceProxyStub1466645349582
+[06-23 09:29:09 583 INFO ] [main] deploy.bytecode.ProxyClassCreater - class name:org.spat.scf.demo.component.UserInfoService
+[06-23 09:29:09 629 INFO ] [main] deploy.bytecode.ProxyClassCreater - load dynamic proxy success!!!
+[06-23 09:29:09 629 INFO ] [main] deploy.bytecode.CreateManager - proxy class buffer creater finish!!!
+[06-23 09:29:09 630 INFO ] [main] deploy.bytecode.ProxyFactoryCreater - begin create ProxyFactory:ProxyFactory1466645349582
+[06-23 09:29:09 638 INFO ] [main] deploy.bytecode.ProxyFactoryCreater - create ProxyFactory success!!!
+[06-23 09:29:09 639 INFO ] [main] deploy.bytecode.CreateManager - proxy factory buffer creater finish!!!
+[06-23 09:29:09 640 INFO ] [main] deploy.bytecode.CreateManager - dynamic load class:UserInfoServiceProxyStub1466645349582
+[06-23 09:29:09 641 INFO ] [main] deploy.bytecode.CreateManager - crate ProxyFactory instance!!!
+[06-23 09:29:09 641 INFO ] [main] server.bootstrap.Main - -------------------------end-------------------------
+
+[06-23 09:29:09 642 INFO ] [main] server.bootstrap.Main - -----------------loading init beans------------------
+[06-23 09:29:09 642 INFO ] [main] server.bootstrap.Main - load: org.spat.scf.server.contract.context.SerializerClassInit
+[06-23 09:29:09 651 INFO ] [main] contract.log.SystemPrintStream - Scan jar files begin!
+[06-23 09:29:09 653 INFO ] [main] contract.log.SystemPrintStream - scf.serializer.basepakage 
+[06-23 09:29:09 654 ERROR] [main] contract.log.SystemPrintStream - 开始扫描全部引用jar包，如果扫描过程过长请在启动vm参数中设置scf.serializer.basepakage或者设置scf.serializer.scantype=asyn使用异步模式扫描。
+[06-23 09:29:09 656 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/F:/我的项目/Framework/scf/plugin/maven-scf-plugin/target/classes/
+[06-23 09:29:09 660 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/F:/我的项目/Framework/scf/server/target/classes/
+[06-23 09:29:09 815 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/D:/Users/liu/.m2/repository/org/apache/logging/log4j/log4j-api/2.2/log4j-api-2.2.jar
+[06-23 09:29:09 851 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/D:/Users/liu/.m2/repository/org/apache/logging/log4j/log4j-core/2.2/log4j-core-2.2.jar
+[06-23 09:29:10 003 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/D:/Users/liu/.m2/repository/org/apache/logging/log4j/log4j-jcl/2.2/log4j-jcl-2.2.jar
+[06-23 09:29:10 005 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/D:/Users/liu/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar
+[06-23 09:29:10 013 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/D:/Users/liu/.m2/repository/antlr/antlrall/2.7.2/antlrall-2.7.2.jar
+[06-23 09:29:10 092 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/D:/Users/liu/.m2/repository/org/javassist/javassist/3.20.0-GA/javassist-3.20.0-GA.jar
+[06-23 09:29:10 237 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/D:/Users/liu/.m2/repository/org/jboss/netty/netty/3.1.5.GA/netty-3.1.5.GA.jar
+[06-23 09:29:10 323 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/D:/Users/liu/.m2/repository/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar
+[06-23 09:29:10 351 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/F:/我的项目/Framework/scf/protocol/target/classes/
+[06-23 09:29:10 545 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/F:/我的项目/Framework/scf/serializer/target/classes/
+[06-23 09:29:10 808 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/F:/我的项目/Framework/scf/utility/target/classes/
+[06-23 09:29:10 979 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/D:/Users/liu/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.8/jcl-over-slf4j-1.7.8.jar
+[06-23 09:29:10 982 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/D:/Users/liu/.m2/repository/org/slf4j/slf4j-api/1.7.8/slf4j-api-1.7.8.jar
+[06-23 09:29:10 988 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/D:/Users/liu/.m2/repository/org/apache/maven/maven-plugin-api/2.0/maven-plugin-api-2.0.jar
+[06-23 09:29:10 990 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\service\deploy\demo\lib\org.spat.scf.demo.contract-0.0.1-SNAPSHOT.jar
+[06-23 09:29:10 991 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\service\deploy\demo\org.spat.scf.demo.component-0.0.1-SNAPSHOT.jar
+[06-23 09:29:10 992 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\service\lib\jyaml-1.3.jar
+[06-23 09:29:11 006 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\service\lib\mysql-connector-java-5.1.6-bin.jar
+[06-23 09:29:11 263 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\service\lib\sqljdbc4-2.0.jar
+[06-23 09:29:11 481 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\lib\antlrall-2.7.2.jar
+[06-23 09:29:11 558 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\lib\gson-2.2.4.jar
+[06-23 09:29:11 584 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\lib\javassist-3.20.0-GA.jar
+[06-23 09:29:11 690 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\lib\jcl-over-slf4j-1.7.8.jar
+[06-23 09:29:11 694 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\lib\junit-4.8.jar
+[06-23 09:29:11 721 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\lib\log4j-api-2.2.jar
+[06-23 09:29:11 736 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\lib\log4j-core-2.2.jar
+[06-23 09:29:11 839 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\lib\log4j-jcl-2.2.jar
+[06-23 09:29:11 840 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\lib\log4j-slf4j-impl-2.2.jar
+[06-23 09:29:11 843 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\lib\netty-3.1.5.GA.jar
+[06-23 09:29:11 935 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\lib\org.spat.scf.protocol-3.0.0-SNAPSHOT.jar
+[06-23 09:29:11 962 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\lib\org.spat.scf.serializer-3.0.0-SNAPSHOT.jar
+[06-23 09:29:11 977 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\lib\org.spat.scf.server-3.0.0-SNAPSHOT.jar
+[06-23 09:29:12 023 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\lib\org.spat.utility-3.0.0-SNAPSHOT.jar
+[06-23 09:29:12 029 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\lib\slf4j-api-1.7.8.jar
+[06-23 09:29:12 033 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\lib\tools.jar
+[06-23 09:29:12 714 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.protocol.sdp.org.spat.scf.protocol.sdp.ExceptionProtocol
+[06-23 09:29:12 714 INFO ] [main] contract.log.SystemPrintStream - scf SCFSerializable entity :ExceptionProtocol  typeId :-1300746967
+[06-23 09:29:12 715 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.protocol.sdp.org.spat.scf.protocol.sdp.HandclaspProtocol
+[06-23 09:29:12 715 INFO ] [main] contract.log.SystemPrintStream - scf SCFSerializable entity :HandclaspProtocol  typeId :1081818008
+[06-23 09:29:12 715 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.protocol.sdp.org.spat.scf.protocol.sdp.RequestProtocol
+[06-23 09:29:12 715 INFO ] [main] contract.log.SystemPrintStream - scf SCFSerializable entity :RequestProtocol  typeId :435842043
+[06-23 09:29:12 716 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.protocol.sdp.org.spat.scf.protocol.sdp.ResetProtocol
+[06-23 09:29:12 716 INFO ] [main] contract.log.SystemPrintStream - scf SCFSerializable entity :ResetProtocol  typeId :1434913115
+[06-23 09:29:12 716 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.protocol.sdp.org.spat.scf.protocol.sdp.ResponseProtocol
+[06-23 09:29:12 717 INFO ] [main] contract.log.SystemPrintStream - scf SCFSerializable entity :ResponseProtocol  typeId :2100563169
+[06-23 09:29:12 717 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.protocol.utility.org.spat.scf.protocol.utility.KeyValuePair
+[06-23 09:29:12 717 INFO ] [main] contract.log.SystemPrintStream - scf SCFSerializable entity :RpParameter  typeId :-1074395865
+[06-23 09:29:12 717 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.serializer.annotation.org.spat.scf.serializer.annotation.SCFSerializable
+[06-23 09:29:12 717 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.serializer.component.org.spat.scf.serializer.component.ClassScaner
+[06-23 09:29:12 718 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.serializer.component.org.spat.scf.serializer.component.TypeMap
+[06-23 09:29:12 718 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.serializer.exception.org.spat.scf.serializer.exception.DisallowedSerializeException
+[06-23 09:29:12 718 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.serializer.serializer.org.spat.scf.serializer.serializer.ObjectSerializer
+[06-23 09:29:12 718 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.serializer.test.entity.org.spat.scf.serializer.test.entity.Enterprise
+[06-23 09:29:12 719 INFO ] [main] contract.log.SystemPrintStream - scf SCFSerializable entity :Enterprise  typeId :1414596097
+[06-23 09:29:12 719 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.serializer.test.entity.org.spat.scf.serializer.test.entity.SESUser
+[06-23 09:29:12 719 INFO ] [main] contract.log.SystemPrintStream - scf SCFSerializable entity :SESUser  typeId :-236864588
+[06-23 09:29:12 719 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.serializer.test.entity.org.spat.scf.serializer.test.entity.User
+[06-23 09:29:12 720 INFO ] [main] contract.log.SystemPrintStream - scf SCFSerializable entity :User  typeId :1448003977
+[06-23 09:29:12 720 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.serializer.test.serializer.org.spat.scf.serializer.test.serializer.enmReadState
+[06-23 09:29:12 720 INFO ] [main] contract.log.SystemPrintStream - scf SCFSerializable entity :enmReadState  typeId :1003118455
+[06-23 09:29:12 720 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.serializer.test.serializer.org.spat.scf.serializer.test.serializer.Info
+[06-23 09:29:12 721 INFO ] [main] contract.log.SystemPrintStream - scf SCFSerializable entity :Info  typeId :-1502853922
+[06-23 09:29:12 721 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.serializer.test.serializer.org.spat.scf.serializer.test.serializer.NewClass
+[06-23 09:29:12 721 INFO ] [main] contract.log.SystemPrintStream - scf SCFSerializable entity :NewClass  typeId :-1842514312
+[06-23 09:29:12 721 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.serializer.test.serializer.org.spat.scf.serializer.test.serializer.People
+[06-23 09:29:12 722 INFO ] [main] contract.log.SystemPrintStream - scf SCFSerializable entity :Serializer.People  typeId :1910941517
+[06-23 09:29:12 722 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.serializer.test.serializer.org.spat.scf.serializer.test.serializer.SimpleClass
+[06-23 09:29:12 722 INFO ] [main] contract.log.SystemPrintStream - scf SCFSerializable entity :SimpleClass  typeId :113266148
+[06-23 09:29:12 722 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.serializer.test.serializer.org.spat.scf.serializer.test.serializer.State
+[06-23 09:29:12 723 INFO ] [main] contract.log.SystemPrintStream - scf SCFSerializable entity :State  typeId :1695958603
+[06-23 09:29:12 723 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.serializer.test.serializer.org.spat.scf.serializer.test.serializer.SubClass
+[06-23 09:29:12 724 INFO ] [main] contract.log.SystemPrintStream - scf SCFSerializable entity :SubClass  typeId :-1817993264
+[06-23 09:29:12 724 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.demo.entity.org.spat.scf.demo.entity.UserInfo
+[06-23 09:29:12 724 INFO ] [main] contract.log.SystemPrintStream - scf SCFSerializable entity :org.spat.scf.demo.UserInfo  typeId :-1354448716
+[06-23 09:29:12 724 INFO ] [main] contract.log.SystemPrintStream - Scan jar files completed!
+[06-23 09:29:12 725 INFO ] [main] server.bootstrap.Main - -------------------------end-------------------------
+
+[06-23 09:29:12 726 INFO ] [main] server.bootstrap.Main - -----------loading global request filters------------
+[06-23 09:29:12 726 INFO ] [main] server.bootstrap.Main - load: org.spat.scf.server.filter.ProtocolParseFilter
+[06-23 09:29:12 727 INFO ] [main] server.bootstrap.Main - load: org.spat.scf.server.filter.HandclaspFilter
+[06-23 09:29:12 728 INFO ] [main] server.bootstrap.Main - load: org.spat.scf.server.filter.ExecuteMethodFilter
+[06-23 09:29:12 730 INFO ] [main] server.bootstrap.Main - -------------------------end-------------------------
+
+[06-23 09:29:12 730 INFO ] [main] server.bootstrap.Main - -----------loading global response filters-----------
+[06-23 09:29:12 730 INFO ] [main] server.bootstrap.Main - load: org.spat.scf.server.filter.ProtocolCreateFilter
+[06-23 09:29:12 746 INFO ] [main] server.bootstrap.Main - load: org.spat.scf.server.filter.ExecuteTimeFilter
+[06-23 09:29:12 750 INFO ] [main] server.bootstrap.Main - -------------------------end-------------------------
+
+[06-23 09:29:12 751 INFO ] [main] server.bootstrap.Main - -----------loading connection filters-----------
+[06-23 09:29:12 751 INFO ] [main] server.bootstrap.Main - load: org.spat.scf.server.filter.IPFilter
+[06-23 09:29:12 752 INFO ] [main] server.bootstrap.Main - -------------------------end-------------------------
+
+[06-23 09:29:12 752 INFO ] [main] server.bootstrap.Main - ------------------load secureKey start---------------------
+[06-23 09:29:12 752 INFO ] [main] server.bootstrap.Main - ------------------load secureKey end----------------------
+
+[06-23 09:29:12 752 INFO ] [main] server.bootstrap.Main - ------------------signal registr start---------------------
+[06-23 09:29:12 753 INFO ] [main] server.bootstrap.Main - ------------------signal registr success----------------------
+
+[06-23 09:29:12 753 INFO ] [main] server.bootstrap.Main - ------------------ starting servers -----------------
+[06-23 09:29:12 753 INFO ] [main] server.bootstrap.Main - scf.server.tcp is starting...
+[06-23 09:29:12 780 INFO ] [main] communication.tcp.SocketServer - loading invoker...
+[06-23 09:29:12 797 INFO ] [main] server.proxy.AsyncInvokerHandle - async worker steal:false
+[06-23 09:29:12 797 INFO ] [main] server.proxy.AsyncInvokerHandle - async worker limitSize:0
+[06-23 09:29:12 797 INFO ] [main] server.proxy.AsyncInvokerHandle - async worker mode:false
+[06-23 09:29:12 797 INFO ] [main] server.proxy.AsyncInvokerHandle - async worker count:64
+[06-23 09:29:12 797 INFO ] [main] communication.tcp.SocketServer - initing server...
+[06-23 09:29:12 798 INFO ] [main] communication.tcp.SocketServer - -- socket server config --
+[06-23 09:29:12 798 INFO ] [main] communication.tcp.SocketServer - -- listen ip: 0.0.0.0
+[06-23 09:29:12 798 INFO ] [main] communication.tcp.SocketServer - -- port: 10019
+[06-23 09:29:12 798 INFO ] [main] communication.tcp.SocketServer - -- tcpNoDelay: true
+[06-23 09:29:12 798 INFO ] [main] communication.tcp.SocketServer - -- receiveBufferSize: 65536
+[06-23 09:29:12 799 INFO ] [main] communication.tcp.SocketServer - -- sendBufferSize: 65536
+[06-23 09:29:12 799 INFO ] [main] communication.tcp.SocketServer - -- frameMaxLength: 524288
+[06-23 09:29:12 799 INFO ] [main] communication.tcp.SocketServer - -- worker thread count: 32
+[06-23 09:29:12 799 INFO ] [main] communication.tcp.SocketServer - --------------------------
+[06-23 09:29:12 799 INFO ] [main] communication.tcp.SocketServer - demo SocketServer starting...
+[06-23 09:29:12 856 INFO ] [main] server.bootstrap.Main - scf.server.tcpstarted success!!!
+
+[06-23 09:29:12 856 INFO ] [main] server.bootstrap.Main - scf.server.telnet is starting...
+[06-23 09:29:12 858 INFO ] [main] communication.telnet.TelnetServer - ----------------telnet server config------------------
+[06-23 09:29:12 858 INFO ] [main] communication.telnet.TelnetServer - -- telnet server listen ip: 0.0.0.0
+[06-23 09:29:12 858 INFO ] [main] communication.telnet.TelnetServer - -- telnet server port: 20019
+[06-23 09:29:12 858 INFO ] [main] communication.telnet.TelnetServer - ------------------------------------------------------
+[06-23 09:29:12 861 INFO ] [main] server.bootstrap.Main - scf.server.telnetstarted success!!!
+
+[06-23 09:29:12 862 INFO ] [main] server.bootstrap.Main - -------------------------end-------------------------
+
+[06-23 09:29:12 862 INFO ] [main] server.bootstrap.Main - ------------------init file monitor-----------------
+[06-23 09:29:12 864 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:d:\scfV3\bin\..\service\deploy\demo\lib\org.spat.scf.demo.contract-0.0.1-SNAPSHOT.jar
+[06-23 09:29:12 865 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:d:\scfV3\bin\..\service\deploy\demo\org.spat.scf.demo.component-0.0.1-SNAPSHOT.jar
+[06-23 09:29:12 865 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:d:\scfV3\bin\..\service\deploy\demo\scf_config.xml
+[06-23 09:29:12 866 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:d:\scfV3\bin\..\service\deploy\demo\scf_log4j.xml
+[06-23 09:29:12 868 INFO ] [main] server.bootstrap.Main - -------------------------end-------------------------
+
+[06-23 09:29:12 868 INFO ] [main] server.bootstrap.Main - +++++++++++++++++++++ server start success!!! +++++++++++++++++++++
+
+[06-23 09:38:52 805 INFO ] [main] server.bootstrap.Main - +++++++++++++++++++++ staring +++++++++++++++++++++
+
+[06-23 09:38:52 807 INFO ] [main] server.bootstrap.Main - user.dir: d:/scfV3/bin
+[06-23 09:38:52 808 INFO ] [main] server.bootstrap.Main - rootPath: d:/scfV3/bin/../
+[06-23 09:38:52 808 INFO ] [main] server.bootstrap.Main - service scf_config.xml: d:/scfV3/bin/../service/deploy/demo/scf_config.xml
+[06-23 09:38:52 808 INFO ] [main] server.bootstrap.Main - default scf_config.xml: d:/scfV3/bin/../conf/scf_config.xml
+[06-23 09:38:52 809 INFO ] [main] server.bootstrap.Main - service scf_log4j.xml: d:/scfV3/bin/../service/deploy/demo/scf_log4j.xml
+[06-23 09:38:52 809 INFO ] [main] server.bootstrap.Main - default scf_log4j.xml: d:/scfV3/bin/../conf/scf_log4j.xml
+[06-23 09:38:52 809 INFO ] [main] server.bootstrap.Main - load service config...
+[06-23 09:38:52 809 INFO ] [main] server.bootstrap.Main - scf.service.name: demo
+[06-23 09:38:52 810 INFO ] [main] server.bootstrap.Main - -----------------loading global jars------------------
+[06-23 09:38:52 815 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\service\deploy\demo\lib\org.spat.scf.demo.contract-0.0.1-SNAPSHOT.jar
+[06-23 09:38:52 816 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\service\deploy\demo\org.spat.scf.demo.component-0.0.1-SNAPSHOT.jar
+[06-23 09:38:52 816 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\service\lib\jyaml-1.3.jar
+[06-23 09:38:52 816 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\service\lib\mysql-connector-java-5.1.6-bin.jar
+[06-23 09:38:52 816 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\service\lib\sqljdbc4-2.0.jar
+[06-23 09:38:52 817 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\antlrall-2.7.2.jar
+[06-23 09:38:52 817 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\gson-2.2.4.jar
+[06-23 09:38:52 817 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\javassist-3.20.0-GA.jar
+[06-23 09:38:52 817 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\jcl-over-slf4j-1.7.8.jar
+[06-23 09:38:52 818 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\junit-4.8.jar
+[06-23 09:38:52 818 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\log4j-api-2.2.jar
+[06-23 09:38:52 818 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\log4j-core-2.2.jar
+[06-23 09:38:52 818 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\log4j-jcl-2.2.jar
+[06-23 09:38:52 819 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\log4j-slf4j-impl-2.2.jar
+[06-23 09:38:52 819 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\netty-3.1.5.GA.jar
+[06-23 09:38:52 819 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\org.spat.scf.protocol-3.0.0-SNAPSHOT.jar
+[06-23 09:38:52 819 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\org.spat.scf.serializer-3.0.0-SNAPSHOT.jar
+[06-23 09:38:52 819 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\org.spat.scf.server-3.0.0-SNAPSHOT.jar
+[06-23 09:38:52 820 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\org.spat.utility-3.0.0-SNAPSHOT.jar
+[06-23 09:38:52 820 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\slf4j-api-1.7.8.jar
+[06-23 09:38:52 820 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\tools.jar
+[06-23 09:38:52 823 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\service\deploy\demo\lib\org.spat.scf.demo.contract-0.0.1-SNAPSHOT.jar
+[06-23 09:38:52 824 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\service\deploy\demo\org.spat.scf.demo.component-0.0.1-SNAPSHOT.jar
+[06-23 09:38:52 824 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\service\lib\jyaml-1.3.jar
+[06-23 09:38:52 825 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\service\lib\mysql-connector-java-5.1.6-bin.jar
+[06-23 09:38:52 825 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\service\lib\sqljdbc4-2.0.jar
+[06-23 09:38:52 825 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\antlrall-2.7.2.jar
+[06-23 09:38:52 826 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\gson-2.2.4.jar
+[06-23 09:38:52 826 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\javassist-3.20.0-GA.jar
+[06-23 09:38:52 826 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\jcl-over-slf4j-1.7.8.jar
+[06-23 09:38:52 827 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\junit-4.8.jar
+[06-23 09:38:52 827 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\log4j-api-2.2.jar
+[06-23 09:38:52 827 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\log4j-core-2.2.jar
+[06-23 09:38:52 827 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\log4j-jcl-2.2.jar
+[06-23 09:38:52 828 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\log4j-slf4j-impl-2.2.jar
+[06-23 09:38:52 828 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\netty-3.1.5.GA.jar
+[06-23 09:38:52 828 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\org.spat.scf.protocol-3.0.0-SNAPSHOT.jar
+[06-23 09:38:52 829 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\org.spat.scf.serializer-3.0.0-SNAPSHOT.jar
+[06-23 09:38:52 830 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\org.spat.scf.server-3.0.0-SNAPSHOT.jar
+[06-23 09:38:52 830 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\org.spat.utility-3.0.0-SNAPSHOT.jar
+[06-23 09:38:52 831 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\slf4j-api-1.7.8.jar
+[06-23 09:38:52 831 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\tools.jar
+[06-23 09:38:52 831 INFO ] [main] server.bootstrap.Main - -------------------------end-------------------------
+
+[06-23 09:38:52 832 INFO ] [main] server.bootstrap.Main - --------------------loading proxys-------------------
+[06-23 09:38:52 836 INFO ] [main] deploy.bytecode.ScanClass - begin scan jar from path:d:/scfV3/bin/../service/deploy/demo/
+[06-23 09:38:52 954 INFO ] [main] deploy.bytecode.ScanClass - finish scan jar
+[06-23 09:38:52 956 INFO ] [main] deploy.bytecode.ProxyClassCreater - loading dynamic proxy ...
+[06-23 09:38:52 957 INFO ] [main] deploy.bytecode.ProxyClassCreater - loading => UserInfoServiceProxyStub1466645932955
+[06-23 09:38:52 957 INFO ] [main] deploy.bytecode.ProxyClassCreater - class name:org.spat.scf.demo.component.UserInfoService
+[06-23 09:38:53 122 INFO ] [main] deploy.bytecode.ProxyClassCreater - load dynamic proxy success!!!
+[06-23 09:38:53 123 INFO ] [main] deploy.bytecode.CreateManager - proxy class buffer creater finish!!!
+[06-23 09:38:53 124 INFO ] [main] deploy.bytecode.ProxyFactoryCreater - begin create ProxyFactory:ProxyFactory1466645932955
+[06-23 09:38:53 131 INFO ] [main] deploy.bytecode.ProxyFactoryCreater - create ProxyFactory success!!!
+[06-23 09:38:53 134 INFO ] [main] deploy.bytecode.CreateManager - proxy factory buffer creater finish!!!
+[06-23 09:38:53 135 INFO ] [main] deploy.bytecode.CreateManager - dynamic load class:UserInfoServiceProxyStub1466645932955
+[06-23 09:38:53 136 INFO ] [main] deploy.bytecode.CreateManager - crate ProxyFactory instance!!!
+[06-23 09:38:53 137 INFO ] [main] deploy.bytecode.ProxyClassCreater - loading dynamic proxy ...
+[06-23 09:38:53 137 INFO ] [main] deploy.bytecode.ProxyClassCreater - loading => UserInfoServiceProxyStub1466645933137
+[06-23 09:38:53 137 INFO ] [main] deploy.bytecode.ProxyClassCreater - class name:org.spat.scf.demo.component.UserInfoService
+[06-23 09:38:53 168 INFO ] [main] deploy.bytecode.ProxyClassCreater - load dynamic proxy success!!!
+[06-23 09:38:53 169 INFO ] [main] deploy.bytecode.CreateManager - proxy class buffer creater finish!!!
+[06-23 09:38:53 169 INFO ] [main] deploy.bytecode.ProxyFactoryCreater - begin create ProxyFactory:ProxyFactory1466645933137
+[06-23 09:38:53 175 INFO ] [main] deploy.bytecode.ProxyFactoryCreater - create ProxyFactory success!!!
+[06-23 09:38:53 176 INFO ] [main] deploy.bytecode.CreateManager - proxy factory buffer creater finish!!!
+[06-23 09:38:53 176 INFO ] [main] deploy.bytecode.CreateManager - dynamic load class:UserInfoServiceProxyStub1466645933137
+[06-23 09:38:53 177 INFO ] [main] deploy.bytecode.CreateManager - crate ProxyFactory instance!!!
+[06-23 09:38:53 178 INFO ] [main] server.bootstrap.Main - -------------------------end-------------------------
+
+[06-23 09:38:53 178 INFO ] [main] server.bootstrap.Main - -----------------loading init beans------------------
+[06-23 09:38:53 178 INFO ] [main] server.bootstrap.Main - load: org.spat.scf.server.contract.context.SerializerClassInit
+[06-23 09:38:53 190 INFO ] [main] contract.log.SystemPrintStream - Scan jar files begin!
+[06-23 09:38:53 192 INFO ] [main] contract.log.SystemPrintStream - scf.serializer.basepakage 
+[06-23 09:38:53 193 ERROR] [main] contract.log.SystemPrintStream - 开始扫描全部引用jar包，如果扫描过程过长请在启动vm参数中设置scf.serializer.basepakage或者设置scf.serializer.scantype=asyn使用异步模式扫描。
+[06-23 09:38:53 194 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/F:/我的项目/Framework/scf/plugin/maven-scf-plugin/target/classes/
+[06-23 09:38:53 199 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/F:/我的项目/Framework/scf/server/target/classes/
+[06-23 09:38:53 357 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/D:/Users/liu/.m2/repository/org/apache/logging/log4j/log4j-api/2.2/log4j-api-2.2.jar
+[06-23 09:38:53 405 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/D:/Users/liu/.m2/repository/org/apache/logging/log4j/log4j-core/2.2/log4j-core-2.2.jar
+[06-23 09:38:53 555 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/D:/Users/liu/.m2/repository/org/apache/logging/log4j/log4j-jcl/2.2/log4j-jcl-2.2.jar
+[06-23 09:38:53 557 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/D:/Users/liu/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar
+[06-23 09:38:53 568 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/D:/Users/liu/.m2/repository/antlr/antlrall/2.7.2/antlrall-2.7.2.jar
+[06-23 09:38:53 655 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/D:/Users/liu/.m2/repository/org/javassist/javassist/3.20.0-GA/javassist-3.20.0-GA.jar
+[06-23 09:38:53 798 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/D:/Users/liu/.m2/repository/org/jboss/netty/netty/3.1.5.GA/netty-3.1.5.GA.jar
+[06-23 09:38:53 894 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/D:/Users/liu/.m2/repository/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar
+[06-23 09:38:53 920 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/F:/我的项目/Framework/scf/protocol/target/classes/
+[06-23 09:38:53 938 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/F:/我的项目/Framework/scf/serializer/target/classes/
+[06-23 09:38:53 978 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/F:/我的项目/Framework/scf/utility/target/classes/
+[06-23 09:38:53 987 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/D:/Users/liu/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.8/jcl-over-slf4j-1.7.8.jar
+[06-23 09:38:53 990 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/D:/Users/liu/.m2/repository/org/slf4j/slf4j-api/1.7.8/slf4j-api-1.7.8.jar
+[06-23 09:38:53 996 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/D:/Users/liu/.m2/repository/org/apache/maven/maven-plugin-api/2.0/maven-plugin-api-2.0.jar
+[06-23 09:38:53 998 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\service\deploy\demo\lib\org.spat.scf.demo.contract-0.0.1-SNAPSHOT.jar
+[06-23 09:38:53 999 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\service\deploy\demo\org.spat.scf.demo.component-0.0.1-SNAPSHOT.jar
+[06-23 09:38:54 000 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\service\lib\jyaml-1.3.jar
+[06-23 09:38:54 013 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\service\lib\mysql-connector-java-5.1.6-bin.jar
+[06-23 09:38:54 270 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\service\lib\sqljdbc4-2.0.jar
+[06-23 09:38:54 502 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\lib\antlrall-2.7.2.jar
+[06-23 09:38:54 597 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\lib\gson-2.2.4.jar
+[06-23 09:38:54 627 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\lib\javassist-3.20.0-GA.jar
+[06-23 09:38:54 736 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\lib\jcl-over-slf4j-1.7.8.jar
+[06-23 09:38:54 739 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\lib\junit-4.8.jar
+[06-23 09:38:54 766 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\lib\log4j-api-2.2.jar
+[06-23 09:38:54 783 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\lib\log4j-core-2.2.jar
+[06-23 09:38:54 887 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\lib\log4j-jcl-2.2.jar
+[06-23 09:38:54 889 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\lib\log4j-slf4j-impl-2.2.jar
+[06-23 09:38:54 891 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\lib\netty-3.1.5.GA.jar
+[06-23 09:38:54 997 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\lib\org.spat.scf.protocol-3.0.0-SNAPSHOT.jar
+[06-23 09:38:55 004 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\lib\org.spat.scf.serializer-3.0.0-SNAPSHOT.jar
+[06-23 09:38:55 013 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\lib\org.spat.scf.server-3.0.0-SNAPSHOT.jar
+[06-23 09:38:55 053 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\lib\org.spat.utility-3.0.0-SNAPSHOT.jar
+[06-23 09:38:55 059 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\lib\slf4j-api-1.7.8.jar
+[06-23 09:38:55 064 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\lib\tools.jar
+[06-23 09:38:55 747 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.protocol.sdp.org.spat.scf.protocol.sdp.ExceptionProtocol
+[06-23 09:38:55 748 INFO ] [main] contract.log.SystemPrintStream - scf SCFSerializable entity :ExceptionProtocol  typeId :-1300746967
+[06-23 09:38:55 748 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.protocol.sdp.org.spat.scf.protocol.sdp.HandclaspProtocol
+[06-23 09:38:55 748 INFO ] [main] contract.log.SystemPrintStream - scf SCFSerializable entity :HandclaspProtocol  typeId :1081818008
+[06-23 09:38:55 749 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.protocol.sdp.org.spat.scf.protocol.sdp.RequestProtocol
+[06-23 09:38:55 749 INFO ] [main] contract.log.SystemPrintStream - scf SCFSerializable entity :RequestProtocol  typeId :435842043
+[06-23 09:38:55 749 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.protocol.sdp.org.spat.scf.protocol.sdp.ResetProtocol
+[06-23 09:38:55 750 INFO ] [main] contract.log.SystemPrintStream - scf SCFSerializable entity :ResetProtocol  typeId :1434913115
+[06-23 09:38:55 750 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.protocol.sdp.org.spat.scf.protocol.sdp.ResponseProtocol
+[06-23 09:38:55 750 INFO ] [main] contract.log.SystemPrintStream - scf SCFSerializable entity :ResponseProtocol  typeId :2100563169
+[06-23 09:38:55 750 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.protocol.utility.org.spat.scf.protocol.utility.KeyValuePair
+[06-23 09:38:55 751 INFO ] [main] contract.log.SystemPrintStream - scf SCFSerializable entity :RpParameter  typeId :-1074395865
+[06-23 09:38:55 751 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.serializer.annotation.org.spat.scf.serializer.annotation.SCFSerializable
+[06-23 09:38:55 751 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.serializer.component.org.spat.scf.serializer.component.ClassScaner
+[06-23 09:38:55 751 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.serializer.component.org.spat.scf.serializer.component.TypeMap
+[06-23 09:38:55 751 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.serializer.exception.org.spat.scf.serializer.exception.DisallowedSerializeException
+[06-23 09:38:55 752 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.serializer.serializer.org.spat.scf.serializer.serializer.ObjectSerializer
+[06-23 09:38:55 752 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.serializer.test.entity.org.spat.scf.serializer.test.entity.Enterprise
+[06-23 09:38:55 752 INFO ] [main] contract.log.SystemPrintStream - scf SCFSerializable entity :Enterprise  typeId :1414596097
+[06-23 09:38:55 752 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.serializer.test.entity.org.spat.scf.serializer.test.entity.SESUser
+[06-23 09:38:55 753 INFO ] [main] contract.log.SystemPrintStream - scf SCFSerializable entity :SESUser  typeId :-236864588
+[06-23 09:38:55 753 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.serializer.test.entity.org.spat.scf.serializer.test.entity.User
+[06-23 09:38:55 753 INFO ] [main] contract.log.SystemPrintStream - scf SCFSerializable entity :User  typeId :1448003977
+[06-23 09:38:55 754 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.serializer.test.serializer.org.spat.scf.serializer.test.serializer.enmReadState
+[06-23 09:38:55 755 INFO ] [main] contract.log.SystemPrintStream - scf SCFSerializable entity :enmReadState  typeId :1003118455
+[06-23 09:38:55 755 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.serializer.test.serializer.org.spat.scf.serializer.test.serializer.Info
+[06-23 09:38:55 755 INFO ] [main] contract.log.SystemPrintStream - scf SCFSerializable entity :Info  typeId :-1502853922
+[06-23 09:38:55 756 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.serializer.test.serializer.org.spat.scf.serializer.test.serializer.NewClass
+[06-23 09:38:55 756 INFO ] [main] contract.log.SystemPrintStream - scf SCFSerializable entity :NewClass  typeId :-1842514312
+[06-23 09:38:55 756 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.serializer.test.serializer.org.spat.scf.serializer.test.serializer.People
+[06-23 09:38:55 756 INFO ] [main] contract.log.SystemPrintStream - scf SCFSerializable entity :Serializer.People  typeId :1910941517
+[06-23 09:38:55 757 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.serializer.test.serializer.org.spat.scf.serializer.test.serializer.SimpleClass
+[06-23 09:38:55 757 INFO ] [main] contract.log.SystemPrintStream - scf SCFSerializable entity :SimpleClass  typeId :113266148
+[06-23 09:38:55 757 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.serializer.test.serializer.org.spat.scf.serializer.test.serializer.State
+[06-23 09:38:55 758 INFO ] [main] contract.log.SystemPrintStream - scf SCFSerializable entity :State  typeId :1695958603
+[06-23 09:38:55 758 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.serializer.test.serializer.org.spat.scf.serializer.test.serializer.SubClass
+[06-23 09:38:55 758 INFO ] [main] contract.log.SystemPrintStream - scf SCFSerializable entity :SubClass  typeId :-1817993264
+[06-23 09:38:55 759 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.demo.entity.org.spat.scf.demo.entity.UserInfo
+[06-23 09:38:55 759 INFO ] [main] contract.log.SystemPrintStream - scf SCFSerializable entity :org.spat.scf.demo.UserInfo  typeId :-1354448716
+[06-23 09:38:55 759 INFO ] [main] contract.log.SystemPrintStream - Scan jar files completed!
+[06-23 09:38:55 761 INFO ] [main] server.bootstrap.Main - -------------------------end-------------------------
+
+[06-23 09:38:55 762 INFO ] [main] server.bootstrap.Main - -----------loading global request filters------------
+[06-23 09:38:55 762 INFO ] [main] server.bootstrap.Main - load: org.spat.scf.server.filter.ProtocolParseFilter
+[06-23 09:38:55 763 INFO ] [main] server.bootstrap.Main - load: org.spat.scf.server.filter.HandclaspFilter
+[06-23 09:38:55 764 INFO ] [main] server.bootstrap.Main - load: org.spat.scf.server.filter.ExecuteMethodFilter
+[06-23 09:38:55 766 INFO ] [main] server.bootstrap.Main - -------------------------end-------------------------
+
+[06-23 09:38:55 766 INFO ] [main] server.bootstrap.Main - -----------loading global response filters-----------
+[06-23 09:38:55 766 INFO ] [main] server.bootstrap.Main - load: org.spat.scf.server.filter.ProtocolCreateFilter
+[06-23 09:38:55 781 INFO ] [main] server.bootstrap.Main - load: org.spat.scf.server.filter.ExecuteTimeFilter
+[06-23 09:38:55 786 INFO ] [main] server.bootstrap.Main - -------------------------end-------------------------
+
+[06-23 09:38:55 786 INFO ] [main] server.bootstrap.Main - -----------loading connection filters-----------
+[06-23 09:38:55 786 INFO ] [main] server.bootstrap.Main - load: org.spat.scf.server.filter.IPFilter
+[06-23 09:38:55 787 INFO ] [main] server.bootstrap.Main - -------------------------end-------------------------
+
+[06-23 09:38:55 787 INFO ] [main] server.bootstrap.Main - ------------------load secureKey start---------------------
+[06-23 09:38:55 788 INFO ] [main] server.bootstrap.Main - ------------------load secureKey end----------------------
+
+[06-23 09:38:55 788 INFO ] [main] server.bootstrap.Main - ------------------signal registr start---------------------
+[06-23 09:38:55 788 INFO ] [main] server.bootstrap.Main - ------------------signal registr success----------------------
+
+[06-23 09:38:55 788 INFO ] [main] server.bootstrap.Main - ------------------ starting servers -----------------
+[06-23 09:38:55 788 INFO ] [main] server.bootstrap.Main - scf.server.tcp is starting...
+[06-23 09:38:55 816 INFO ] [main] communication.tcp.SocketServer - loading invoker...
+[06-23 09:38:55 832 INFO ] [main] server.proxy.AsyncInvokerHandle - async worker steal:false
+[06-23 09:38:55 832 INFO ] [main] server.proxy.AsyncInvokerHandle - async worker limitSize:0
+[06-23 09:38:55 832 INFO ] [main] server.proxy.AsyncInvokerHandle - async worker mode:false
+[06-23 09:38:55 832 INFO ] [main] server.proxy.AsyncInvokerHandle - async worker count:64
+[06-23 09:38:55 833 INFO ] [main] communication.tcp.SocketServer - initing server...
+[06-23 09:38:55 833 INFO ] [main] communication.tcp.SocketServer - -- socket server config --
+[06-23 09:38:55 833 INFO ] [main] communication.tcp.SocketServer - -- listen ip: 0.0.0.0
+[06-23 09:38:55 833 INFO ] [main] communication.tcp.SocketServer - -- port: 10019
+[06-23 09:38:55 833 INFO ] [main] communication.tcp.SocketServer - -- tcpNoDelay: true
+[06-23 09:38:55 834 INFO ] [main] communication.tcp.SocketServer - -- receiveBufferSize: 65536
+[06-23 09:38:55 834 INFO ] [main] communication.tcp.SocketServer - -- sendBufferSize: 65536
+[06-23 09:38:55 834 INFO ] [main] communication.tcp.SocketServer - -- frameMaxLength: 524288
+[06-23 09:38:55 834 INFO ] [main] communication.tcp.SocketServer - -- worker thread count: 32
+[06-23 09:38:55 834 INFO ] [main] communication.tcp.SocketServer - --------------------------
+[06-23 09:38:55 835 INFO ] [main] communication.tcp.SocketServer - demo SocketServer starting...
+[06-23 09:38:55 900 INFO ] [main] server.bootstrap.Main - scf.server.tcpstarted success!!!
+
+[06-23 09:38:55 901 INFO ] [main] server.bootstrap.Main - scf.server.telnet is starting...
+[06-23 09:38:55 903 INFO ] [main] communication.telnet.TelnetServer - ----------------telnet server config------------------
+[06-23 09:38:55 903 INFO ] [main] communication.telnet.TelnetServer - -- telnet server listen ip: 0.0.0.0
+[06-23 09:38:55 903 INFO ] [main] communication.telnet.TelnetServer - -- telnet server port: 20019
+[06-23 09:38:55 903 INFO ] [main] communication.telnet.TelnetServer - ------------------------------------------------------
+[06-23 09:38:55 907 INFO ] [main] server.bootstrap.Main - scf.server.telnetstarted success!!!
+
+[06-23 09:38:55 907 INFO ] [main] server.bootstrap.Main - -------------------------end-------------------------
+
+[06-23 09:38:55 907 INFO ] [main] server.bootstrap.Main - ------------------init file monitor-----------------
+[06-23 09:38:55 909 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:d:\scfV3\bin\..\service\deploy\demo\lib\org.spat.scf.demo.contract-0.0.1-SNAPSHOT.jar
+[06-23 09:38:55 910 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:d:\scfV3\bin\..\service\deploy\demo\org.spat.scf.demo.component-0.0.1-SNAPSHOT.jar
+[06-23 09:38:55 911 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:d:\scfV3\bin\..\service\deploy\demo\scf_config.xml
+[06-23 09:38:55 911 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:d:\scfV3\bin\..\service\deploy\demo\scf_log4j.xml
+[06-23 09:38:55 913 INFO ] [main] server.bootstrap.Main - -------------------------end-------------------------
+
+[06-23 09:38:55 914 INFO ] [main] server.bootstrap.Main - +++++++++++++++++++++ server start success!!! +++++++++++++++++++++
+
+[06-23 10:06:17 495 INFO ] [main] server.bootstrap.Main - +++++++++++++++++++++ staring +++++++++++++++++++++
+
+[06-23 10:06:17 498 INFO ] [main] server.bootstrap.Main - user.dir: d:/scfV3/bin
+[06-23 10:06:17 498 INFO ] [main] server.bootstrap.Main - rootPath: d:/scfV3/bin/../
+[06-23 10:06:17 498 INFO ] [main] server.bootstrap.Main - service scf_config.xml: d:/scfV3/bin/../service/deploy/demo/scf_config.xml
+[06-23 10:06:17 499 INFO ] [main] server.bootstrap.Main - default scf_config.xml: d:/scfV3/bin/../conf/scf_config.xml
+[06-23 10:06:17 499 INFO ] [main] server.bootstrap.Main - service scf_log4j.xml: d:/scfV3/bin/../service/deploy/demo/scf_log4j.xml
+[06-23 10:06:17 500 INFO ] [main] server.bootstrap.Main - default scf_log4j.xml: d:/scfV3/bin/../conf/scf_log4j.xml
+[06-23 10:06:17 500 INFO ] [main] server.bootstrap.Main - load service config...
+[06-23 10:06:17 500 INFO ] [main] server.bootstrap.Main - scf.service.name: demo
+[06-23 10:06:17 501 INFO ] [main] server.bootstrap.Main - -----------------loading global jars------------------
+[06-23 10:06:17 507 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\service\deploy\demo\lib\org.spat.scf.demo.contract-0.0.1-SNAPSHOT.jar
+[06-23 10:06:17 508 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\service\deploy\demo\org.spat.scf.demo.component-0.0.1-SNAPSHOT.jar
+[06-23 10:06:17 508 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\service\lib\jyaml-1.3.jar
+[06-23 10:06:17 508 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\service\lib\mysql-connector-java-5.1.6-bin.jar
+[06-23 10:06:17 509 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\service\lib\sqljdbc4-2.0.jar
+[06-23 10:06:17 509 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\antlrall-2.7.2.jar
+[06-23 10:06:17 509 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\gson-2.2.4.jar
+[06-23 10:06:17 510 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\javassist-3.20.0-GA.jar
+[06-23 10:06:17 510 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\jcl-over-slf4j-1.7.8.jar
+[06-23 10:06:17 510 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\junit-4.8.jar
+[06-23 10:06:17 510 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\log4j-api-2.2.jar
+[06-23 10:06:17 511 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\log4j-core-2.2.jar
+[06-23 10:06:17 511 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\log4j-jcl-2.2.jar
+[06-23 10:06:17 511 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\log4j-slf4j-impl-2.2.jar
+[06-23 10:06:17 512 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\netty-3.1.5.GA.jar
+[06-23 10:06:17 512 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\org.spat.scf.protocol-3.0.0-SNAPSHOT.jar
+[06-23 10:06:17 512 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\org.spat.scf.serializer-3.0.0-SNAPSHOT.jar
+[06-23 10:06:17 513 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\org.spat.scf.server-3.0.0-SNAPSHOT.jar
+[06-23 10:06:17 513 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\org.spat.utility-3.0.0-SNAPSHOT.jar
+[06-23 10:06:17 513 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\slf4j-api-1.7.8.jar
+[06-23 10:06:17 513 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\tools.jar
+[06-23 10:06:17 516 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\service\deploy\demo\lib\org.spat.scf.demo.contract-0.0.1-SNAPSHOT.jar
+[06-23 10:06:17 517 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\service\deploy\demo\org.spat.scf.demo.component-0.0.1-SNAPSHOT.jar
+[06-23 10:06:17 517 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\service\lib\jyaml-1.3.jar
+[06-23 10:06:17 517 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\service\lib\mysql-connector-java-5.1.6-bin.jar
+[06-23 10:06:17 518 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\service\lib\sqljdbc4-2.0.jar
+[06-23 10:06:17 518 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\antlrall-2.7.2.jar
+[06-23 10:06:17 518 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\gson-2.2.4.jar
+[06-23 10:06:17 519 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\javassist-3.20.0-GA.jar
+[06-23 10:06:17 519 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\jcl-over-slf4j-1.7.8.jar
+[06-23 10:06:17 519 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\junit-4.8.jar
+[06-23 10:06:17 520 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\log4j-api-2.2.jar
+[06-23 10:06:17 520 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\log4j-core-2.2.jar
+[06-23 10:06:17 521 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\log4j-jcl-2.2.jar
+[06-23 10:06:17 521 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\log4j-slf4j-impl-2.2.jar
+[06-23 10:06:17 521 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\netty-3.1.5.GA.jar
+[06-23 10:06:17 522 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\org.spat.scf.protocol-3.0.0-SNAPSHOT.jar
+[06-23 10:06:17 523 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\org.spat.scf.serializer-3.0.0-SNAPSHOT.jar
+[06-23 10:06:17 523 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\org.spat.scf.server-3.0.0-SNAPSHOT.jar
+[06-23 10:06:17 524 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\org.spat.utility-3.0.0-SNAPSHOT.jar
+[06-23 10:06:17 524 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\slf4j-api-1.7.8.jar
+[06-23 10:06:17 524 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\tools.jar
+[06-23 10:06:17 525 INFO ] [main] server.bootstrap.Main - -------------------------end-------------------------
+
+[06-23 10:06:17 525 INFO ] [main] server.bootstrap.Main - --------------------loading proxys-------------------
+[06-23 10:06:17 528 INFO ] [main] deploy.bytecode.ScanClass - begin scan jar from path:d:/scfV3/bin/../service/deploy/demo/
+[06-23 10:06:17 646 INFO ] [main] deploy.bytecode.ScanClass - finish scan jar
+[06-23 10:06:17 650 INFO ] [main] deploy.bytecode.ProxyClassCreater - loading dynamic proxy ...
+[06-23 10:06:17 650 INFO ] [main] deploy.bytecode.ProxyClassCreater - loading => UserInfoServiceProxyStub1466647577647
+[06-23 10:06:17 651 INFO ] [main] deploy.bytecode.ProxyClassCreater - class name:org.spat.scf.demo.component.UserInfoService
+[06-23 10:06:17 816 INFO ] [main] deploy.bytecode.ProxyClassCreater - load dynamic proxy success!!!
+[06-23 10:06:17 817 INFO ] [main] deploy.bytecode.CreateManager - proxy class buffer creater finish!!!
+[06-23 10:06:17 818 INFO ] [main] deploy.bytecode.ProxyFactoryCreater - begin create ProxyFactory:ProxyFactory1466647577647
+[06-23 10:06:17 824 INFO ] [main] deploy.bytecode.ProxyFactoryCreater - create ProxyFactory success!!!
+[06-23 10:06:17 827 INFO ] [main] deploy.bytecode.CreateManager - proxy factory buffer creater finish!!!
+[06-23 10:06:17 828 INFO ] [main] deploy.bytecode.CreateManager - dynamic load class:UserInfoServiceProxyStub1466647577647
+[06-23 10:06:17 829 INFO ] [main] deploy.bytecode.CreateManager - crate ProxyFactory instance!!!
+[06-23 10:06:17 830 INFO ] [main] deploy.bytecode.ProxyClassCreater - loading dynamic proxy ...
+[06-23 10:06:17 830 INFO ] [main] deploy.bytecode.ProxyClassCreater - loading => UserInfoServiceProxyStub1466647577830
+[06-23 10:06:17 830 INFO ] [main] deploy.bytecode.ProxyClassCreater - class name:org.spat.scf.demo.component.UserInfoService
+[06-23 10:06:17 872 INFO ] [main] deploy.bytecode.ProxyClassCreater - load dynamic proxy success!!!
+[06-23 10:06:17 873 INFO ] [main] deploy.bytecode.CreateManager - proxy class buffer creater finish!!!
+[06-23 10:06:17 873 INFO ] [main] deploy.bytecode.ProxyFactoryCreater - begin create ProxyFactory:ProxyFactory1466647577830
+[06-23 10:06:17 881 INFO ] [main] deploy.bytecode.ProxyFactoryCreater - create ProxyFactory success!!!
+[06-23 10:06:17 883 INFO ] [main] deploy.bytecode.CreateManager - proxy factory buffer creater finish!!!
+[06-23 10:06:17 883 INFO ] [main] deploy.bytecode.CreateManager - dynamic load class:UserInfoServiceProxyStub1466647577830
+[06-23 10:06:17 884 INFO ] [main] deploy.bytecode.CreateManager - crate ProxyFactory instance!!!
+[06-23 10:06:17 885 INFO ] [main] server.bootstrap.Main - -------------------------end-------------------------
+
+[06-23 10:06:17 885 INFO ] [main] server.bootstrap.Main - -----------------loading init beans------------------
+[06-23 10:06:17 886 INFO ] [main] server.bootstrap.Main - load: org.spat.scf.server.contract.context.SerializerClassInit
+[06-23 10:06:17 898 INFO ] [main] contract.log.SystemPrintStream - Scan jar files begin!
+[06-23 10:06:17 900 INFO ] [main] contract.log.SystemPrintStream - scf.serializer.basepakage 
+[06-23 10:06:17 901 ERROR] [main] contract.log.SystemPrintStream - 开始扫描全部引用jar包，如果扫描过程过长请在启动vm参数中设置scf.serializer.basepakage或者设置scf.serializer.scantype=asyn使用异步模式扫描。
+[06-23 10:06:17 903 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/F:/我的项目/Framework/scf/plugin/maven-scf-plugin/target/classes/
+[06-23 10:06:17 910 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/F:/我的项目/Framework/scf/server/target/classes/
+[06-23 10:06:18 060 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/D:/Users/liu/.m2/repository/org/apache/logging/log4j/log4j-api/2.2/log4j-api-2.2.jar
+[06-23 10:06:18 108 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/D:/Users/liu/.m2/repository/org/apache/logging/log4j/log4j-core/2.2/log4j-core-2.2.jar
+[06-23 10:06:18 255 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/D:/Users/liu/.m2/repository/org/apache/logging/log4j/log4j-jcl/2.2/log4j-jcl-2.2.jar
+[06-23 10:06:18 256 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/D:/Users/liu/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar
+[06-23 10:06:18 266 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/D:/Users/liu/.m2/repository/antlr/antlrall/2.7.2/antlrall-2.7.2.jar
+[06-23 10:06:18 357 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/D:/Users/liu/.m2/repository/org/javassist/javassist/3.20.0-GA/javassist-3.20.0-GA.jar
+[06-23 10:06:18 484 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/D:/Users/liu/.m2/repository/org/jboss/netty/netty/3.1.5.GA/netty-3.1.5.GA.jar
+[06-23 10:06:18 577 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/D:/Users/liu/.m2/repository/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar
+[06-23 10:06:18 607 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/F:/我的项目/Framework/scf/protocol/target/classes/
+[06-23 10:06:18 625 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/F:/我的项目/Framework/scf/serializer/target/classes/
+[06-23 10:06:18 658 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/F:/我的项目/Framework/scf/utility/target/classes/
+[06-23 10:06:18 668 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/D:/Users/liu/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.8/jcl-over-slf4j-1.7.8.jar
+[06-23 10:06:18 670 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/D:/Users/liu/.m2/repository/org/slf4j/slf4j-api/1.7.8/slf4j-api-1.7.8.jar
+[06-23 10:06:18 677 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/D:/Users/liu/.m2/repository/org/apache/maven/maven-plugin-api/2.0/maven-plugin-api-2.0.jar
+[06-23 10:06:18 679 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\service\deploy\demo\lib\org.spat.scf.demo.contract-0.0.1-SNAPSHOT.jar
+[06-23 10:06:18 680 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\service\deploy\demo\org.spat.scf.demo.component-0.0.1-SNAPSHOT.jar
+[06-23 10:06:18 681 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\service\lib\jyaml-1.3.jar
+[06-23 10:06:18 696 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\service\lib\mysql-connector-java-5.1.6-bin.jar
+[06-23 10:06:18 952 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\service\lib\sqljdbc4-2.0.jar
+[06-23 10:06:19 184 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\lib\antlrall-2.7.2.jar
+[06-23 10:06:19 266 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\lib\gson-2.2.4.jar
+[06-23 10:06:19 294 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\lib\javassist-3.20.0-GA.jar
+[06-23 10:06:19 407 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\lib\jcl-over-slf4j-1.7.8.jar
+[06-23 10:06:19 410 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\lib\junit-4.8.jar
+[06-23 10:06:19 454 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\lib\log4j-api-2.2.jar
+[06-23 10:06:19 472 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\lib\log4j-core-2.2.jar
+[06-23 10:06:19 566 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\lib\log4j-jcl-2.2.jar
+[06-23 10:06:19 567 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\lib\log4j-slf4j-impl-2.2.jar
+[06-23 10:06:19 570 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\lib\netty-3.1.5.GA.jar
+[06-23 10:06:19 654 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\lib\org.spat.scf.protocol-3.0.0-SNAPSHOT.jar
+[06-23 10:06:19 661 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\lib\org.spat.scf.serializer-3.0.0-SNAPSHOT.jar
+[06-23 10:06:19 670 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\lib\org.spat.scf.server-3.0.0-SNAPSHOT.jar
+[06-23 10:06:19 703 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\lib\org.spat.utility-3.0.0-SNAPSHOT.jar
+[06-23 10:06:19 709 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\lib\slf4j-api-1.7.8.jar
+[06-23 10:06:19 714 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\lib\tools.jar
+[06-23 10:06:20 496 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.protocol.sdp.org.spat.scf.protocol.sdp.ExceptionProtocol
+[06-23 10:06:20 496 INFO ] [main] contract.log.SystemPrintStream - scf SCFSerializable entity :ExceptionProtocol  typeId :-1300746967
+[06-23 10:06:20 496 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.protocol.sdp.org.spat.scf.protocol.sdp.HandclaspProtocol
+[06-23 10:06:20 497 INFO ] [main] contract.log.SystemPrintStream - scf SCFSerializable entity :HandclaspProtocol  typeId :1081818008
+[06-23 10:06:20 497 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.protocol.sdp.org.spat.scf.protocol.sdp.RequestProtocol
+[06-23 10:06:20 497 INFO ] [main] contract.log.SystemPrintStream - scf SCFSerializable entity :RequestProtocol  typeId :435842043
+[06-23 10:06:20 498 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.protocol.sdp.org.spat.scf.protocol.sdp.ResetProtocol
+[06-23 10:06:20 498 INFO ] [main] contract.log.SystemPrintStream - scf SCFSerializable entity :ResetProtocol  typeId :1434913115
+[06-23 10:06:20 498 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.protocol.sdp.org.spat.scf.protocol.sdp.ResponseProtocol
+[06-23 10:06:20 499 INFO ] [main] contract.log.SystemPrintStream - scf SCFSerializable entity :ResponseProtocol  typeId :2100563169
+[06-23 10:06:20 499 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.protocol.utility.org.spat.scf.protocol.utility.KeyValuePair
+[06-23 10:06:20 499 INFO ] [main] contract.log.SystemPrintStream - scf SCFSerializable entity :RpParameter  typeId :-1074395865
+[06-23 10:06:20 499 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.serializer.annotation.org.spat.scf.serializer.annotation.SCFSerializable
+[06-23 10:06:20 499 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.serializer.component.org.spat.scf.serializer.component.ClassScaner
+[06-23 10:06:20 500 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.serializer.component.org.spat.scf.serializer.component.TypeMap
+[06-23 10:06:20 500 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.serializer.exception.org.spat.scf.serializer.exception.DisallowedSerializeException
+[06-23 10:06:20 500 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.serializer.serializer.org.spat.scf.serializer.serializer.ObjectSerializer
+[06-23 10:06:20 500 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.serializer.test.entity.org.spat.scf.serializer.test.entity.Enterprise
+[06-23 10:06:20 501 INFO ] [main] contract.log.SystemPrintStream - scf SCFSerializable entity :Enterprise  typeId :1414596097
+[06-23 10:06:20 501 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.serializer.test.entity.org.spat.scf.serializer.test.entity.SESUser
+[06-23 10:06:20 501 INFO ] [main] contract.log.SystemPrintStream - scf SCFSerializable entity :SESUser  typeId :-236864588
+[06-23 10:06:20 501 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.serializer.test.entity.org.spat.scf.serializer.test.entity.User
+[06-23 10:06:20 502 INFO ] [main] contract.log.SystemPrintStream - scf SCFSerializable entity :User  typeId :1448003977
+[06-23 10:06:20 502 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.serializer.test.serializer.org.spat.scf.serializer.test.serializer.enmReadState
+[06-23 10:06:20 502 INFO ] [main] contract.log.SystemPrintStream - scf SCFSerializable entity :enmReadState  typeId :1003118455
+[06-23 10:06:20 502 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.serializer.test.serializer.org.spat.scf.serializer.test.serializer.Info
+[06-23 10:06:20 503 INFO ] [main] contract.log.SystemPrintStream - scf SCFSerializable entity :Info  typeId :-1502853922
+[06-23 10:06:20 503 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.serializer.test.serializer.org.spat.scf.serializer.test.serializer.NewClass
+[06-23 10:06:20 503 INFO ] [main] contract.log.SystemPrintStream - scf SCFSerializable entity :NewClass  typeId :-1842514312
+[06-23 10:06:20 504 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.serializer.test.serializer.org.spat.scf.serializer.test.serializer.People
+[06-23 10:06:20 504 INFO ] [main] contract.log.SystemPrintStream - scf SCFSerializable entity :Serializer.People  typeId :1910941517
+[06-23 10:06:20 504 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.serializer.test.serializer.org.spat.scf.serializer.test.serializer.SimpleClass
+[06-23 10:06:20 504 INFO ] [main] contract.log.SystemPrintStream - scf SCFSerializable entity :SimpleClass  typeId :113266148
+[06-23 10:06:20 505 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.serializer.test.serializer.org.spat.scf.serializer.test.serializer.State
+[06-23 10:06:20 505 INFO ] [main] contract.log.SystemPrintStream - scf SCFSerializable entity :State  typeId :1695958603
+[06-23 10:06:20 506 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.serializer.test.serializer.org.spat.scf.serializer.test.serializer.SubClass
+[06-23 10:06:20 506 INFO ] [main] contract.log.SystemPrintStream - scf SCFSerializable entity :SubClass  typeId :-1817993264
+[06-23 10:06:20 506 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.demo.entity.org.spat.scf.demo.entity.UserInfo
+[06-23 10:06:20 506 INFO ] [main] contract.log.SystemPrintStream - scf SCFSerializable entity :org.spat.scf.demo.UserInfo  typeId :-1354448716
+[06-23 10:06:20 506 INFO ] [main] contract.log.SystemPrintStream - Scan jar files completed!
+[06-23 10:06:20 508 INFO ] [main] server.bootstrap.Main - -------------------------end-------------------------
+
+[06-23 10:06:20 508 INFO ] [main] server.bootstrap.Main - -----------loading global request filters------------
+[06-23 10:06:20 508 INFO ] [main] server.bootstrap.Main - load: org.spat.scf.server.filter.ProtocolParseFilter
+[06-23 10:06:20 509 INFO ] [main] server.bootstrap.Main - load: org.spat.scf.server.filter.HandclaspFilter
+[06-23 10:06:20 511 INFO ] [main] server.bootstrap.Main - load: org.spat.scf.server.filter.ExecuteMethodFilter
+[06-23 10:06:20 512 INFO ] [main] server.bootstrap.Main - -------------------------end-------------------------
+
+[06-23 10:06:20 512 INFO ] [main] server.bootstrap.Main - -----------loading global response filters-----------
+[06-23 10:06:20 512 INFO ] [main] server.bootstrap.Main - load: org.spat.scf.server.filter.ProtocolCreateFilter
+[06-23 10:06:20 529 INFO ] [main] server.bootstrap.Main - load: org.spat.scf.server.filter.ExecuteTimeFilter
+[06-23 10:06:20 533 INFO ] [main] server.bootstrap.Main - -------------------------end-------------------------
+
+[06-23 10:06:20 534 INFO ] [main] server.bootstrap.Main - -----------loading connection filters-----------
+[06-23 10:06:20 534 INFO ] [main] server.bootstrap.Main - load: org.spat.scf.server.filter.IPFilter
+[06-23 10:06:20 535 INFO ] [main] server.bootstrap.Main - -------------------------end-------------------------
+
+[06-23 10:06:20 535 INFO ] [main] server.bootstrap.Main - ------------------load secureKey start---------------------
+[06-23 10:06:20 535 INFO ] [main] server.bootstrap.Main - ------------------load secureKey end----------------------
+
+[06-23 10:06:20 535 INFO ] [main] server.bootstrap.Main - ------------------signal registr start---------------------
+[06-23 10:06:20 536 INFO ] [main] server.bootstrap.Main - ------------------signal registr success----------------------
+
+[06-23 10:06:20 536 INFO ] [main] server.bootstrap.Main - ------------------ starting servers -----------------
+[06-23 10:06:20 536 INFO ] [main] server.bootstrap.Main - scf.server.tcp is starting...
+[06-23 10:06:20 564 INFO ] [main] communication.tcp.SocketServer - loading invoker...
+[06-23 10:06:20 581 INFO ] [main] server.proxy.AsyncInvokerHandle - async worker steal:false
+[06-23 10:06:20 581 INFO ] [main] server.proxy.AsyncInvokerHandle - async worker limitSize:0
+[06-23 10:06:20 581 INFO ] [main] server.proxy.AsyncInvokerHandle - async worker mode:false
+[06-23 10:06:20 582 INFO ] [main] server.proxy.AsyncInvokerHandle - async worker count:64
+[06-23 10:06:20 582 INFO ] [main] communication.tcp.SocketServer - initing server...
+[06-23 10:06:20 582 INFO ] [main] communication.tcp.SocketServer - -- socket server config --
+[06-23 10:06:20 582 INFO ] [main] communication.tcp.SocketServer - -- listen ip: 0.0.0.0
+[06-23 10:06:20 582 INFO ] [main] communication.tcp.SocketServer - -- port: 10019
+[06-23 10:06:20 583 INFO ] [main] communication.tcp.SocketServer - -- tcpNoDelay: true
+[06-23 10:06:20 583 INFO ] [main] communication.tcp.SocketServer - -- receiveBufferSize: 65536
+[06-23 10:06:20 583 INFO ] [main] communication.tcp.SocketServer - -- sendBufferSize: 65536
+[06-23 10:06:20 583 INFO ] [main] communication.tcp.SocketServer - -- frameMaxLength: 524288
+[06-23 10:06:20 583 INFO ] [main] communication.tcp.SocketServer - -- worker thread count: 32
+[06-23 10:06:20 584 INFO ] [main] communication.tcp.SocketServer - --------------------------
+[06-23 10:06:20 584 INFO ] [main] communication.tcp.SocketServer - demo SocketServer starting...
+[06-23 10:06:20 650 INFO ] [main] server.bootstrap.Main - scf.server.tcpstarted success!!!
+
+[06-23 10:06:20 651 INFO ] [main] server.bootstrap.Main - scf.server.telnet is starting...
+[06-23 10:06:20 652 INFO ] [main] communication.telnet.TelnetServer - ----------------telnet server config------------------
+[06-23 10:06:20 653 INFO ] [main] communication.telnet.TelnetServer - -- telnet server listen ip: 0.0.0.0
+[06-23 10:06:20 653 INFO ] [main] communication.telnet.TelnetServer - -- telnet server port: 20019
+[06-23 10:06:20 653 INFO ] [main] communication.telnet.TelnetServer - ------------------------------------------------------
+[06-23 10:06:20 656 INFO ] [main] server.bootstrap.Main - scf.server.telnetstarted success!!!
+
+[06-23 10:06:20 656 INFO ] [main] server.bootstrap.Main - -------------------------end-------------------------
+
+[06-23 10:06:20 657 INFO ] [main] server.bootstrap.Main - ------------------init file monitor-----------------
+[06-23 10:06:20 659 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:d:\scfV3\bin\..\service\deploy\demo\lib\org.spat.scf.demo.contract-0.0.1-SNAPSHOT.jar
+[06-23 10:06:20 660 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:d:\scfV3\bin\..\service\deploy\demo\org.spat.scf.demo.component-0.0.1-SNAPSHOT.jar
+[06-23 10:06:20 660 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:d:\scfV3\bin\..\service\deploy\demo\scf_config.xml
+[06-23 10:06:20 661 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:d:\scfV3\bin\..\service\deploy\demo\scf_log4j.xml
+[06-23 10:06:20 663 INFO ] [main] server.bootstrap.Main - -------------------------end-------------------------
+
+[06-23 10:06:20 664 INFO ] [main] server.bootstrap.Main - +++++++++++++++++++++ server start success!!! +++++++++++++++++++++
+
+[06-23 10:06:28 636 INFO ] [main] server.bootstrap.Main - +++++++++++++++++++++ staring +++++++++++++++++++++
+
+[06-23 10:06:28 639 INFO ] [main] server.bootstrap.Main - user.dir: d:/scfV3/bin
+[06-23 10:06:28 640 INFO ] [main] server.bootstrap.Main - rootPath: d:/scfV3/bin/../
+[06-23 10:06:28 640 INFO ] [main] server.bootstrap.Main - service scf_config.xml: d:/scfV3/bin/../service/deploy/demo/scf_config.xml
+[06-23 10:06:28 641 INFO ] [main] server.bootstrap.Main - default scf_config.xml: d:/scfV3/bin/../conf/scf_config.xml
+[06-23 10:06:28 641 INFO ] [main] server.bootstrap.Main - service scf_log4j.xml: d:/scfV3/bin/../service/deploy/demo/scf_log4j.xml
+[06-23 10:06:28 641 INFO ] [main] server.bootstrap.Main - default scf_log4j.xml: d:/scfV3/bin/../conf/scf_log4j.xml
+[06-23 10:06:28 642 INFO ] [main] server.bootstrap.Main - load service config...
+[06-23 10:06:28 642 INFO ] [main] server.bootstrap.Main - scf.service.name: demo
+[06-23 10:06:28 643 INFO ] [main] server.bootstrap.Main - -----------------loading global jars------------------
+[06-23 10:06:28 651 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\service\deploy\demo\lib\org.spat.scf.demo.contract-0.0.1-SNAPSHOT.jar
+[06-23 10:06:28 652 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\service\deploy\demo\org.spat.scf.demo.component-0.0.1-SNAPSHOT.jar
+[06-23 10:06:28 653 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\service\lib\jyaml-1.3.jar
+[06-23 10:06:28 653 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\service\lib\mysql-connector-java-5.1.6-bin.jar
+[06-23 10:06:28 654 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\service\lib\sqljdbc4-2.0.jar
+[06-23 10:06:28 654 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\antlrall-2.7.2.jar
+[06-23 10:06:28 655 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\gson-2.2.4.jar
+[06-23 10:06:28 655 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\javassist-3.20.0-GA.jar
+[06-23 10:06:28 655 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\jcl-over-slf4j-1.7.8.jar
+[06-23 10:06:28 656 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\junit-4.8.jar
+[06-23 10:06:28 656 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\log4j-api-2.2.jar
+[06-23 10:06:28 656 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\log4j-core-2.2.jar
+[06-23 10:06:28 656 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\log4j-jcl-2.2.jar
+[06-23 10:06:28 657 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\log4j-slf4j-impl-2.2.jar
+[06-23 10:06:28 657 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\netty-3.1.5.GA.jar
+[06-23 10:06:28 657 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\org.spat.scf.protocol-3.0.0-SNAPSHOT.jar
+[06-23 10:06:28 657 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\org.spat.scf.serializer-3.0.0-SNAPSHOT.jar
+[06-23 10:06:28 658 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\org.spat.scf.server-3.0.0-SNAPSHOT.jar
+[06-23 10:06:28 658 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\org.spat.utility-3.0.0-SNAPSHOT.jar
+[06-23 10:06:28 659 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\slf4j-api-1.7.8.jar
+[06-23 10:06:28 659 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\tools.jar
+[06-23 10:06:28 664 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\service\deploy\demo\lib\org.spat.scf.demo.contract-0.0.1-SNAPSHOT.jar
+[06-23 10:06:28 664 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\service\deploy\demo\org.spat.scf.demo.component-0.0.1-SNAPSHOT.jar
+[06-23 10:06:28 665 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\service\lib\jyaml-1.3.jar
+[06-23 10:06:28 665 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\service\lib\mysql-connector-java-5.1.6-bin.jar
+[06-23 10:06:28 666 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\service\lib\sqljdbc4-2.0.jar
+[06-23 10:06:28 666 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\antlrall-2.7.2.jar
+[06-23 10:06:28 667 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\gson-2.2.4.jar
+[06-23 10:06:28 668 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\javassist-3.20.0-GA.jar
+[06-23 10:06:28 668 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\jcl-over-slf4j-1.7.8.jar
+[06-23 10:06:28 669 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\junit-4.8.jar
+[06-23 10:06:28 669 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\log4j-api-2.2.jar
+[06-23 10:06:28 669 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\log4j-core-2.2.jar
+[06-23 10:06:28 670 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\log4j-jcl-2.2.jar
+[06-23 10:06:28 670 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\log4j-slf4j-impl-2.2.jar
+[06-23 10:06:28 671 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\netty-3.1.5.GA.jar
+[06-23 10:06:28 672 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\org.spat.scf.protocol-3.0.0-SNAPSHOT.jar
+[06-23 10:06:28 673 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\org.spat.scf.serializer-3.0.0-SNAPSHOT.jar
+[06-23 10:06:28 674 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\org.spat.scf.server-3.0.0-SNAPSHOT.jar
+[06-23 10:06:28 675 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\org.spat.utility-3.0.0-SNAPSHOT.jar
+[06-23 10:06:28 675 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\slf4j-api-1.7.8.jar
+[06-23 10:06:28 675 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\tools.jar
+[06-23 10:06:28 676 INFO ] [main] server.bootstrap.Main - -------------------------end-------------------------
+
+[06-23 10:06:28 676 INFO ] [main] server.bootstrap.Main - --------------------loading proxys-------------------
+[06-23 10:06:28 685 INFO ] [main] deploy.bytecode.ScanClass - begin scan jar from path:d:/scfV3/bin/../service/deploy/demo/
+[06-23 10:06:34 570 INFO ] [main] deploy.bytecode.ScanClass - finish scan jar
+[06-23 10:06:34 573 INFO ] [main] deploy.bytecode.ProxyClassCreater - loading dynamic proxy ...
+[06-23 10:06:34 573 INFO ] [main] deploy.bytecode.ProxyClassCreater - loading => UserInfoServiceProxyStub1466647594570
+[06-23 10:06:34 574 INFO ] [main] deploy.bytecode.ProxyClassCreater - class name:org.spat.scf.demo.component.UserInfoService
+[06-23 10:06:34 743 INFO ] [main] deploy.bytecode.ProxyClassCreater - load dynamic proxy success!!!
+[06-23 10:06:34 744 INFO ] [main] deploy.bytecode.CreateManager - proxy class buffer creater finish!!!
+[06-23 10:06:34 745 INFO ] [main] deploy.bytecode.ProxyFactoryCreater - begin create ProxyFactory:ProxyFactory1466647594570
+[06-23 10:06:34 752 INFO ] [main] deploy.bytecode.ProxyFactoryCreater - create ProxyFactory success!!!
+[06-23 10:06:34 756 INFO ] [main] deploy.bytecode.CreateManager - proxy factory buffer creater finish!!!
+[06-23 10:06:34 758 INFO ] [main] deploy.bytecode.CreateManager - dynamic load class:UserInfoServiceProxyStub1466647594570
+[06-23 10:06:34 759 INFO ] [main] deploy.bytecode.CreateManager - crate ProxyFactory instance!!!
+[06-23 10:06:34 760 INFO ] [main] deploy.bytecode.ProxyClassCreater - loading dynamic proxy ...
+[06-23 10:06:34 760 INFO ] [main] deploy.bytecode.ProxyClassCreater - loading => UserInfoServiceProxyStub1466647594759
+[06-23 10:06:34 760 INFO ] [main] deploy.bytecode.ProxyClassCreater - class name:org.spat.scf.demo.component.UserInfoService
+[06-23 10:06:34 803 INFO ] [main] deploy.bytecode.ProxyClassCreater - load dynamic proxy success!!!
+[06-23 10:06:34 804 INFO ] [main] deploy.bytecode.CreateManager - proxy class buffer creater finish!!!
+[06-23 10:06:34 804 INFO ] [main] deploy.bytecode.ProxyFactoryCreater - begin create ProxyFactory:ProxyFactory1466647594759
+[06-23 10:06:34 813 INFO ] [main] deploy.bytecode.ProxyFactoryCreater - create ProxyFactory success!!!
+[06-23 10:06:34 815 INFO ] [main] deploy.bytecode.CreateManager - proxy factory buffer creater finish!!!
+[06-23 10:06:34 815 INFO ] [main] deploy.bytecode.CreateManager - dynamic load class:UserInfoServiceProxyStub1466647594759
+[06-23 10:06:34 817 INFO ] [main] deploy.bytecode.CreateManager - crate ProxyFactory instance!!!
+[06-23 10:06:34 817 INFO ] [main] server.bootstrap.Main - -------------------------end-------------------------
+
+[06-23 10:06:34 817 INFO ] [main] server.bootstrap.Main - -----------------loading init beans------------------
+[06-23 10:06:34 818 INFO ] [main] server.bootstrap.Main - load: org.spat.scf.server.contract.context.SerializerClassInit
+[06-23 10:06:34 828 INFO ] [main] contract.log.SystemPrintStream - Scan jar files begin!
+[06-23 10:06:34 836 INFO ] [main] contract.log.SystemPrintStream - scf.serializer.basepakage 
+[06-23 10:06:34 838 ERROR] [main] contract.log.SystemPrintStream - 开始扫描全部引用jar包，如果扫描过程过长请在启动vm参数中设置scf.serializer.basepakage或者设置scf.serializer.scantype=asyn使用异步模式扫描。
+[06-23 10:07:08 942 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/F:/我的项目/Framework/scf/plugin/maven-scf-plugin/target/classes/
+[06-23 10:07:08 966 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/F:/我的项目/Framework/scf/server/target/classes/
+[06-23 10:07:09 191 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/D:/Users/liu/.m2/repository/org/apache/logging/log4j/log4j-api/2.2/log4j-api-2.2.jar
+[06-23 10:07:09 215 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/D:/Users/liu/.m2/repository/org/apache/logging/log4j/log4j-core/2.2/log4j-core-2.2.jar
+[06-23 10:07:09 386 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/D:/Users/liu/.m2/repository/org/apache/logging/log4j/log4j-jcl/2.2/log4j-jcl-2.2.jar
+[06-23 10:07:09 388 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/D:/Users/liu/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar
+[06-23 10:07:09 398 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/D:/Users/liu/.m2/repository/antlr/antlrall/2.7.2/antlrall-2.7.2.jar
+[06-23 10:07:09 488 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/D:/Users/liu/.m2/repository/org/javassist/javassist/3.20.0-GA/javassist-3.20.0-GA.jar
+[06-23 10:07:09 609 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/D:/Users/liu/.m2/repository/org/jboss/netty/netty/3.1.5.GA/netty-3.1.5.GA.jar
+[06-23 10:07:09 716 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/D:/Users/liu/.m2/repository/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar
+[06-23 10:07:09 764 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/F:/我的项目/Framework/scf/protocol/target/classes/
+[06-23 10:07:09 791 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/F:/我的项目/Framework/scf/serializer/target/classes/
+[06-23 10:07:09 825 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/F:/我的项目/Framework/scf/utility/target/classes/
+[06-23 10:07:09 836 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/D:/Users/liu/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.8/jcl-over-slf4j-1.7.8.jar
+[06-23 10:07:09 839 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/D:/Users/liu/.m2/repository/org/slf4j/slf4j-api/1.7.8/slf4j-api-1.7.8.jar
+[06-23 10:07:09 846 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/D:/Users/liu/.m2/repository/org/apache/maven/maven-plugin-api/2.0/maven-plugin-api-2.0.jar
+[06-23 10:07:09 848 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\service\deploy\demo\lib\org.spat.scf.demo.contract-0.0.1-SNAPSHOT.jar
+[06-23 10:07:09 849 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\service\deploy\demo\org.spat.scf.demo.component-0.0.1-SNAPSHOT.jar
+[06-23 10:07:09 850 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\service\lib\jyaml-1.3.jar
+[06-23 10:07:09 865 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\service\lib\mysql-connector-java-5.1.6-bin.jar
+[06-23 10:07:10 127 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\service\lib\sqljdbc4-2.0.jar
+[06-23 10:07:10 359 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\lib\antlrall-2.7.2.jar
+[06-23 10:07:10 442 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\lib\gson-2.2.4.jar
+[06-23 10:07:10 494 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\lib\javassist-3.20.0-GA.jar
+[06-23 10:07:10 612 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\lib\jcl-over-slf4j-1.7.8.jar
+[06-23 10:07:10 615 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\lib\junit-4.8.jar
+[06-23 10:07:10 645 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\lib\log4j-api-2.2.jar
+[06-23 10:07:10 664 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\lib\log4j-core-2.2.jar
+[06-23 10:07:10 782 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\lib\log4j-jcl-2.2.jar
+[06-23 10:07:10 783 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\lib\log4j-slf4j-impl-2.2.jar
+[06-23 10:07:10 786 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\lib\netty-3.1.5.GA.jar
+[06-23 10:07:10 869 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\lib\org.spat.scf.protocol-3.0.0-SNAPSHOT.jar
+[06-23 10:07:10 876 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\lib\org.spat.scf.serializer-3.0.0-SNAPSHOT.jar
+[06-23 10:07:10 885 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\lib\org.spat.scf.server-3.0.0-SNAPSHOT.jar
+[06-23 10:07:10 923 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\lib\org.spat.utility-3.0.0-SNAPSHOT.jar
+[06-23 10:07:10 928 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\lib\slf4j-api-1.7.8.jar
+[06-23 10:07:10 933 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\lib\tools.jar
+[06-23 10:07:11 697 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.protocol.sdp.org.spat.scf.protocol.sdp.ExceptionProtocol
+[06-23 10:07:11 698 INFO ] [main] contract.log.SystemPrintStream - scf SCFSerializable entity :ExceptionProtocol  typeId :-1300746967
+[06-23 10:07:11 698 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.protocol.sdp.org.spat.scf.protocol.sdp.HandclaspProtocol
+[06-23 10:07:11 699 INFO ] [main] contract.log.SystemPrintStream - scf SCFSerializable entity :HandclaspProtocol  typeId :1081818008
+[06-23 10:07:11 699 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.protocol.sdp.org.spat.scf.protocol.sdp.RequestProtocol
+[06-23 10:07:11 699 INFO ] [main] contract.log.SystemPrintStream - scf SCFSerializable entity :RequestProtocol  typeId :435842043
+[06-23 10:07:11 699 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.protocol.sdp.org.spat.scf.protocol.sdp.ResetProtocol
+[06-23 10:07:11 700 INFO ] [main] contract.log.SystemPrintStream - scf SCFSerializable entity :ResetProtocol  typeId :1434913115
+[06-23 10:07:11 700 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.protocol.sdp.org.spat.scf.protocol.sdp.ResponseProtocol
+[06-23 10:07:11 700 INFO ] [main] contract.log.SystemPrintStream - scf SCFSerializable entity :ResponseProtocol  typeId :2100563169
+[06-23 10:07:11 700 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.protocol.utility.org.spat.scf.protocol.utility.KeyValuePair
+[06-23 10:07:11 701 INFO ] [main] contract.log.SystemPrintStream - scf SCFSerializable entity :RpParameter  typeId :-1074395865
+[06-23 10:07:11 701 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.serializer.annotation.org.spat.scf.serializer.annotation.SCFSerializable
+[06-23 10:07:11 701 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.serializer.component.org.spat.scf.serializer.component.ClassScaner
+[06-23 10:07:11 701 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.serializer.component.org.spat.scf.serializer.component.TypeMap
+[06-23 10:07:11 702 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.serializer.exception.org.spat.scf.serializer.exception.DisallowedSerializeException
+[06-23 10:07:11 702 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.serializer.serializer.org.spat.scf.serializer.serializer.ObjectSerializer
+[06-23 10:07:11 702 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.serializer.test.entity.org.spat.scf.serializer.test.entity.Enterprise
+[06-23 10:07:11 702 INFO ] [main] contract.log.SystemPrintStream - scf SCFSerializable entity :Enterprise  typeId :1414596097
+[06-23 10:07:11 703 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.serializer.test.entity.org.spat.scf.serializer.test.entity.SESUser
+[06-23 10:07:11 703 INFO ] [main] contract.log.SystemPrintStream - scf SCFSerializable entity :SESUser  typeId :-236864588
+[06-23 10:07:11 703 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.serializer.test.entity.org.spat.scf.serializer.test.entity.User
+[06-23 10:07:11 703 INFO ] [main] contract.log.SystemPrintStream - scf SCFSerializable entity :User  typeId :1448003977
+[06-23 10:07:11 704 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.serializer.test.serializer.org.spat.scf.serializer.test.serializer.enmReadState
+[06-23 10:07:11 704 INFO ] [main] contract.log.SystemPrintStream - scf SCFSerializable entity :enmReadState  typeId :1003118455
+[06-23 10:07:11 704 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.serializer.test.serializer.org.spat.scf.serializer.test.serializer.Info
+[06-23 10:07:11 705 INFO ] [main] contract.log.SystemPrintStream - scf SCFSerializable entity :Info  typeId :-1502853922
+[06-23 10:07:11 705 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.serializer.test.serializer.org.spat.scf.serializer.test.serializer.NewClass
+[06-23 10:07:11 705 INFO ] [main] contract.log.SystemPrintStream - scf SCFSerializable entity :NewClass  typeId :-1842514312
+[06-23 10:07:11 705 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.serializer.test.serializer.org.spat.scf.serializer.test.serializer.People
+[06-23 10:07:11 706 INFO ] [main] contract.log.SystemPrintStream - scf SCFSerializable entity :Serializer.People  typeId :1910941517
+[06-23 10:07:11 706 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.serializer.test.serializer.org.spat.scf.serializer.test.serializer.SimpleClass
+[06-23 10:07:11 706 INFO ] [main] contract.log.SystemPrintStream - scf SCFSerializable entity :SimpleClass  typeId :113266148
+[06-23 10:07:11 706 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.serializer.test.serializer.org.spat.scf.serializer.test.serializer.State
+[06-23 10:07:11 709 INFO ] [main] contract.log.SystemPrintStream - scf SCFSerializable entity :State  typeId :1695958603
+[06-23 10:07:11 709 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.serializer.test.serializer.org.spat.scf.serializer.test.serializer.SubClass
+[06-23 10:07:11 709 INFO ] [main] contract.log.SystemPrintStream - scf SCFSerializable entity :SubClass  typeId :-1817993264
+[06-23 10:07:11 710 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.demo.entity.org.spat.scf.demo.entity.UserInfo
+[06-23 10:07:11 710 INFO ] [main] contract.log.SystemPrintStream - scf SCFSerializable entity :org.spat.scf.demo.UserInfo  typeId :-1354448716
+[06-23 10:07:11 710 INFO ] [main] contract.log.SystemPrintStream - Scan jar files completed!
+[06-23 10:07:11 711 INFO ] [main] server.bootstrap.Main - -------------------------end-------------------------
+
+[06-23 10:07:11 712 INFO ] [main] server.bootstrap.Main - -----------loading global request filters------------
+[06-23 10:07:11 712 INFO ] [main] server.bootstrap.Main - load: org.spat.scf.server.filter.ProtocolParseFilter
+[06-23 10:07:11 713 INFO ] [main] server.bootstrap.Main - load: org.spat.scf.server.filter.HandclaspFilter
+[06-23 10:07:11 715 INFO ] [main] server.bootstrap.Main - load: org.spat.scf.server.filter.ExecuteMethodFilter
+[06-23 10:07:11 716 INFO ] [main] server.bootstrap.Main - -------------------------end-------------------------
+
+[06-23 10:07:11 716 INFO ] [main] server.bootstrap.Main - -----------loading global response filters-----------
+[06-23 10:07:11 716 INFO ] [main] server.bootstrap.Main - load: org.spat.scf.server.filter.ProtocolCreateFilter
+[06-23 10:07:11 732 INFO ] [main] server.bootstrap.Main - load: org.spat.scf.server.filter.ExecuteTimeFilter
+[06-23 10:07:11 737 INFO ] [main] server.bootstrap.Main - -------------------------end-------------------------
+
+[06-23 10:07:11 737 INFO ] [main] server.bootstrap.Main - -----------loading connection filters-----------
+[06-23 10:07:11 737 INFO ] [main] server.bootstrap.Main - load: org.spat.scf.server.filter.IPFilter
+[06-23 10:07:11 738 INFO ] [main] server.bootstrap.Main - -------------------------end-------------------------
+
+[06-23 10:07:11 738 INFO ] [main] server.bootstrap.Main - ------------------load secureKey start---------------------
+[06-23 10:07:11 739 INFO ] [main] server.bootstrap.Main - ------------------load secureKey end----------------------
+
+[06-23 10:07:11 739 INFO ] [main] server.bootstrap.Main - ------------------signal registr start---------------------
+[06-23 10:07:11 739 INFO ] [main] server.bootstrap.Main - ------------------signal registr success----------------------
+
+[06-23 10:07:11 739 INFO ] [main] server.bootstrap.Main - ------------------ starting servers -----------------
+[06-23 10:07:11 740 INFO ] [main] server.bootstrap.Main - scf.server.tcp is starting...
+[06-23 10:07:11 769 INFO ] [main] communication.tcp.SocketServer - loading invoker...
+[06-23 10:07:11 807 INFO ] [main] server.proxy.AsyncInvokerHandle - async worker steal:false
+[06-23 10:07:11 807 INFO ] [main] server.proxy.AsyncInvokerHandle - async worker limitSize:0
+[06-23 10:07:11 809 INFO ] [main] server.proxy.AsyncInvokerHandle - async worker mode:false
+[06-23 10:07:11 809 INFO ] [main] server.proxy.AsyncInvokerHandle - async worker count:64
+[06-23 10:07:11 810 INFO ] [main] communication.tcp.SocketServer - initing server...
+[06-23 10:07:11 810 INFO ] [main] communication.tcp.SocketServer - -- socket server config --
+[06-23 10:07:11 810 INFO ] [main] communication.tcp.SocketServer - -- listen ip: 0.0.0.0
+[06-23 10:07:11 812 INFO ] [main] communication.tcp.SocketServer - -- port: 10019
+[06-23 10:07:11 812 INFO ] [main] communication.tcp.SocketServer - -- tcpNoDelay: true
+[06-23 10:07:11 813 INFO ] [main] communication.tcp.SocketServer - -- receiveBufferSize: 65536
+[06-23 10:07:11 813 INFO ] [main] communication.tcp.SocketServer - -- sendBufferSize: 65536
+[06-23 10:07:11 814 INFO ] [main] communication.tcp.SocketServer - -- frameMaxLength: 524288
+[06-23 10:07:11 814 INFO ] [main] communication.tcp.SocketServer - -- worker thread count: 32
+[06-23 10:07:11 814 INFO ] [main] communication.tcp.SocketServer - --------------------------
+[06-23 10:07:11 815 INFO ] [main] communication.tcp.SocketServer - demo SocketServer starting...
+[06-23 10:07:11 919 INFO ] [main] server.bootstrap.Main - scf.server.tcpstarted success!!!
+
+[06-23 10:07:11 920 INFO ] [main] server.bootstrap.Main - scf.server.telnet is starting...
+[06-23 10:07:11 922 INFO ] [main] communication.telnet.TelnetServer - ----------------telnet server config------------------
+[06-23 10:07:11 922 INFO ] [main] communication.telnet.TelnetServer - -- telnet server listen ip: 0.0.0.0
+[06-23 10:07:11 922 INFO ] [main] communication.telnet.TelnetServer - -- telnet server port: 20019
+[06-23 10:07:11 922 INFO ] [main] communication.telnet.TelnetServer - ------------------------------------------------------
+[06-23 10:07:11 929 INFO ] [main] server.bootstrap.Main - scf.server.telnetstarted success!!!
+
+[06-23 10:07:11 930 INFO ] [main] server.bootstrap.Main - -------------------------end-------------------------
+
+[06-23 10:07:11 931 INFO ] [main] server.bootstrap.Main - ------------------init file monitor-----------------
+[06-23 10:07:11 934 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:d:\scfV3\bin\..\service\deploy\demo\lib\org.spat.scf.demo.contract-0.0.1-SNAPSHOT.jar
+[06-23 10:07:11 936 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:d:\scfV3\bin\..\service\deploy\demo\org.spat.scf.demo.component-0.0.1-SNAPSHOT.jar
+[06-23 10:07:11 936 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:d:\scfV3\bin\..\service\deploy\demo\scf_config.xml
+[06-23 10:07:11 937 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:d:\scfV3\bin\..\service\deploy\demo\scf_log4j.xml
+[06-23 10:07:11 940 INFO ] [main] server.bootstrap.Main - -------------------------end-------------------------
+
+[06-23 10:07:11 942 INFO ] [main] server.bootstrap.Main - +++++++++++++++++++++ server start success!!! +++++++++++++++++++++
+
+[06-23 10:21:55 469 INFO ] [main] server.bootstrap.Main - +++++++++++++++++++++ staring +++++++++++++++++++++
+
+[06-23 10:21:55 472 INFO ] [main] server.bootstrap.Main - user.dir: d:/scfV3/bin
+[06-23 10:21:55 472 INFO ] [main] server.bootstrap.Main - rootPath: d:/scfV3/bin/../
+[06-23 10:21:55 473 INFO ] [main] server.bootstrap.Main - service scf_config.xml: d:/scfV3/bin/../service/deploy/demo/scf_config.xml
+[06-23 10:21:55 473 INFO ] [main] server.bootstrap.Main - default scf_config.xml: d:/scfV3/bin/../conf/scf_config.xml
+[06-23 10:21:55 473 INFO ] [main] server.bootstrap.Main - service scf_log4j.xml: d:/scfV3/bin/../service/deploy/demo/scf_log4j.xml
+[06-23 10:21:55 474 INFO ] [main] server.bootstrap.Main - default scf_log4j.xml: d:/scfV3/bin/../conf/scf_log4j.xml
+[06-23 10:21:55 474 INFO ] [main] server.bootstrap.Main - load service config...
+[06-23 10:21:55 474 INFO ] [main] server.bootstrap.Main - scf.service.name: demo
+[06-23 10:21:55 475 INFO ] [main] server.bootstrap.Main - -----------------loading global jars------------------
+[06-23 10:21:55 481 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\service\deploy\demo\lib\org.spat.scf.demo.contract-0.0.1-SNAPSHOT.jar
+[06-23 10:21:55 481 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\service\deploy\demo\org.spat.scf.demo.component-0.0.1-SNAPSHOT.jar
+[06-23 10:21:55 482 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\service\lib\jyaml-1.3.jar
+[06-23 10:21:55 482 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\service\lib\mysql-connector-java-5.1.6-bin.jar
+[06-23 10:21:55 482 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\service\lib\sqljdbc4-2.0.jar
+[06-23 10:21:55 483 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\antlrall-2.7.2.jar
+[06-23 10:21:55 483 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\gson-2.2.4.jar
+[06-23 10:21:55 483 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\javassist-3.20.0-GA.jar
+[06-23 10:21:55 483 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\jcl-over-slf4j-1.7.8.jar
+[06-23 10:21:55 484 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\junit-4.8.jar
+[06-23 10:21:55 484 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\log4j-api-2.2.jar
+[06-23 10:21:55 485 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\log4j-core-2.2.jar
+[06-23 10:21:55 485 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\log4j-jcl-2.2.jar
+[06-23 10:21:55 485 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\log4j-slf4j-impl-2.2.jar
+[06-23 10:21:55 485 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\netty-3.1.5.GA.jar
+[06-23 10:21:55 486 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\org.spat.scf.protocol-3.0.0-SNAPSHOT.jar
+[06-23 10:21:55 486 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\org.spat.scf.serializer-3.0.0-SNAPSHOT.jar
+[06-23 10:21:55 486 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\org.spat.scf.server-3.0.0-SNAPSHOT.jar
+[06-23 10:21:55 486 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\org.spat.utility-3.0.0-SNAPSHOT.jar
+[06-23 10:21:55 487 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\slf4j-api-1.7.8.jar
+[06-23 10:21:55 487 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\tools.jar
+[06-23 10:21:55 490 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\service\deploy\demo\lib\org.spat.scf.demo.contract-0.0.1-SNAPSHOT.jar
+[06-23 10:21:55 490 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\service\deploy\demo\org.spat.scf.demo.component-0.0.1-SNAPSHOT.jar
+[06-23 10:21:55 491 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\service\lib\jyaml-1.3.jar
+[06-23 10:21:55 491 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\service\lib\mysql-connector-java-5.1.6-bin.jar
+[06-23 10:21:55 492 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\service\lib\sqljdbc4-2.0.jar
+[06-23 10:21:55 492 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\antlrall-2.7.2.jar
+[06-23 10:21:55 492 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\gson-2.2.4.jar
+[06-23 10:21:55 493 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\javassist-3.20.0-GA.jar
+[06-23 10:21:55 493 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\jcl-over-slf4j-1.7.8.jar
+[06-23 10:21:55 493 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\junit-4.8.jar
+[06-23 10:21:55 494 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\log4j-api-2.2.jar
+[06-23 10:21:55 494 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\log4j-core-2.2.jar
+[06-23 10:21:55 495 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\log4j-jcl-2.2.jar
+[06-23 10:21:55 495 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\log4j-slf4j-impl-2.2.jar
+[06-23 10:21:55 495 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\netty-3.1.5.GA.jar
+[06-23 10:21:55 496 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\org.spat.scf.protocol-3.0.0-SNAPSHOT.jar
+[06-23 10:21:55 497 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\org.spat.scf.serializer-3.0.0-SNAPSHOT.jar
+[06-23 10:21:55 497 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\org.spat.scf.server-3.0.0-SNAPSHOT.jar
+[06-23 10:21:55 498 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\org.spat.utility-3.0.0-SNAPSHOT.jar
+[06-23 10:21:55 498 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\slf4j-api-1.7.8.jar
+[06-23 10:21:55 498 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\tools.jar
+[06-23 10:21:55 499 INFO ] [main] server.bootstrap.Main - -------------------------end-------------------------
+
+[06-23 10:21:55 499 INFO ] [main] server.bootstrap.Main - --------------------loading proxys-------------------
+[06-23 10:21:55 502 INFO ] [main] deploy.bytecode.ScanClass - begin scan jar from path:d:/scfV3/bin/../service/deploy/demo/
+[06-23 10:21:55 630 INFO ] [main] deploy.bytecode.ScanClass - finish scan jar
+[06-23 10:21:55 633 INFO ] [main] deploy.bytecode.ProxyClassCreater - loading dynamic proxy ...
+[06-23 10:21:55 633 INFO ] [main] deploy.bytecode.ProxyClassCreater - loading => UserInfoServiceProxyStub1466648515631
+[06-23 10:21:55 634 INFO ] [main] deploy.bytecode.ProxyClassCreater - class name:org.spat.scf.demo.component.UserInfoService
+[06-23 10:21:55 804 INFO ] [main] deploy.bytecode.ProxyClassCreater - load dynamic proxy success!!!
+[06-23 10:21:55 805 INFO ] [main] deploy.bytecode.CreateManager - proxy class buffer creater finish!!!
+[06-23 10:21:55 807 INFO ] [main] deploy.bytecode.ProxyFactoryCreater - begin create ProxyFactory:ProxyFactory1466648515631
+[06-23 10:21:55 815 INFO ] [main] deploy.bytecode.ProxyFactoryCreater - create ProxyFactory success!!!
+[06-23 10:21:55 820 INFO ] [main] deploy.bytecode.CreateManager - proxy factory buffer creater finish!!!
+[06-23 10:21:55 820 INFO ] [main] deploy.bytecode.CreateManager - dynamic load class:UserInfoServiceProxyStub1466648515631
+[06-23 10:21:55 822 INFO ] [main] deploy.bytecode.CreateManager - crate ProxyFactory instance!!!
+[06-23 10:21:55 822 INFO ] [main] deploy.bytecode.ProxyClassCreater - loading dynamic proxy ...
+[06-23 10:21:55 822 INFO ] [main] deploy.bytecode.ProxyClassCreater - loading => UserInfoServiceProxyStub1466648515822
+[06-23 10:21:55 822 INFO ] [main] deploy.bytecode.ProxyClassCreater - class name:org.spat.scf.demo.component.UserInfoService
+[06-23 10:21:55 869 INFO ] [main] deploy.bytecode.ProxyClassCreater - load dynamic proxy success!!!
+[06-23 10:21:55 870 INFO ] [main] deploy.bytecode.CreateManager - proxy class buffer creater finish!!!
+[06-23 10:21:55 870 INFO ] [main] deploy.bytecode.ProxyFactoryCreater - begin create ProxyFactory:ProxyFactory1466648515822
+[06-23 10:21:55 877 INFO ] [main] deploy.bytecode.ProxyFactoryCreater - create ProxyFactory success!!!
+[06-23 10:21:55 878 INFO ] [main] deploy.bytecode.CreateManager - proxy factory buffer creater finish!!!
+[06-23 10:21:55 879 INFO ] [main] deploy.bytecode.CreateManager - dynamic load class:UserInfoServiceProxyStub1466648515822
+[06-23 10:21:55 880 INFO ] [main] deploy.bytecode.CreateManager - crate ProxyFactory instance!!!
+[06-23 10:21:55 880 INFO ] [main] server.bootstrap.Main - -------------------------end-------------------------
+
+[06-23 10:21:55 880 INFO ] [main] server.bootstrap.Main - -----------------loading init beans------------------
+[06-23 10:21:55 881 INFO ] [main] server.bootstrap.Main - load: org.spat.scf.server.contract.context.SerializerClassInit
+[06-23 10:21:55 890 INFO ] [main] contract.log.SystemPrintStream - Scan jar files begin!
+[06-23 10:21:55 897 INFO ] [main] contract.log.SystemPrintStream - scf.serializer.basepakage 
+[06-23 10:21:55 899 ERROR] [main] contract.log.SystemPrintStream - 开始扫描全部引用jar包，如果扫描过程过长请在启动vm参数中设置scf.serializer.basepakage或者设置scf.serializer.scantype=asyn使用异步模式扫描。
+[06-23 10:21:55 900 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/F:/我的项目/Framework/scf/plugin/maven-scf-plugin/target/classes/
+[06-23 10:21:55 905 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/F:/我的项目/Framework/scf/server/target/classes/
+[06-23 10:21:56 055 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/D:/Users/liu/.m2/repository/org/apache/logging/log4j/log4j-api/2.2/log4j-api-2.2.jar
+[06-23 10:21:56 080 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/D:/Users/liu/.m2/repository/org/apache/logging/log4j/log4j-core/2.2/log4j-core-2.2.jar
+[06-23 10:21:56 262 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/D:/Users/liu/.m2/repository/org/apache/logging/log4j/log4j-jcl/2.2/log4j-jcl-2.2.jar
+[06-23 10:21:56 263 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/D:/Users/liu/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar
+[06-23 10:21:56 273 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/D:/Users/liu/.m2/repository/antlr/antlrall/2.7.2/antlrall-2.7.2.jar
+[06-23 10:21:56 371 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/D:/Users/liu/.m2/repository/org/javassist/javassist/3.20.0-GA/javassist-3.20.0-GA.jar
+[06-23 10:21:56 508 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/D:/Users/liu/.m2/repository/org/jboss/netty/netty/3.1.5.GA/netty-3.1.5.GA.jar
+[06-23 10:21:56 603 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/D:/Users/liu/.m2/repository/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar
+[06-23 10:21:56 635 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/F:/我的项目/Framework/scf/protocol/target/classes/
+[06-23 10:21:56 659 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/F:/我的项目/Framework/scf/serializer/target/classes/
+[06-23 10:21:56 697 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/F:/我的项目/Framework/scf/utility/target/classes/
+[06-23 10:21:56 707 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/D:/Users/liu/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.8/jcl-over-slf4j-1.7.8.jar
+[06-23 10:21:56 710 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/D:/Users/liu/.m2/repository/org/slf4j/slf4j-api/1.7.8/slf4j-api-1.7.8.jar
+[06-23 10:21:56 717 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/D:/Users/liu/.m2/repository/org/apache/maven/maven-plugin-api/2.0/maven-plugin-api-2.0.jar
+[06-23 10:21:56 719 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\service\deploy\demo\lib\org.spat.scf.demo.contract-0.0.1-SNAPSHOT.jar
+[06-23 10:21:56 721 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\service\deploy\demo\org.spat.scf.demo.component-0.0.1-SNAPSHOT.jar
+[06-23 10:21:56 722 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\service\lib\jyaml-1.3.jar
+[06-23 10:21:56 735 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\service\lib\mysql-connector-java-5.1.6-bin.jar
+[06-23 10:21:57 002 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\service\lib\sqljdbc4-2.0.jar
+[06-23 10:21:57 232 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\lib\antlrall-2.7.2.jar
+[06-23 10:21:57 318 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\lib\gson-2.2.4.jar
+[06-23 10:21:57 351 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\lib\javassist-3.20.0-GA.jar
+[06-23 10:21:57 472 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\lib\jcl-over-slf4j-1.7.8.jar
+[06-23 10:21:57 474 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\lib\junit-4.8.jar
+[06-23 10:21:57 522 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\lib\log4j-api-2.2.jar
+[06-23 10:21:57 539 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\lib\log4j-core-2.2.jar
+[06-23 10:21:57 637 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\lib\log4j-jcl-2.2.jar
+[06-23 10:21:57 638 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\lib\log4j-slf4j-impl-2.2.jar
+[06-23 10:21:57 641 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\lib\netty-3.1.5.GA.jar
+[06-23 10:21:57 725 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\lib\org.spat.scf.protocol-3.0.0-SNAPSHOT.jar
+[06-23 10:21:57 731 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\lib\org.spat.scf.serializer-3.0.0-SNAPSHOT.jar
+[06-23 10:21:57 742 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\lib\org.spat.scf.server-3.0.0-SNAPSHOT.jar
+[06-23 10:21:57 780 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\lib\org.spat.utility-3.0.0-SNAPSHOT.jar
+[06-23 10:21:57 786 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\lib\slf4j-api-1.7.8.jar
+[06-23 10:21:57 792 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\lib\tools.jar
+[06-23 10:21:58 563 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.protocol.sdp.org.spat.scf.protocol.sdp.ExceptionProtocol
+[06-23 10:21:58 564 INFO ] [main] contract.log.SystemPrintStream - scf SCFSerializable entity :ExceptionProtocol  typeId :-1300746967
+[06-23 10:21:58 564 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.protocol.sdp.org.spat.scf.protocol.sdp.HandclaspProtocol
+[06-23 10:21:58 564 INFO ] [main] contract.log.SystemPrintStream - scf SCFSerializable entity :HandclaspProtocol  typeId :1081818008
+[06-23 10:21:58 565 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.protocol.sdp.org.spat.scf.protocol.sdp.RequestProtocol
+[06-23 10:21:58 565 INFO ] [main] contract.log.SystemPrintStream - scf SCFSerializable entity :RequestProtocol  typeId :435842043
+[06-23 10:21:58 565 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.protocol.sdp.org.spat.scf.protocol.sdp.ResetProtocol
+[06-23 10:21:58 566 INFO ] [main] contract.log.SystemPrintStream - scf SCFSerializable entity :ResetProtocol  typeId :1434913115
+[06-23 10:21:58 566 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.protocol.sdp.org.spat.scf.protocol.sdp.ResponseProtocol
+[06-23 10:21:58 566 INFO ] [main] contract.log.SystemPrintStream - scf SCFSerializable entity :ResponseProtocol  typeId :2100563169
+[06-23 10:21:58 566 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.protocol.utility.org.spat.scf.protocol.utility.KeyValuePair
+[06-23 10:21:58 567 INFO ] [main] contract.log.SystemPrintStream - scf SCFSerializable entity :RpParameter  typeId :-1074395865
+[06-23 10:21:58 567 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.serializer.annotation.org.spat.scf.serializer.annotation.SCFSerializable
+[06-23 10:21:58 567 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.serializer.component.org.spat.scf.serializer.component.ClassScaner
+[06-23 10:21:58 568 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.serializer.component.org.spat.scf.serializer.component.TypeMap
+[06-23 10:21:58 568 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.serializer.exception.org.spat.scf.serializer.exception.DisallowedSerializeException
+[06-23 10:21:58 568 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.serializer.serializer.org.spat.scf.serializer.serializer.ObjectSerializer
+[06-23 10:21:58 568 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.serializer.test.entity.org.spat.scf.serializer.test.entity.Enterprise
+[06-23 10:21:58 569 INFO ] [main] contract.log.SystemPrintStream - scf SCFSerializable entity :Enterprise  typeId :1414596097
+[06-23 10:21:58 569 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.serializer.test.entity.org.spat.scf.serializer.test.entity.SESUser
+[06-23 10:21:58 569 INFO ] [main] contract.log.SystemPrintStream - scf SCFSerializable entity :SESUser  typeId :-236864588
+[06-23 10:21:58 570 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.serializer.test.entity.org.spat.scf.serializer.test.entity.User
+[06-23 10:21:58 570 INFO ] [main] contract.log.SystemPrintStream - scf SCFSerializable entity :User  typeId :1448003977
+[06-23 10:21:58 570 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.serializer.test.serializer.org.spat.scf.serializer.test.serializer.enmReadState
+[06-23 10:21:58 571 INFO ] [main] contract.log.SystemPrintStream - scf SCFSerializable entity :enmReadState  typeId :1003118455
+[06-23 10:21:58 571 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.serializer.test.serializer.org.spat.scf.serializer.test.serializer.Info
+[06-23 10:21:58 571 INFO ] [main] contract.log.SystemPrintStream - scf SCFSerializable entity :Info  typeId :-1502853922
+[06-23 10:21:58 572 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.serializer.test.serializer.org.spat.scf.serializer.test.serializer.NewClass
+[06-23 10:21:58 572 INFO ] [main] contract.log.SystemPrintStream - scf SCFSerializable entity :NewClass  typeId :-1842514312
+[06-23 10:21:58 572 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.serializer.test.serializer.org.spat.scf.serializer.test.serializer.People
+[06-23 10:21:58 573 INFO ] [main] contract.log.SystemPrintStream - scf SCFSerializable entity :Serializer.People  typeId :1910941517
+[06-23 10:21:58 573 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.serializer.test.serializer.org.spat.scf.serializer.test.serializer.SimpleClass
+[06-23 10:21:58 573 INFO ] [main] contract.log.SystemPrintStream - scf SCFSerializable entity :SimpleClass  typeId :113266148
+[06-23 10:21:58 573 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.serializer.test.serializer.org.spat.scf.serializer.test.serializer.State
+[06-23 10:21:58 576 INFO ] [main] contract.log.SystemPrintStream - scf SCFSerializable entity :State  typeId :1695958603
+[06-23 10:21:58 577 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.serializer.test.serializer.org.spat.scf.serializer.test.serializer.SubClass
+[06-23 10:21:58 577 INFO ] [main] contract.log.SystemPrintStream - scf SCFSerializable entity :SubClass  typeId :-1817993264
+[06-23 10:21:58 577 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.demo.entity.org.spat.scf.demo.entity.UserInfo
+[06-23 10:21:58 578 INFO ] [main] contract.log.SystemPrintStream - scf SCFSerializable entity :org.spat.scf.demo.UserInfo  typeId :-1354448716
+[06-23 10:21:58 578 INFO ] [main] contract.log.SystemPrintStream - Scan jar files completed!
+[06-23 10:21:58 579 INFO ] [main] server.bootstrap.Main - -------------------------end-------------------------
+
+[06-23 10:21:58 579 INFO ] [main] server.bootstrap.Main - -----------loading global request filters------------
+[06-23 10:21:58 580 INFO ] [main] server.bootstrap.Main - load: org.spat.scf.server.filter.ProtocolParseFilter
+[06-23 10:21:58 582 INFO ] [main] server.bootstrap.Main - load: org.spat.scf.server.filter.HandclaspFilter
+[06-23 10:21:58 583 INFO ] [main] server.bootstrap.Main - load: org.spat.scf.server.filter.ExecuteMethodFilter
+[06-23 10:21:58 584 INFO ] [main] server.bootstrap.Main - -------------------------end-------------------------
+
+[06-23 10:21:58 584 INFO ] [main] server.bootstrap.Main - -----------loading global response filters-----------
+[06-23 10:21:58 584 INFO ] [main] server.bootstrap.Main - load: org.spat.scf.server.filter.ProtocolCreateFilter
+[06-23 10:21:58 601 INFO ] [main] server.bootstrap.Main - load: org.spat.scf.server.filter.ExecuteTimeFilter
+[06-23 10:21:58 605 INFO ] [main] server.bootstrap.Main - -------------------------end-------------------------
+
+[06-23 10:21:58 606 INFO ] [main] server.bootstrap.Main - -----------loading connection filters-----------
+[06-23 10:21:58 606 INFO ] [main] server.bootstrap.Main - load: org.spat.scf.server.filter.IPFilter
+[06-23 10:21:58 607 INFO ] [main] server.bootstrap.Main - -------------------------end-------------------------
+
+[06-23 10:21:58 607 INFO ] [main] server.bootstrap.Main - ------------------load secureKey start---------------------
+[06-23 10:21:58 607 INFO ] [main] server.bootstrap.Main - ------------------load secureKey end----------------------
+
+[06-23 10:21:58 607 INFO ] [main] server.bootstrap.Main - ------------------signal registr start---------------------
+[06-23 10:21:58 608 INFO ] [main] server.bootstrap.Main - ------------------signal registr success----------------------
+
+[06-23 10:21:58 608 INFO ] [main] server.bootstrap.Main - ------------------ starting servers -----------------
+[06-23 10:21:58 608 INFO ] [main] server.bootstrap.Main - scf.server.tcp is starting...
+[06-23 10:21:58 635 INFO ] [main] communication.tcp.SocketServer - loading invoker...
+[06-23 10:21:58 665 INFO ] [main] server.proxy.AsyncInvokerHandle - async worker steal:false
+[06-23 10:21:58 666 INFO ] [main] server.proxy.AsyncInvokerHandle - async worker limitSize:0
+[06-23 10:21:58 667 INFO ] [main] server.proxy.AsyncInvokerHandle - async worker mode:false
+[06-23 10:21:58 667 INFO ] [main] server.proxy.AsyncInvokerHandle - async worker count:64
+[06-23 10:21:58 668 INFO ] [main] communication.tcp.SocketServer - initing server...
+[06-23 10:21:58 669 INFO ] [main] communication.tcp.SocketServer - -- socket server config --
+[06-23 10:21:58 670 INFO ] [main] communication.tcp.SocketServer - -- listen ip: 0.0.0.0
+[06-23 10:21:58 670 INFO ] [main] communication.tcp.SocketServer - -- port: 10019
+[06-23 10:21:58 670 INFO ] [main] communication.tcp.SocketServer - -- tcpNoDelay: true
+[06-23 10:21:58 671 INFO ] [main] communication.tcp.SocketServer - -- receiveBufferSize: 65536
+[06-23 10:21:58 671 INFO ] [main] communication.tcp.SocketServer - -- sendBufferSize: 65536
+[06-23 10:21:58 672 INFO ] [main] communication.tcp.SocketServer - -- frameMaxLength: 524288
+[06-23 10:21:58 672 INFO ] [main] communication.tcp.SocketServer - -- worker thread count: 32
+[06-23 10:21:58 672 INFO ] [main] communication.tcp.SocketServer - --------------------------
+[06-23 10:21:58 673 INFO ] [main] communication.tcp.SocketServer - demo SocketServer starting...
+[06-23 10:21:58 778 INFO ] [main] server.bootstrap.Main - scf.server.tcpstarted success!!!
+
+[06-23 10:21:58 779 INFO ] [main] server.bootstrap.Main - scf.server.telnet is starting...
+[06-23 10:21:58 782 INFO ] [main] communication.telnet.TelnetServer - ----------------telnet server config------------------
+[06-23 10:21:58 783 INFO ] [main] communication.telnet.TelnetServer - -- telnet server listen ip: 0.0.0.0
+[06-23 10:21:58 783 INFO ] [main] communication.telnet.TelnetServer - -- telnet server port: 20019
+[06-23 10:21:58 784 INFO ] [main] communication.telnet.TelnetServer - ------------------------------------------------------
+[06-23 10:21:58 787 INFO ] [main] server.bootstrap.Main - scf.server.telnetstarted success!!!
+
+[06-23 10:21:58 788 INFO ] [main] server.bootstrap.Main - -------------------------end-------------------------
+
+[06-23 10:21:58 789 INFO ] [main] server.bootstrap.Main - ------------------init file monitor-----------------
+[06-23 10:21:58 791 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:d:\scfV3\bin\..\service\deploy\demo\lib\org.spat.scf.demo.contract-0.0.1-SNAPSHOT.jar
+[06-23 10:21:58 793 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:d:\scfV3\bin\..\service\deploy\demo\org.spat.scf.demo.component-0.0.1-SNAPSHOT.jar
+[06-23 10:21:58 793 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:d:\scfV3\bin\..\service\deploy\demo\scf_config.xml
+[06-23 10:21:58 794 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:d:\scfV3\bin\..\service\deploy\demo\scf_log4j.xml
+[06-23 10:21:58 798 INFO ] [main] server.bootstrap.Main - -------------------------end-------------------------
+
+[06-23 10:21:58 800 INFO ] [main] server.bootstrap.Main - +++++++++++++++++++++ server start success!!! +++++++++++++++++++++
+
+[06-23 11:31:09 805 INFO ] [main] server.bootstrap.Main - +++++++++++++++++++++ staring +++++++++++++++++++++
+
+[06-23 11:31:09 807 INFO ] [main] server.bootstrap.Main - user.dir: d:/scfV3/bin
+[06-23 11:31:09 807 INFO ] [main] server.bootstrap.Main - rootPath: d:/scfV3/bin/../
+[06-23 11:31:09 807 INFO ] [main] server.bootstrap.Main - service scf_config.xml: d:/scfV3/bin/../service/deploy/demo/scf_config.xml
+[06-23 11:31:09 807 INFO ] [main] server.bootstrap.Main - default scf_config.xml: d:/scfV3/bin/../conf/scf_config.xml
+[06-23 11:31:09 808 INFO ] [main] server.bootstrap.Main - service scf_log4j.xml: d:/scfV3/bin/../service/deploy/demo/scf_log4j.xml
+[06-23 11:31:09 808 INFO ] [main] server.bootstrap.Main - default scf_log4j.xml: d:/scfV3/bin/../conf/scf_log4j.xml
+[06-23 11:31:09 808 INFO ] [main] server.bootstrap.Main - load service config...
+[06-23 11:31:09 808 INFO ] [main] server.bootstrap.Main - scf.service.name: demo
+[06-23 11:31:09 809 INFO ] [main] server.bootstrap.Main - -----------------loading global jars------------------
+[06-23 11:31:09 814 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\service\deploy\demo\lib\org.spat.scf.demo.contract-0.0.1-SNAPSHOT.jar
+[06-23 11:31:09 814 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\service\deploy\demo\org.spat.scf.demo.component-0.0.1-SNAPSHOT.jar
+[06-23 11:31:09 815 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\service\lib\jyaml-1.3.jar
+[06-23 11:31:09 815 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\service\lib\mysql-connector-java-5.1.6-bin.jar
+[06-23 11:31:09 815 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\service\lib\sqljdbc4-2.0.jar
+[06-23 11:31:09 815 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\antlrall-2.7.2.jar
+[06-23 11:31:09 816 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\gson-2.2.4.jar
+[06-23 11:31:09 816 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\javassist-3.20.0-GA.jar
+[06-23 11:31:09 816 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\jcl-over-slf4j-1.7.8.jar
+[06-23 11:31:09 816 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\junit-4.8.jar
+[06-23 11:31:09 817 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\log4j-api-2.2.jar
+[06-23 11:31:09 817 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\log4j-core-2.2.jar
+[06-23 11:31:09 817 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\log4j-jcl-2.2.jar
+[06-23 11:31:09 817 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\log4j-slf4j-impl-2.2.jar
+[06-23 11:31:09 817 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\netty-3.1.5.GA.jar
+[06-23 11:31:09 818 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\org.spat.scf.protocol-3.0.0-SNAPSHOT.jar
+[06-23 11:31:09 818 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\org.spat.scf.serializer-3.0.0-SNAPSHOT.jar
+[06-23 11:31:09 818 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\org.spat.scf.server-3.0.0-SNAPSHOT.jar
+[06-23 11:31:09 818 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\org.spat.utility-3.0.0-SNAPSHOT.jar
+[06-23 11:31:09 819 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\slf4j-api-1.7.8.jar
+[06-23 11:31:09 819 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:D:\scfV3\lib\tools.jar
+[06-23 11:31:09 821 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\service\deploy\demo\lib\org.spat.scf.demo.contract-0.0.1-SNAPSHOT.jar
+[06-23 11:31:09 822 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\service\deploy\demo\org.spat.scf.demo.component-0.0.1-SNAPSHOT.jar
+[06-23 11:31:09 822 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\service\lib\jyaml-1.3.jar
+[06-23 11:31:09 823 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\service\lib\mysql-connector-java-5.1.6-bin.jar
+[06-23 11:31:09 823 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\service\lib\sqljdbc4-2.0.jar
+[06-23 11:31:09 823 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\antlrall-2.7.2.jar
+[06-23 11:31:09 823 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\gson-2.2.4.jar
+[06-23 11:31:09 824 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\javassist-3.20.0-GA.jar
+[06-23 11:31:09 824 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\jcl-over-slf4j-1.7.8.jar
+[06-23 11:31:09 824 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\junit-4.8.jar
+[06-23 11:31:09 825 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\log4j-api-2.2.jar
+[06-23 11:31:09 825 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\log4j-core-2.2.jar
+[06-23 11:31:09 825 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\log4j-jcl-2.2.jar
+[06-23 11:31:09 826 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\log4j-slf4j-impl-2.2.jar
+[06-23 11:31:09 826 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\netty-3.1.5.GA.jar
+[06-23 11:31:09 826 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\org.spat.scf.protocol-3.0.0-SNAPSHOT.jar
+[06-23 11:31:09 827 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\org.spat.scf.serializer-3.0.0-SNAPSHOT.jar
+[06-23 11:31:09 828 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\org.spat.scf.server-3.0.0-SNAPSHOT.jar
+[06-23 11:31:09 828 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\org.spat.utility-3.0.0-SNAPSHOT.jar
+[06-23 11:31:09 828 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\slf4j-api-1.7.8.jar
+[06-23 11:31:09 829 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:D:\scfV3\lib\tools.jar
+[06-23 11:31:09 829 INFO ] [main] server.bootstrap.Main - -------------------------end-------------------------
+
+[06-23 11:31:09 829 INFO ] [main] server.bootstrap.Main - --------------------loading proxys-------------------
+[06-23 11:31:09 832 INFO ] [main] deploy.bytecode.ScanClass - begin scan jar from path:d:/scfV3/bin/../service/deploy/demo/
+[06-23 11:31:09 955 INFO ] [main] deploy.bytecode.ScanClass - finish scan jar
+[06-23 11:31:09 960 INFO ] [main] deploy.bytecode.ProxyClassCreater - loading dynamic proxy ...
+[06-23 11:31:09 961 INFO ] [main] deploy.bytecode.ProxyClassCreater - loading => UserInfoServiceProxyStub1466652669957
+[06-23 11:31:09 961 INFO ] [main] deploy.bytecode.ProxyClassCreater - class name:org.spat.scf.demo.component.UserInfoService
+[06-23 11:31:10 140 INFO ] [main] deploy.bytecode.ProxyClassCreater - load dynamic proxy success!!!
+[06-23 11:31:10 141 INFO ] [main] deploy.bytecode.CreateManager - proxy class buffer creater finish!!!
+[06-23 11:31:10 142 INFO ] [main] deploy.bytecode.ProxyFactoryCreater - begin create ProxyFactory:ProxyFactory1466652669957
+[06-23 11:31:10 149 INFO ] [main] deploy.bytecode.ProxyFactoryCreater - create ProxyFactory success!!!
+[06-23 11:31:10 153 INFO ] [main] deploy.bytecode.CreateManager - proxy factory buffer creater finish!!!
+[06-23 11:31:10 154 INFO ] [main] deploy.bytecode.CreateManager - dynamic load class:UserInfoServiceProxyStub1466652669957
+[06-23 11:31:10 155 INFO ] [main] deploy.bytecode.CreateManager - crate ProxyFactory instance!!!
+[06-23 11:31:10 155 INFO ] [main] deploy.bytecode.ProxyClassCreater - loading dynamic proxy ...
+[06-23 11:31:10 155 INFO ] [main] deploy.bytecode.ProxyClassCreater - loading => UserInfoServiceProxyStub1466652670155
+[06-23 11:31:10 155 INFO ] [main] deploy.bytecode.ProxyClassCreater - class name:org.spat.scf.demo.component.UserInfoService
+[06-23 11:31:10 198 INFO ] [main] deploy.bytecode.ProxyClassCreater - load dynamic proxy success!!!
+[06-23 11:31:10 198 INFO ] [main] deploy.bytecode.CreateManager - proxy class buffer creater finish!!!
+[06-23 11:31:10 199 INFO ] [main] deploy.bytecode.ProxyFactoryCreater - begin create ProxyFactory:ProxyFactory1466652670155
+[06-23 11:31:10 207 INFO ] [main] deploy.bytecode.ProxyFactoryCreater - create ProxyFactory success!!!
+[06-23 11:31:10 208 INFO ] [main] deploy.bytecode.CreateManager - proxy factory buffer creater finish!!!
+[06-23 11:31:10 209 INFO ] [main] deploy.bytecode.CreateManager - dynamic load class:UserInfoServiceProxyStub1466652670155
+[06-23 11:31:10 211 INFO ] [main] deploy.bytecode.CreateManager - crate ProxyFactory instance!!!
+[06-23 11:31:10 212 INFO ] [main] server.bootstrap.Main - -------------------------end-------------------------
+
+[06-23 11:31:10 212 INFO ] [main] server.bootstrap.Main - -----------------loading init beans------------------
+[06-23 11:31:10 212 INFO ] [main] server.bootstrap.Main - load: org.spat.scf.server.contract.context.SerializerClassInit
+[06-23 11:31:10 225 INFO ] [main] contract.log.SystemPrintStream - Scan jar files begin!
+[06-23 11:31:10 227 INFO ] [main] contract.log.SystemPrintStream - scf.serializer.basepakage 
+[06-23 11:31:10 228 ERROR] [main] contract.log.SystemPrintStream - 开始扫描全部引用jar包，如果扫描过程过长请在启动vm参数中设置scf.serializer.basepakage或者设置scf.serializer.scantype=asyn使用异步模式扫描。
+[06-23 11:31:10 229 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/F:/我的项目/Framework/scf/plugin/maven-scf-plugin/target/classes/
+[06-23 11:31:10 233 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/F:/我的项目/Framework/scf/server/target/classes/
+[06-23 11:31:10 393 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/D:/Users/liu/.m2/repository/org/apache/logging/log4j/log4j-api/2.2/log4j-api-2.2.jar
+[06-23 11:31:10 441 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/D:/Users/liu/.m2/repository/org/apache/logging/log4j/log4j-core/2.2/log4j-core-2.2.jar
+[06-23 11:31:10 585 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/D:/Users/liu/.m2/repository/org/apache/logging/log4j/log4j-jcl/2.2/log4j-jcl-2.2.jar
+[06-23 11:31:10 587 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/D:/Users/liu/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar
+[06-23 11:31:10 596 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/D:/Users/liu/.m2/repository/antlr/antlrall/2.7.2/antlrall-2.7.2.jar
+[06-23 11:31:10 687 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/D:/Users/liu/.m2/repository/org/javassist/javassist/3.20.0-GA/javassist-3.20.0-GA.jar
+[06-23 11:31:10 821 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/D:/Users/liu/.m2/repository/org/jboss/netty/netty/3.1.5.GA/netty-3.1.5.GA.jar
+[06-23 11:31:10 915 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/D:/Users/liu/.m2/repository/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar
+[06-23 11:31:10 946 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/F:/我的项目/Framework/scf/protocol/target/classes/
+[06-23 11:31:10 963 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/F:/我的项目/Framework/scf/serializer/target/classes/
+[06-23 11:31:11 001 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/F:/我的项目/Framework/scf/utility/target/classes/
+[06-23 11:31:11 010 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/D:/Users/liu/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.8/jcl-over-slf4j-1.7.8.jar
+[06-23 11:31:11 013 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/D:/Users/liu/.m2/repository/org/slf4j/slf4j-api/1.7.8/slf4j-api-1.7.8.jar
+[06-23 11:31:11 019 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:/D:/Users/liu/.m2/repository/org/apache/maven/maven-plugin-api/2.0/maven-plugin-api-2.0.jar
+[06-23 11:31:11 021 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\service\deploy\demo\lib\org.spat.scf.demo.contract-0.0.1-SNAPSHOT.jar
+[06-23 11:31:11 023 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\service\deploy\demo\org.spat.scf.demo.component-0.0.1-SNAPSHOT.jar
+[06-23 11:31:11 024 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\service\lib\jyaml-1.3.jar
+[06-23 11:31:11 035 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\service\lib\mysql-connector-java-5.1.6-bin.jar
+[06-23 11:31:11 294 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\service\lib\sqljdbc4-2.0.jar
+[06-23 11:31:11 523 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\lib\antlrall-2.7.2.jar
+[06-23 11:31:11 604 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\lib\gson-2.2.4.jar
+[06-23 11:31:11 630 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\lib\javassist-3.20.0-GA.jar
+[06-23 11:31:11 733 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\lib\jcl-over-slf4j-1.7.8.jar
+[06-23 11:31:11 735 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\lib\junit-4.8.jar
+[06-23 11:31:11 780 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\lib\log4j-api-2.2.jar
+[06-23 11:31:11 798 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\lib\log4j-core-2.2.jar
+[06-23 11:31:11 889 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\lib\log4j-jcl-2.2.jar
+[06-23 11:31:11 890 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\lib\log4j-slf4j-impl-2.2.jar
+[06-23 11:31:11 893 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\lib\netty-3.1.5.GA.jar
+[06-23 11:31:11 982 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\lib\org.spat.scf.protocol-3.0.0-SNAPSHOT.jar
+[06-23 11:31:11 988 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\lib\org.spat.scf.serializer-3.0.0-SNAPSHOT.jar
+[06-23 11:31:11 997 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\lib\org.spat.scf.server-3.0.0-SNAPSHOT.jar
+[06-23 11:31:12 032 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\lib\org.spat.utility-3.0.0-SNAPSHOT.jar
+[06-23 11:31:12 038 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\lib\slf4j-api-1.7.8.jar
+[06-23 11:31:12 043 INFO ] [main] contract.log.SystemPrintStream - scanByURLClassLoader:D:\scfV3\lib\tools.jar
+[06-23 11:31:12 810 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.protocol.sdp.org.spat.scf.protocol.sdp.ExceptionProtocol
+[06-23 11:31:12 810 INFO ] [main] contract.log.SystemPrintStream - scf SCFSerializable entity :ExceptionProtocol  typeId :-1300746967
+[06-23 11:31:12 811 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.protocol.sdp.org.spat.scf.protocol.sdp.HandclaspProtocol
+[06-23 11:31:12 811 INFO ] [main] contract.log.SystemPrintStream - scf SCFSerializable entity :HandclaspProtocol  typeId :1081818008
+[06-23 11:31:12 811 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.protocol.sdp.org.spat.scf.protocol.sdp.RequestProtocol
+[06-23 11:31:12 812 INFO ] [main] contract.log.SystemPrintStream - scf SCFSerializable entity :RequestProtocol  typeId :435842043
+[06-23 11:31:12 812 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.protocol.sdp.org.spat.scf.protocol.sdp.ResetProtocol
+[06-23 11:31:12 812 INFO ] [main] contract.log.SystemPrintStream - scf SCFSerializable entity :ResetProtocol  typeId :1434913115
+[06-23 11:31:12 812 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.protocol.sdp.org.spat.scf.protocol.sdp.ResponseProtocol
+[06-23 11:31:12 813 INFO ] [main] contract.log.SystemPrintStream - scf SCFSerializable entity :ResponseProtocol  typeId :2100563169
+[06-23 11:31:12 813 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.protocol.utility.org.spat.scf.protocol.utility.KeyValuePair
+[06-23 11:31:12 813 INFO ] [main] contract.log.SystemPrintStream - scf SCFSerializable entity :RpParameter  typeId :-1074395865
+[06-23 11:31:12 813 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.serializer.annotation.org.spat.scf.serializer.annotation.SCFSerializable
+[06-23 11:31:12 814 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.serializer.component.org.spat.scf.serializer.component.ClassScaner
+[06-23 11:31:12 814 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.serializer.component.org.spat.scf.serializer.component.TypeMap
+[06-23 11:31:12 814 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.serializer.exception.org.spat.scf.serializer.exception.DisallowedSerializeException
+[06-23 11:31:12 814 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.serializer.serializer.org.spat.scf.serializer.serializer.ObjectSerializer
+[06-23 11:31:12 814 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.serializer.test.entity.org.spat.scf.serializer.test.entity.Enterprise
+[06-23 11:31:12 815 INFO ] [main] contract.log.SystemPrintStream - scf SCFSerializable entity :Enterprise  typeId :1414596097
+[06-23 11:31:12 815 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.serializer.test.entity.org.spat.scf.serializer.test.entity.SESUser
+[06-23 11:31:12 815 INFO ] [main] contract.log.SystemPrintStream - scf SCFSerializable entity :SESUser  typeId :-236864588
+[06-23 11:31:12 816 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.serializer.test.entity.org.spat.scf.serializer.test.entity.User
+[06-23 11:31:12 816 INFO ] [main] contract.log.SystemPrintStream - scf SCFSerializable entity :User  typeId :1448003977
+[06-23 11:31:12 816 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.serializer.test.serializer.org.spat.scf.serializer.test.serializer.enmReadState
+[06-23 11:31:12 816 INFO ] [main] contract.log.SystemPrintStream - scf SCFSerializable entity :enmReadState  typeId :1003118455
+[06-23 11:31:12 817 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.serializer.test.serializer.org.spat.scf.serializer.test.serializer.Info
+[06-23 11:31:12 817 INFO ] [main] contract.log.SystemPrintStream - scf SCFSerializable entity :Info  typeId :-1502853922
+[06-23 11:31:12 817 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.serializer.test.serializer.org.spat.scf.serializer.test.serializer.NewClass
+[06-23 11:31:12 817 INFO ] [main] contract.log.SystemPrintStream - scf SCFSerializable entity :NewClass  typeId :-1842514312
+[06-23 11:31:12 818 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.serializer.test.serializer.org.spat.scf.serializer.test.serializer.People
+[06-23 11:31:12 818 INFO ] [main] contract.log.SystemPrintStream - scf SCFSerializable entity :Serializer.People  typeId :1910941517
+[06-23 11:31:12 818 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.serializer.test.serializer.org.spat.scf.serializer.test.serializer.SimpleClass
+[06-23 11:31:12 818 INFO ] [main] contract.log.SystemPrintStream - scf SCFSerializable entity :SimpleClass  typeId :113266148
+[06-23 11:31:12 819 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.serializer.test.serializer.org.spat.scf.serializer.test.serializer.State
+[06-23 11:31:12 819 INFO ] [main] contract.log.SystemPrintStream - scf SCFSerializable entity :State  typeId :1695958603
+[06-23 11:31:12 819 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.serializer.test.serializer.org.spat.scf.serializer.test.serializer.SubClass
+[06-23 11:31:12 820 INFO ] [main] contract.log.SystemPrintStream - scf SCFSerializable entity :SubClass  typeId :-1817993264
+[06-23 11:31:12 820 INFO ] [main] contract.log.SystemPrintStream - scaning org.spat.scf.demo.entity.org.spat.scf.demo.entity.UserInfo
+[06-23 11:31:12 820 INFO ] [main] contract.log.SystemPrintStream - scf SCFSerializable entity :org.spat.scf.demo.UserInfo  typeId :-1354448716
+[06-23 11:31:12 820 INFO ] [main] contract.log.SystemPrintStream - Scan jar files completed!
+[06-23 11:31:12 821 INFO ] [main] server.bootstrap.Main - -------------------------end-------------------------
+
+[06-23 11:31:12 822 INFO ] [main] server.bootstrap.Main - -----------loading global request filters------------
+[06-23 11:31:12 822 INFO ] [main] server.bootstrap.Main - load: org.spat.scf.server.filter.ProtocolParseFilter
+[06-23 11:31:12 823 INFO ] [main] server.bootstrap.Main - load: org.spat.scf.server.filter.HandclaspFilter
+[06-23 11:31:12 824 INFO ] [main] server.bootstrap.Main - load: org.spat.scf.server.filter.ExecuteMethodFilter
+[06-23 11:31:12 825 INFO ] [main] server.bootstrap.Main - -------------------------end-------------------------
+
+[06-23 11:31:12 825 INFO ] [main] server.bootstrap.Main - -----------loading global response filters-----------
+[06-23 11:31:12 826 INFO ] [main] server.bootstrap.Main - load: org.spat.scf.server.filter.ProtocolCreateFilter
+[06-23 11:31:12 841 INFO ] [main] server.bootstrap.Main - load: org.spat.scf.server.filter.ExecuteTimeFilter
+[06-23 11:31:12 845 INFO ] [main] server.bootstrap.Main - -------------------------end-------------------------
+
+[06-23 11:31:12 845 INFO ] [main] server.bootstrap.Main - -----------loading connection filters-----------
+[06-23 11:31:12 846 INFO ] [main] server.bootstrap.Main - load: org.spat.scf.server.filter.IPFilter
+[06-23 11:31:12 847 INFO ] [main] server.bootstrap.Main - -------------------------end-------------------------
+
+[06-23 11:31:12 847 INFO ] [main] server.bootstrap.Main - ------------------load secureKey start---------------------
+[06-23 11:31:12 847 INFO ] [main] server.bootstrap.Main - ------------------load secureKey end----------------------
+
+[06-23 11:31:12 847 INFO ] [main] server.bootstrap.Main - ------------------signal registr start---------------------
+[06-23 11:31:12 847 INFO ] [main] server.bootstrap.Main - ------------------signal registr success----------------------
+
+[06-23 11:31:12 848 INFO ] [main] server.bootstrap.Main - ------------------ starting servers -----------------
+[06-23 11:31:12 848 INFO ] [main] server.bootstrap.Main - scf.server.tcp is starting...
+[06-23 11:31:12 872 INFO ] [main] communication.tcp.SocketServer - loading invoker...
+[06-23 11:31:12 888 INFO ] [main] server.proxy.AsyncInvokerHandle - async worker steal:false
+[06-23 11:31:12 888 INFO ] [main] server.proxy.AsyncInvokerHandle - async worker limitSize:0
+[06-23 11:31:12 888 INFO ] [main] server.proxy.AsyncInvokerHandle - async worker mode:false
+[06-23 11:31:12 889 INFO ] [main] server.proxy.AsyncInvokerHandle - async worker count:64
+[06-23 11:31:12 889 INFO ] [main] communication.tcp.SocketServer - initing server...
+[06-23 11:31:12 889 INFO ] [main] communication.tcp.SocketServer - -- socket server config --
+[06-23 11:31:12 889 INFO ] [main] communication.tcp.SocketServer - -- listen ip: 0.0.0.0
+[06-23 11:31:12 889 INFO ] [main] communication.tcp.SocketServer - -- port: 10019
+[06-23 11:31:12 890 INFO ] [main] communication.tcp.SocketServer - -- tcpNoDelay: true
+[06-23 11:31:12 890 INFO ] [main] communication.tcp.SocketServer - -- receiveBufferSize: 65536
+[06-23 11:31:12 890 INFO ] [main] communication.tcp.SocketServer - -- sendBufferSize: 65536
+[06-23 11:31:12 890 INFO ] [main] communication.tcp.SocketServer - -- frameMaxLength: 524288
+[06-23 11:31:12 890 INFO ] [main] communication.tcp.SocketServer - -- worker thread count: 32
+[06-23 11:31:12 891 INFO ] [main] communication.tcp.SocketServer - --------------------------
+[06-23 11:31:12 891 INFO ] [main] communication.tcp.SocketServer - demo SocketServer starting...
+[06-23 11:31:12 953 INFO ] [main] server.bootstrap.Main - scf.server.tcpstarted success!!!
+
+[06-23 11:31:12 954 INFO ] [main] server.bootstrap.Main - scf.server.telnet is starting...
+[06-23 11:31:12 955 INFO ] [main] communication.telnet.TelnetServer - ----------------telnet server config------------------
+[06-23 11:31:12 955 INFO ] [main] communication.telnet.TelnetServer - -- telnet server listen ip: 0.0.0.0
+[06-23 11:31:12 956 INFO ] [main] communication.telnet.TelnetServer - -- telnet server port: 20019
+[06-23 11:31:12 956 INFO ] [main] communication.telnet.TelnetServer - ------------------------------------------------------
+[06-23 11:31:12 959 INFO ] [main] server.bootstrap.Main - scf.server.telnetstarted success!!!
+
+[06-23 11:31:12 959 INFO ] [main] server.bootstrap.Main - -------------------------end-------------------------
+
+[06-23 11:31:12 959 INFO ] [main] server.bootstrap.Main - ------------------init file monitor-----------------
+[06-23 11:31:12 962 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:d:\scfV3\bin\..\service\deploy\demo\lib\org.spat.scf.demo.contract-0.0.1-SNAPSHOT.jar
+[06-23 11:31:12 963 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:d:\scfV3\bin\..\service\deploy\demo\org.spat.scf.demo.component-0.0.1-SNAPSHOT.jar
+[06-23 11:31:12 963 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:d:\scfV3\bin\..\service\deploy\demo\scf_config.xml
+[06-23 11:31:12 964 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:d:\scfV3\bin\..\service\deploy\demo\scf_log4j.xml
+[06-23 11:31:12 966 INFO ] [main] server.bootstrap.Main - -------------------------end-------------------------
+
+[06-23 11:31:12 966 INFO ] [main] server.bootstrap.Main - +++++++++++++++++++++ server start success!!! +++++++++++++++++++++
+

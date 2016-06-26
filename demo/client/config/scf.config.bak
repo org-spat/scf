@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<SCF>
+
+    <Service name="demo" id="127" maxThreadCount="500">
+        <Commmunication >
+            <SocketPool bufferSize="4096" minPoolSize="2" maxPoolSize="5" nagle="true"
+                        autoShrink="00:00:30" sendTimeout="00:00:30" receiveTimeout="00:00:30"
+                        waitTimeout="00:00:30" protected="true"/>
+            <Protocol serialize="SCF" encoder="UTF-8" compressType="UnCompress" />
+        </Commmunication>
+        <Loadbalance>
+            <Server deadTimeout="00:00:40">
+                <add name="demo1" host="127.0.0.1" port="10019" maxCurrentUser="50" />
+            </Server>
+        </Loadbalance>
+    </Service>	
+	
+</SCF>

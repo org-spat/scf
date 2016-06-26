@@ -1,0 +1,45 @@
+﻿<?xml version="1.0"?>
+<configuration>
+
+<!-- service name -->
+<property>
+<name>scf.service.name</name>
+<value>demo</value>
+</property>
+
+<!-- socket server listent port -->
+<property>
+<name>scf.server.tcp.listenPort</name>
+<value>10019</value>
+</property>
+
+<!-- socket server listent ip -->
+<property>
+<name>scf.server.tcp.listenIP</name>
+<value>0.0.0.0</value>
+</property>
+
+<!-- telnet server listent port -->
+<property>
+<name>scf.server.telnet.listenPort</name>
+<value>20019</value>
+</property>
+
+
+<!-- java opts -->
+<property>
+<name>scf.server.vm.xms</name>
+<value>2048m</value>
+</property>
+
+<property>
+<name>scf.server.vm.xmx</name>
+<value>2048m</value>
+</property>
+
+<property>
+<name>scf.server.vm.xmn</name>
+<value>512m</value>
+</property>
+
+</configuration>
