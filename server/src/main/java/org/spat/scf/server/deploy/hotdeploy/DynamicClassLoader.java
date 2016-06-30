@@ -49,10 +49,10 @@ public class DynamicClassLoader extends SecureClassLoader {
 		
 	}
 	
-	@Override
-	public Class<?> loadClass(String className) throws ClassNotFoundException{
-		return super.loadClass(className);
-	}
+//	@Override
+//	public Class<?> loadClass(String className) throws ClassNotFoundException{
+//		return super.loadClass(className);
+//	}
 	
 	
 	/**

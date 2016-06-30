@@ -1,6 +1,5 @@
 package org.spat.scf.server.bootstrap;
 import java.io.File;
-import java.net.URLClassLoader;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -148,7 +147,6 @@ public class Main {
 		if(new File(serviceFolderPath).isDirectory() || !serviceName.equalsIgnoreCase("error_service_name_is_null")) {
 			// load proxy factory
 			logger.info("--------------------loading proxys-------------------");
-			Object tem = ProxyFactoryLoader.loadProxyFactory(classLoader);
 			IProxyFactory proxyFactory = ProxyFactoryLoader.loadProxyFactory(classLoader);
 			Global.getSingleton().setProxyFactory(proxyFactory);
 			logger.info("-------------------------end-------------------------\n");
@@ -221,9 +219,7 @@ public class Main {
 		}
 		
 		logger.info("+++++++++++++++++++++ server start success!!! +++++++++++++++++++++\n");
-		while (true) {
-			Thread.sleep(1 * 60 * 60 * 1000);
-		}
+		Thread.currentThread().join();
 	}
 	
 	/**

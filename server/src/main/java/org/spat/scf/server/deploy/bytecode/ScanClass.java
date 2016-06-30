@@ -125,6 +125,7 @@ public class ScanClass {
 		for (String jpath : jarPathList) {
 			Set<Class<?>> clsSet = null;
 			try {
+				logger.info("scanning "+jpath);
 				clsSet = ClassHelper.getClassFromJar(jpath, classLoader);
 			} catch (Exception ex) {
 				throw ex;
