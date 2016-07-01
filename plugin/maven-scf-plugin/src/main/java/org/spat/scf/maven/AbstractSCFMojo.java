@@ -57,6 +57,9 @@ public abstract class AbstractSCFMojo extends AbstractMojo {
 	protected ArtifactRepository localRepository;
 
 	public String getScfhome() {
+		if(scfhome==null || scfhome.length()==0){
+			scfhome = System.getenv("SCF_HOME");
+		}
 		return scfhome;
 	}
 

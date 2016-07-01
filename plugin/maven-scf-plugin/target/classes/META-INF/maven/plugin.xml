@@ -10,7 +10,7 @@
   <inheritedByDefault>true</inheritedByDefault>
   <mojos>
     <mojo>
-      <goal>run</goal>
+      <goal>deploy</goal>
       <description></description>
       <requiresDirectInvocation>false</requiresDirectInvocation>
       <requiresProject>true</requiresProject>
@@ -18,7 +18,7 @@
       <aggregator>false</aggregator>
       <requiresOnline>false</requiresOnline>
       <inheritedByDefault>true</inheritedByDefault>
-      <implementation>org.spat.scf.maven.RunMojo</implementation>
+      <implementation>org.spat.scf.maven.DeployMojo</implementation>
       <language>java</language>
       <instantiationStrategy>per-lookup</instantiationStrategy>
       <executionStrategy>once-per-session</executionStrategy>
@@ -66,7 +66,7 @@
       </configuration>
     </mojo>
     <mojo>
-      <goal>deploy</goal>
+      <goal>run</goal>
       <description></description>
       <requiresDirectInvocation>false</requiresDirectInvocation>
       <requiresProject>true</requiresProject>
@@ -74,7 +74,7 @@
       <aggregator>false</aggregator>
       <requiresOnline>false</requiresOnline>
       <inheritedByDefault>true</inheritedByDefault>
-      <implementation>org.spat.scf.maven.DeployMojo</implementation>
+      <implementation>org.spat.scf.maven.RunMojo</implementation>
       <language>java</language>
       <instantiationStrategy>per-lookup</instantiationStrategy>
       <executionStrategy>once-per-session</executionStrategy>

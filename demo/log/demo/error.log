@@ -596,3 +596,124 @@ java.io.IOException: 远程主机强迫关闭了一个现有的连接。
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
 	at java.lang.Thread.run(Thread.java:745)
+[07-01 09:39:03 582 ERROR] [main] contract.log.SystemPrintStream - SLF4J: Class path contains multiple SLF4J bindings.
+[07-01 09:39:03 586 ERROR] [main] contract.log.SystemPrintStream - SLF4J: Found binding in [jar:file:/d:/scfV3/lib/log4j-slf4j-impl-2.2.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+[07-01 09:39:03 586 ERROR] [main] contract.log.SystemPrintStream - SLF4J: Found binding in [jar:file:D:\scfV3\service\deploy\demo\lib\slf4j-log4j12-1.7.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+[07-01 09:39:03 586 ERROR] [main] contract.log.SystemPrintStream - SLF4J: Found binding in [jar:file:D:\scfV3\lib\log4j-slf4j-impl-2.2.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+[07-01 09:39:03 587 ERROR] [main] contract.log.SystemPrintStream - SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+[07-01 09:39:03 591 ERROR] [main] contract.log.SystemPrintStream - SLF4J: Actual binding is of type [org.apache.logging.slf4j.Log4jLoggerFactory]
+[07-01 09:41:10 466 ERROR] [main] contract.log.SystemPrintStream - SLF4J: Class path contains multiple SLF4J bindings.
+[07-01 09:41:10 470 ERROR] [main] contract.log.SystemPrintStream - SLF4J: Found binding in [jar:file:/d:/scfV3/lib/log4j-slf4j-impl-2.2.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+[07-01 09:41:10 470 ERROR] [main] contract.log.SystemPrintStream - SLF4J: Found binding in [jar:file:D:\scfV3\service\deploy\demo\lib\slf4j-log4j12-1.7.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+[07-01 09:41:10 470 ERROR] [main] contract.log.SystemPrintStream - SLF4J: Found binding in [jar:file:D:\scfV3\lib\log4j-slf4j-impl-2.2.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+[07-01 09:41:10 471 ERROR] [main] contract.log.SystemPrintStream - SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+[07-01 09:41:10 474 ERROR] [main] contract.log.SystemPrintStream - SLF4J: Actual binding is of type [org.apache.logging.slf4j.Log4jLoggerFactory]
+[07-01 09:49:44 265 ERROR] [main] contract.log.SystemPrintStream - java.lang.reflect.InvocationTargetException
+[07-01 09:49:44 266 ERROR] [main] contract.log.SystemPrintStream - 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[07-01 09:49:44 267 ERROR] [main] contract.log.SystemPrintStream - 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+[07-01 09:49:44 267 ERROR] [main] contract.log.SystemPrintStream - 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[07-01 09:49:44 268 ERROR] [main] contract.log.SystemPrintStream - 	at java.lang.reflect.Method.invoke(Method.java:606)
+[07-01 09:49:44 269 ERROR] [main] contract.log.SystemPrintStream - 	at org.spat.scf.maven.RunMojo.execute(RunMojo.java:46)
+[07-01 09:49:44 270 ERROR] [main] contract.log.SystemPrintStream - 	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:101)
+[07-01 09:49:44 271 ERROR] [main] contract.log.SystemPrintStream - 	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:209)
+[07-01 09:49:44 271 ERROR] [main] contract.log.SystemPrintStream - 	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:153)
+[07-01 09:49:44 272 ERROR] [main] contract.log.SystemPrintStream - 	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:145)
+[07-01 09:49:44 273 ERROR] [main] contract.log.SystemPrintStream - 	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:84)
+[07-01 09:49:44 274 ERROR] [main] contract.log.SystemPrintStream - 	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:59)
+[07-01 09:49:44 275 ERROR] [main] contract.log.SystemPrintStream - 	at org.apache.maven.lifecycle.internal.LifecycleStarter.singleThreadedBuild(LifecycleStarter.java:183)
+[07-01 09:49:44 275 ERROR] [main] contract.log.SystemPrintStream - 	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:161)
+[07-01 09:49:44 276 ERROR] [main] contract.log.SystemPrintStream - 	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:319)
+[07-01 09:49:44 276 ERROR] [main] contract.log.SystemPrintStream - 	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:156)
+[07-01 09:49:44 276 ERROR] [main] contract.log.SystemPrintStream - 	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:537)
+[07-01 09:49:44 277 ERROR] [main] contract.log.SystemPrintStream - 	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:196)
+[07-01 09:49:44 278 ERROR] [main] contract.log.SystemPrintStream - 	at org.apache.maven.cli.MavenCli.main(MavenCli.java:141)
+[07-01 09:49:44 278 ERROR] [main] contract.log.SystemPrintStream - 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[07-01 09:49:44 279 ERROR] [main] contract.log.SystemPrintStream - 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+[07-01 09:49:44 279 ERROR] [main] contract.log.SystemPrintStream - 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[07-01 09:49:44 279 ERROR] [main] contract.log.SystemPrintStream - 	at java.lang.reflect.Method.invoke(Method.java:606)
+[07-01 09:49:44 280 ERROR] [main] contract.log.SystemPrintStream - 	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:290)
+[07-01 09:49:44 280 ERROR] [main] contract.log.SystemPrintStream - 	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:230)
+[07-01 09:49:44 281 ERROR] [main] contract.log.SystemPrintStream - 	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:409)
+[07-01 09:49:44 282 ERROR] [main] contract.log.SystemPrintStream - 	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:352)
+[07-01 09:49:44 285 ERROR] [main] contract.log.SystemPrintStream - Caused by: java.lang.ClassCastException: java.util.zip.ZipFile$ZipFileInflaterInputStream cannot be cast to java.io.DataInputStream
+[07-01 09:49:44 286 ERROR] [main] contract.log.SystemPrintStream - 	at org.spat.scf.server.utility.ClassHelper.CheckClass(ClassHelper.java:208)
+[07-01 09:49:44 288 ERROR] [main] contract.log.SystemPrintStream - 	at org.spat.scf.server.utility.ClassHelper.getClassFromJar(ClassHelper.java:56)
+[07-01 09:49:44 289 ERROR] [main] contract.log.SystemPrintStream - 	at org.spat.scf.server.deploy.bytecode.ScanClass.scan(ScanClass.java:129)
+[07-01 09:49:44 290 ERROR] [main] contract.log.SystemPrintStream - 	at org.spat.scf.server.deploy.bytecode.ScanClass.getContractInfo(ScanClass.java:59)
+[07-01 09:49:44 291 ERROR] [main] contract.log.SystemPrintStream - 	at org.spat.scf.server.deploy.bytecode.CreateManager.careteProxy(CreateManager.java:24)
+[07-01 09:49:44 292 ERROR] [main] contract.log.SystemPrintStream - 	at org.spat.scf.server.deploy.hotdeploy.ProxyFactoryLoader.loadProxyFactory(ProxyFactoryLoader.java:25)
+[07-01 09:49:44 292 ERROR] [main] contract.log.SystemPrintStream - 	at org.spat.scf.server.bootstrap.Main.main(Main.java:150)
+[07-01 09:49:44 293 ERROR] [main] contract.log.SystemPrintStream - 	... 26 more
+[07-01 09:57:28 803 ERROR] [main] contract.log.SystemPrintStream - java.lang.reflect.InvocationTargetException
+[07-01 09:57:28 804 ERROR] [main] contract.log.SystemPrintStream - 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[07-01 09:57:28 805 ERROR] [main] contract.log.SystemPrintStream - 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+[07-01 09:57:28 805 ERROR] [main] contract.log.SystemPrintStream - 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[07-01 09:57:28 806 ERROR] [main] contract.log.SystemPrintStream - 	at java.lang.reflect.Method.invoke(Method.java:606)
+[07-01 09:57:28 806 ERROR] [main] contract.log.SystemPrintStream - 	at org.spat.scf.maven.RunMojo.execute(RunMojo.java:46)
+[07-01 09:57:28 806 ERROR] [main] contract.log.SystemPrintStream - 	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:101)
+[07-01 09:57:28 807 ERROR] [main] contract.log.SystemPrintStream - 	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:209)
+[07-01 09:57:28 807 ERROR] [main] contract.log.SystemPrintStream - 	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:153)
+[07-01 09:57:28 807 ERROR] [main] contract.log.SystemPrintStream - 	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:145)
+[07-01 09:57:28 808 ERROR] [main] contract.log.SystemPrintStream - 	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:84)
+[07-01 09:57:28 808 ERROR] [main] contract.log.SystemPrintStream - 	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:59)
+[07-01 09:57:28 809 ERROR] [main] contract.log.SystemPrintStream - 	at org.apache.maven.lifecycle.internal.LifecycleStarter.singleThreadedBuild(LifecycleStarter.java:183)
+[07-01 09:57:28 810 ERROR] [main] contract.log.SystemPrintStream - 	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:161)
+[07-01 09:57:28 811 ERROR] [main] contract.log.SystemPrintStream - 	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:319)
+[07-01 09:57:28 811 ERROR] [main] contract.log.SystemPrintStream - 	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:156)
+[07-01 09:57:28 812 ERROR] [main] contract.log.SystemPrintStream - 	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:537)
+[07-01 09:57:28 812 ERROR] [main] contract.log.SystemPrintStream - 	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:196)
+[07-01 09:57:28 812 ERROR] [main] contract.log.SystemPrintStream - 	at org.apache.maven.cli.MavenCli.main(MavenCli.java:141)
+[07-01 09:57:28 813 ERROR] [main] contract.log.SystemPrintStream - 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[07-01 09:57:28 813 ERROR] [main] contract.log.SystemPrintStream - 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+[07-01 09:57:28 813 ERROR] [main] contract.log.SystemPrintStream - 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[07-01 09:57:28 814 ERROR] [main] contract.log.SystemPrintStream - 	at java.lang.reflect.Method.invoke(Method.java:606)
+[07-01 09:57:28 814 ERROR] [main] contract.log.SystemPrintStream - 	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:290)
+[07-01 09:57:28 814 ERROR] [main] contract.log.SystemPrintStream - 	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:230)
+[07-01 09:57:28 814 ERROR] [main] contract.log.SystemPrintStream - 	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:409)
+[07-01 09:57:28 815 ERROR] [main] contract.log.SystemPrintStream - 	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:352)
+[07-01 09:57:28 816 ERROR] [main] contract.log.SystemPrintStream - Caused by: java.lang.OutOfMemoryError
+[07-01 09:57:28 816 ERROR] [main] contract.log.SystemPrintStream - 	at java.util.zip.Inflater.inflateBytes(Native Method)
+[07-01 09:57:28 817 ERROR] [main] contract.log.SystemPrintStream - 	at java.util.zip.Inflater.inflate(Inflater.java:259)
+[07-01 09:57:28 817 ERROR] [main] contract.log.SystemPrintStream - 	at java.util.zip.InflaterInputStream.read(InflaterInputStream.java:152)
+[07-01 09:57:28 818 ERROR] [main] contract.log.SystemPrintStream - 	at java.util.zip.InflaterInputStream.read(InflaterInputStream.java:122)
+[07-01 09:57:28 818 ERROR] [main] contract.log.SystemPrintStream - 	at java.io.DataInputStream.readInt(DataInputStream.java:387)
+[07-01 09:57:28 819 ERROR] [main] contract.log.SystemPrintStream - 	at javassist.bytecode.ClassFile.read(ClassFile.java:801)
+[07-01 09:57:28 819 ERROR] [main] contract.log.SystemPrintStream - 	at javassist.bytecode.ClassFile.<init>(ClassFile.java:148)
+[07-01 09:57:28 819 ERROR] [main] contract.log.SystemPrintStream - 	at org.spat.scf.server.utility.ClassHelper.CheckClass(ClassHelper.java:158)
+[07-01 09:57:28 820 ERROR] [main] contract.log.SystemPrintStream - 	at org.spat.scf.server.utility.ClassHelper.getClassFromJar(ClassHelper.java:51)
+[07-01 09:57:28 820 ERROR] [main] contract.log.SystemPrintStream - 	at org.spat.scf.server.deploy.bytecode.ScanClass.scan(ScanClass.java:129)
+[07-01 09:57:28 821 ERROR] [main] contract.log.SystemPrintStream - 	at org.spat.scf.server.deploy.bytecode.ScanClass.getContractInfo(ScanClass.java:59)
+[07-01 09:57:28 821 ERROR] [main] contract.log.SystemPrintStream - 	at org.spat.scf.server.deploy.bytecode.CreateManager.careteProxy(CreateManager.java:24)
+[07-01 09:57:28 821 ERROR] [main] contract.log.SystemPrintStream - 	at org.spat.scf.server.deploy.hotdeploy.ProxyFactoryLoader.loadProxyFactory(ProxyFactoryLoader.java:25)
+[07-01 09:57:28 822 ERROR] [main] contract.log.SystemPrintStream - 	at org.spat.scf.server.bootstrap.Main.main(Main.java:150)
+[07-01 09:57:28 822 ERROR] [main] contract.log.SystemPrintStream - 	... 26 more
+[07-01 09:59:14 918 ERROR] [main] contract.log.SystemPrintStream - SLF4J: Class path contains multiple SLF4J bindings.
+[07-01 09:59:14 919 ERROR] [main] contract.log.SystemPrintStream - SLF4J: Found binding in [jar:file:/d:/scfV3/lib/log4j-slf4j-impl-2.2.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+[07-01 09:59:14 920 ERROR] [main] contract.log.SystemPrintStream - SLF4J: Found binding in [jar:file:D:\scfV3\service\deploy\demo\lib\slf4j-log4j12-1.7.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+[07-01 09:59:14 921 ERROR] [main] contract.log.SystemPrintStream - SLF4J: Found binding in [jar:file:D:\scfV3\lib\log4j-slf4j-impl-2.2.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+[07-01 09:59:14 921 ERROR] [main] contract.log.SystemPrintStream - SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+[07-01 09:59:14 926 ERROR] [main] contract.log.SystemPrintStream - SLF4J: Actual binding is of type [org.apache.logging.slf4j.Log4jLoggerFactory]
+[07-01 10:01:33 965 ERROR] [main] contract.log.SystemPrintStream - SLF4J: Class path contains multiple SLF4J bindings.
+[07-01 10:01:33 965 ERROR] [main] contract.log.SystemPrintStream - SLF4J: Found binding in [jar:file:/d:/scfV3/lib/log4j-slf4j-impl-2.2.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+[07-01 10:01:33 966 ERROR] [main] contract.log.SystemPrintStream - SLF4J: Found binding in [jar:file:D:\scfV3\service\deploy\demo\lib\slf4j-log4j12-1.7.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+[07-01 10:01:33 966 ERROR] [main] contract.log.SystemPrintStream - SLF4J: Found binding in [jar:file:D:\scfV3\lib\log4j-slf4j-impl-2.2.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+[07-01 10:01:33 966 ERROR] [main] contract.log.SystemPrintStream - SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+[07-01 10:01:33 971 ERROR] [main] contract.log.SystemPrintStream - SLF4J: Actual binding is of type [org.apache.logging.slf4j.Log4jLoggerFactory]
+[07-01 10:47:36 497 ERROR] [main] contract.log.SystemPrintStream - SLF4J: Class path contains multiple SLF4J bindings.
+[07-01 10:47:36 498 ERROR] [main] contract.log.SystemPrintStream - SLF4J: Found binding in [jar:file:/d:/scfV3/lib/log4j-slf4j-impl-2.2.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+[07-01 10:47:36 499 ERROR] [main] contract.log.SystemPrintStream - SLF4J: Found binding in [jar:file:D:\scfV3\service\deploy\demo\lib\slf4j-log4j12-1.7.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+[07-01 10:47:36 499 ERROR] [main] contract.log.SystemPrintStream - SLF4J: Found binding in [jar:file:D:\scfV3\lib\log4j-slf4j-impl-2.2.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+[07-01 10:47:36 499 ERROR] [main] contract.log.SystemPrintStream - SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+[07-01 10:47:36 503 ERROR] [main] contract.log.SystemPrintStream - SLF4J: Actual binding is of type [org.apache.logging.slf4j.Log4jLoggerFactory]
+[07-01 12:14:32 451 ERROR] [main] contract.log.SystemPrintStream - SLF4J: Class path contains multiple SLF4J bindings.
+[07-01 12:14:32 455 ERROR] [main] contract.log.SystemPrintStream - SLF4J: Found binding in [jar:file:/E:/develop/scf/lib/log4j-slf4j-impl-2.2.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+[07-01 12:14:32 456 ERROR] [main] contract.log.SystemPrintStream - SLF4J: Found binding in [jar:file:E:\develop\scf\service\deploy\demo\lib\slf4j-log4j12-1.7.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+[07-01 12:14:32 456 ERROR] [main] contract.log.SystemPrintStream - SLF4J: Found binding in [jar:file:E:\develop\scf\lib\log4j-slf4j-impl-2.2.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+[07-01 12:14:32 457 ERROR] [main] contract.log.SystemPrintStream - SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+[07-01 12:14:32 461 ERROR] [main] contract.log.SystemPrintStream - SLF4J: Actual binding is of type [org.apache.logging.slf4j.Log4jLoggerFactory]
+[07-01 12:15:34 631 ERROR] [main] contract.log.SystemPrintStream - SLF4J: Class path contains multiple SLF4J bindings.
+[07-01 12:15:34 635 ERROR] [main] contract.log.SystemPrintStream - SLF4J: Found binding in [jar:file:/E:/develop/scf/lib/log4j-slf4j-impl-2.2.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+[07-01 12:15:34 635 ERROR] [main] contract.log.SystemPrintStream - SLF4J: Found binding in [jar:file:E:\develop\scf\service\deploy\demo\lib\slf4j-log4j12-1.7.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+[07-01 12:15:34 636 ERROR] [main] contract.log.SystemPrintStream - SLF4J: Found binding in [jar:file:E:\develop\scf\lib\log4j-slf4j-impl-2.2.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+[07-01 12:15:34 636 ERROR] [main] contract.log.SystemPrintStream - SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+[07-01 12:15:34 640 ERROR] [main] contract.log.SystemPrintStream - SLF4J: Actual binding is of type [org.apache.logging.slf4j.Log4jLoggerFactory]

@@ -1,4 +1,5 @@
 package org.spat.scf.server.bootstrap;
+
 import java.io.File;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -26,10 +27,9 @@ import org.spat.scf.server.deploy.hotdeploy.ProxyFactoryLoader;
 import sun.misc.Signal;
 
 /**
- * serive frame entry
- * main para: serviceName
+ * serive frame entry main para: serviceName
  * 
- * @author Service Platform Architecture Team 
+ * @author Service Platform Architecture Team
  * 
  * 
  */
@@ -37,7 +37,7 @@ import sun.misc.Signal;
 public class Main {
 
 	private static ILog logger = null;
-	
+
 	/**
 	 * start server
 	 * @param args : service name
@@ -49,22 +49,10 @@ public class Main {
 			throw new IllegalArgumentException("usage: -Dscf.service.name=<service-name> [<other-scf-config>]");
 		}
 		
-
-		/*/
-		//String userDir = System.getProperty("user.dir");
-		/*/
-		
-		//String userDir = System.getProperty("user.dir");
-		String userDir = "d:/scfV3/bin";
-		//*/
-		String rootPath = userDir + "/../";
-		
-		System.out.println(rootPath);
-
+		String userDir = System.getProperty("user.dir");
 		String serviceName = "no service name please set it";
-		
 		Map<String, String> argsMap = new HashMap<String, String>();
-		Global.getSingleton().setRootPath(rootPath);
+		
 		
 		for(int i=0; i<args.length; i++) {
 			if(args[i].startsWith("-D")) {
@@ -77,19 +65,40 @@ public class Main {
 				}
 			}
 		}
+		//------------------------Begin to get scf home path---------------------------------------//
 		
+		String rootPath = argsMap.get("scf.home");//参数
+		if(rootPath==null || rootPath.length()==0){
+			rootPath = System.getProperty("scf.home"); //jvm参数
+		}
+		if(rootPath==null || rootPath.length()==0){ 
+			 rootPath = System.getenv("SCF_HOME");//环境变量
+		}
+		if(rootPath==null || rootPath.length()==0){//获取jar所在的目录的上级目录
+			java.net.URL url = Main.class .getProtectionDomain().getCodeSource().getLocation();
+			if(url.getPath().endsWith("jar")){
+				File file =new File(url.getFile());
+				rootPath = file.getParentFile().getParent();
+			}
+		}
+		if(rootPath==null || rootPath.length()==0){
+			 rootPath =  "d:/scfV3/";
+		}
+		if(!rootPath.endsWith("/") && !rootPath.endsWith("\\")){
+			rootPath+="/";
+		}
+		
+		//------------------------Begin to set service paths---------------------------------------//
+		Global.getSingleton().setRootPath(rootPath);
 		String serviceFolderPath = rootPath + "service/deploy/" + serviceName;
 		String scfConfigDefaultPath = rootPath + "conf/scf_config.xml";
 		String scfConfigPath = serviceFolderPath + "/scf_config.xml";
 		String log4jConfigDefaultPath = rootPath + "conf/scf_log4j.xml";
 		String log4jConfigPath = serviceFolderPath + "/scf_log4j.xml";
 		
-		// load log4j2
+		//------------------------Begin to config---------------------------------------//
 		loadLog4jConfig(log4jConfigPath, log4jConfigDefaultPath, serviceName);
-		
-		
 		ServiceConfig sc = loadServiceConfig(scfConfigDefaultPath, scfConfigPath);
-		
 		if(sc == null) {
 			throw new Exception("service config is null");
 		}
@@ -221,9 +230,10 @@ public class Main {
 		logger.info("+++++++++++++++++++++ server start success!!! +++++++++++++++++++++\n");
 		Thread.currentThread().join();
 	}
-	
+
 	/**
 	 * load service config
+	 * 
 	 * @param cps
 	 * @return
 	 * @throws Exception
@@ -232,7 +242,7 @@ public class Main {
 		ServiceConfig sc = ServiceConfig.getServiceConfig(cps);
 		return sc;
 	}
-	
+
 	/**
 	 * 
 	 * @param configPath
@@ -241,56 +251,58 @@ public class Main {
 	 */
 	private static void loadLog4jConfig(String configPath, String defaultPath, String serviceName) throws Exception {
 		File fLog4jConfig = new File(configPath);
-	    if (fLog4jConfig.exists()) {
-	      Log4jConfig.configure(configPath);
-	      SystemPrintStream.redirectToLog4j();
-	    } else {
-	      Log4jConfig.configure(defaultPath);
+		if (fLog4jConfig.exists()) {
+			Log4jConfig.configure(configPath);
+			SystemPrintStream.redirectToLog4j();
+		} else {
+			Log4jConfig.configure(defaultPath);
 
-	      SystemPrintStream.redirectToLog4j();
-	    }	
+			SystemPrintStream.redirectToLog4j();
+		}
 	}
-	
+
 	/**
 	 * 
 	 * @param classLoader
 	 * @param sc
 	 * @throws Exception
 	 */
-	private static void loadInitBeans(DynamicClassLoader classLoader, ServiceConfig sc) throws Exception{
+	private static void loadInitBeans(DynamicClassLoader classLoader, ServiceConfig sc) throws Exception {
 		List<String> initList = sc.getList("scf.init", ",");
-		if(initList != null) {
-			for(String initBeans : initList) {
+		if (initList != null) {
+			for (String initBeans : initList) {
 				try {
 					logger.info("load: " + initBeans);
-					IInit initBean = (IInit)classLoader.loadClass(initBeans).newInstance();
+					IInit initBean = (IInit) classLoader.loadClass(initBeans).newInstance();
 					Global.getSingleton().addInit(initBean);
 					initBean.init();
-				} catch(Exception e) {
+				} catch (Exception e) {
 					logger.error("init " + initBeans + " error!!!", e);
 				}
 			}
 		}
 	}
-	
+
 	/**
 	 * 加载授权文件方法
+	 * 
 	 * @param sc
 	 * @param key
 	 * @param serverName
 	 * @throws Exception
 	 */
-	private static void loadSecureKey(ServiceConfig sc, String path) throws Exception{
+	private static void loadSecureKey(ServiceConfig sc, String path) throws Exception {
 		File[] file = new File(path).listFiles();
-		for(File f : file){	
+		for (File f : file) {
 			String fName = f.getName();
-			if(!f.exists() || fName.indexOf("secure") < 0 || !"xml".equalsIgnoreCase(fName.substring(fName.lastIndexOf(".")+1))){
+			if (!f.exists() || fName.indexOf("secure") < 0
+					|| !"xml".equalsIgnoreCase(fName.substring(fName.lastIndexOf(".") + 1))) {
 				continue;
 			}
 			sc.getSecureConfig(f.getPath());
 		}
 	}
-	
+
 	/**
 	 * 
 	 * @param classLoader
@@ -298,24 +310,25 @@ public class Main {
 	 * @param key
 	 * @throws Exception
 	 */
-	private static List<IFilter> loadFilters(DynamicClassLoader classLoader, ServiceConfig sc, String key) throws Exception {
+	private static List<IFilter> loadFilters(DynamicClassLoader classLoader, ServiceConfig sc, String key)
+			throws Exception {
 		List<String> filterList = sc.getList(key, ",");
 		List<IFilter> instanceList = new ArrayList<IFilter>();
-		if(filterList != null) {
-			for(String filterName : filterList) {
+		if (filterList != null) {
+			for (String filterName : filterList) {
 				try {
 					logger.info("load: " + filterName);
-					IFilter filter = (IFilter)classLoader.loadClass(filterName).newInstance();
+					IFilter filter = (IFilter) classLoader.loadClass(filterName).newInstance();
 					instanceList.add(filter);
-				} catch(Exception e) {
+				} catch (Exception e) {
 					logger.error("load " + filterName + " error!!!", e);
 				}
 			}
 		}
-		
+
 		return instanceList;
 	}
-	
+
 	/**
 	 * 
 	 * @param classLoader
@@ -324,47 +337,46 @@ public class Main {
 	 */
 	private static void loadServers(DynamicClassLoader classLoader, ServiceConfig sc) throws Exception {
 		List<String> servers = sc.getList("scf.servers", ",");
-		if(servers != null) {
-			for(String server : servers) {
+		if (servers != null) {
+			for (String server : servers) {
 				try {
-					if(sc.getBoolean(server + ".enable")) {
+					if (sc.getBoolean(server + ".enable")) {
 						logger.info(server + " is starting...");
-						IServer serverImpl = (IServer) classLoader.loadClass(sc.getString(server + ".implement")).newInstance();
+						IServer serverImpl = (IServer) classLoader.loadClass(sc.getString(server + ".implement"))
+								.newInstance();
 						Global.getSingleton().addServer(serverImpl);
 						serverImpl.start();
 						logger.info(server + "started success!!!\n");
 					}
-				} catch(Exception e) {
+				} catch (Exception e) {
 					logger.error(server + "start ERROR", e);
 				}
 			}
 		}
 	}
-	
+
 	/**
 	 * add current service file to file monitor
+	 * 
 	 * @param config
-	 * @throws Exception 
+	 * @throws Exception
 	 */
 	private static void addFileMonitor(String rootPath, String serviceName) throws Exception {
-		FileMonitor.getInstance().addMonitorFile(rootPath + 
-												"service/deploy/" + 
-												serviceName + 
-												"/");
-		
+		FileMonitor.getInstance().addMonitorFile(rootPath + "service/deploy/" + serviceName + "/");
+
 		FileMonitor.getInstance().setInterval(5000);
 		FileMonitor.getInstance().setNotifyCount(NotifyCount.Once);
 		FileMonitor.getInstance().addListener(new HotDeployListener());
 		FileMonitor.getInstance().start();
 	}
-	
+
 	/**
 	 * when shutdown server destroyed all socket connection
 	 */
 	private static void registerExcetEven() {
 		Runtime.getRuntime().addShutdownHook(new Thread() {
 			public void run() {
-				for(IServer server : Global.getSingleton().getServerList()) {
+				for (IServer server : Global.getSingleton().getServerList()) {
 					try {
 						server.stop();
 					} catch (Exception e) {

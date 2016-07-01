@@ -94,7 +94,7 @@
 				<artifactId>maven-scf-plugin</artifactId>
 				<version>1.0-SNAPSHOT</version>
 				<configuration>
-					<scfhome>d:/scfV3/</scfhome>
+					<scfhome></scfhome>
 					<name>demo</name>
 					<dependencies>
 						<dependency>

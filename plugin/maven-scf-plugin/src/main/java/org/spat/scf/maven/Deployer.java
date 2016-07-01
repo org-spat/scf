@@ -8,7 +8,7 @@ import org.apache.maven.plugin.logging.Log;
 public class Deployer {
 	public void deploy(AbstractSCFMojo mojo){
 		Log loger = mojo.getLog();
-		loger.info("===================开始部署===================");
+		loger.info("++++++++++++++++++++++++++++++++++++++++++++++开始部署++++++++++++++++++++++++++++++++++++++++++++++++");
 		loger.info("SCF_HOME:"+mojo.getScfhome());
 		loger.info("Service Name:"+mojo.getName());
 		loger.info("root:"+mojo.getBasedir().getPath());
@@ -44,6 +44,5 @@ public class Deployer {
 				}
 			}
 		}
-		loger.info("===================部署完成===================");
 	}
 }

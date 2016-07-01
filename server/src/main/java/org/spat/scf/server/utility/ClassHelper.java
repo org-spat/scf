@@ -1,12 +1,14 @@
 package org.spat.scf.server.utility;
 
 import java.io.BufferedReader;
+import java.io.DataInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.lang.reflect.Method;
 import java.util.Enumeration;
 import java.util.LinkedHashSet;
+import java.util.List;
 import java.util.Set;
 import java.util.jar.JarEntry;
 import java.util.jar.JarFile;
@@ -17,6 +19,9 @@ import javassist.ClassPool;
 import javassist.CtClass;
 import javassist.CtMethod;
 import javassist.Modifier;
+import javassist.NotFoundException;
+import javassist.bytecode.AttributeInfo;
+import javassist.bytecode.ClassFile;
 import javassist.bytecode.CodeAttribute;
 import javassist.bytecode.LocalVariableAttribute;
 import javassist.bytecode.MethodInfo;
@@ -31,9 +36,10 @@ public class ClassHelper {
 	 * @return
 	 * @throws IOException
 	 * @throws ClassNotFoundException
+	 * @throws NotFoundException 
 	 */
 	public static Set<Class<?>> getClassFromJar(String jarPath, DynamicClassLoader classLoader)
-			throws IOException, ClassNotFoundException {
+			throws IOException, ClassNotFoundException, NotFoundException {
 		JarFile jarFile = new JarFile(jarPath);
 		Enumeration<JarEntry> entries = jarFile.entries();
 		Set<Class<?>> classes = new LinkedHashSet<Class<?>>();
@@ -41,10 +47,10 @@ public class ClassHelper {
 			JarEntry jarEntry = entries.nextElement();
 			String name = jarEntry.getName();
 			if (name.endsWith(".class")) {
-				//从.class文件中过滤一遍，降低非必须class的加载
-				if (!checkJarEntry(jarFile, jarEntry, new String[] { "ServiceBehavior", "ServiceContract" })) {
+				//从.class文件中过滤一遍，降低非必须class的加载		
+				if(!CheckClass(jarFile,jarEntry)){
 					continue;
-				}
+				}	
 				String className = name.substring(0, name.length() - ".class".length()).replaceAll("/", ".");
 				Class<?> cls = null;
 				try {
@@ -147,49 +153,18 @@ public class ClassHelper {
 		return cm.getParameterAnnotations();
 	}
 
-	public static boolean checkJarEntry(JarFile jarFile, JarEntry entry, String[] keyWords) throws IOException {
-		if (keyWords == null || keyWords.length == 0) {
-			return true;
-		}
-		InputStream input = null;
-		InputStreamReader isr = null;
-		BufferedReader reader = null;
-
-		try {
-			input = jarFile.getInputStream(entry);
-			isr = new InputStreamReader(input);
-			reader = new BufferedReader(isr);
-			StringBuffer sb = new StringBuffer();
-			boolean result = false;
-			while (!result) {
-				String line = reader.readLine();
-				if (line == null) {
-					break;
-				}
-				sb.append(line);
-				for (String keyWord : keyWords) {
-					if (keyWord == null || keyWord.equals("")) {
-						continue;
-					}
-					result = sb.indexOf(keyWord) > -1;
-					if (result) {
-						break;
-					}
-				}
-
-			}
-			return result;
-		} finally {
-			if (input != null) {
-				input.close();
-			}
-			if (isr != null) {
-				isr.close();
-			}
-			if (reader != null) {
-				reader.close();
+	@SuppressWarnings("unchecked")
+	private static Boolean CheckClass(JarFile jarFile, JarEntry entry) throws NotFoundException, IOException {
+		ClassFile cf = new ClassFile(new DataInputStream(jarFile.getInputStream(entry)));
+		List<AttributeInfo> attrs = cf.getAttributes();
+		for(AttributeInfo att : attrs){
+			if(att.toString().equals("@org.spat.scf.protocol.annotation.ServiceBehavior")){
+				return true;
+			}else if(att.toString().equals("@org.spat.scf.protocol.annotation.ServiceContract")){
+				return true;
 			}
 		}
+		return false;
 	}
 
 }

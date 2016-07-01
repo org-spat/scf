@@ -10,24 +10,27 @@ import org.spat.scf.client.proxy.component.ProxyFactory;
 import org.spat.scf.demo.contract.IUserInfoService;
 import org.spat.scf.demo.entity.UserInfo;
 
+import javassist.ClassPool;
+import javassist.CtClass;
+import javassist.NotFoundException;
+
 public class UserMain {
 
 	public static String url = "tcp://demo/UserInfoService";
 	public static IUserInfoService service = ProxyFactory.create(IUserInfoService.class, url);
-	
+
 	private static CountDownLatch latch = new CountDownLatch(1);
-	
-	
-	public static void testThreads() throws Exception{
+
+	public static void testThreads() throws Exception {
 		long start = System.currentTimeMillis();
-		for(int j=1;j<=60;j++){
-			System.err.println("线程数："+j);
-			//Thread.sleep(0);
+		for (int j = 1; j <= 60; j++) {
+			System.err.println("线程数：" + j);
+			// Thread.sleep(0);
 			new Thread(new Runnable() {
-				
+
 				@Override
 				public void run() {
-					for(int i=0;i<=200000;i++){
+					for (int i = 0; i <= 200000; i++) {
 						getUser();
 					}
 					latch.countDown();
@@ -36,24 +39,27 @@ public class UserMain {
 		}
 		latch.await();
 		long ent = System.currentTimeMillis();
-		System.out.println("耗时："+(ent-start));
+		System.out.println("耗时：" + (ent - start));
 		System.out.println();
 	}
-	
+
 	/**
 	 * @param args
+	 * @throws ClassNotFoundException 
 	 */
-	public static void main(String[] args) {
+	public static void main(String[] args) throws ClassNotFoundException {
 		String userDir = System.getProperty("user.dir");
 		String rootPath = userDir + "/config/";
 		System.out.println("user.dir: " + userDir);
-		
-        SCFInit.init(rootPath+"scf.config");
-        
+
+		SCFInit.init(rootPath + "scf.config");
+
 		addUser();
-		System.out.println("======================================================================================================================================================================");
+		System.out.println(
+				"======================================================================================================================================================================");
 		getUser();
-		System.out.println("======================================================================================================================================================================");
+		System.out.println(
+				"======================================================================================================================================================================");
 		getUserList();
 		System.out.println("=======压测开始============");
 		try {
@@ -63,42 +69,47 @@ public class UserMain {
 			e.printStackTrace();
 		}
 	}
-	
-	private static void getUserList(){
-		List<UserInfo> listUserInfo=new ArrayList<UserInfo>();
+
+	private static void getUserList() {
+		List<UserInfo> listUserInfo = new ArrayList<UserInfo>();
 		try {
-			listUserInfo=service.getUserList(12);
+			listUserInfo = service.getUserList(12);
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		if(listUserInfo!=null&&listUserInfo.isEmpty()==false){
-			for(UserInfo user:listUserInfo){
-				System.out.println("get userlist: userid="+user.getUserId()+" userName="+user.getUserName()+" password="+user.getPassword()+" birthday="+user.getBirthday()+" age="+ user.getAge());
+		if (listUserInfo != null && listUserInfo.isEmpty() == false) {
+			for (UserInfo user : listUserInfo) {
+				System.out.println(
+						"get userlist: userid=" + user.getUserId() + " userName=" + user.getUserName() + " password="
+								+ user.getPassword() + " birthday=" + user.getBirthday() + " age=" + user.getAge());
 			}
 		}
 	}
-	private static void getUser(){
-		UserInfo user=null;
+
+	private static void getUser() {
+		UserInfo user = null;
 		try {
 			user = service.getUserByUserId(1223L);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		if(user!=null){
-			System.out.println("getuser: userid="+user.getUserId()+" userName="+user.getUserName()+" password="+user.getPassword()+" birthday="+user.getBirthday()+" age="+ user.getAge());
+		if (user != null) {
+			System.out.println("getuser: userid=" + user.getUserId() + " userName=" + user.getUserName() + " password="
+					+ user.getPassword() + " birthday=" + user.getBirthday() + " age=" + user.getAge());
 		}
-		
+
 	}
-	private static void addUser(){
-		UserInfo user=new UserInfo();
+
+	private static void addUser() {
+		UserInfo user = new UserInfo();
 		user.setAge(12);
 		user.setBirthday(new Date());
 		user.setPassword("dfedfgfdg");
 		user.setSex(true);
 		user.setUserId(12336774L);
 		user.setUserName("peida chang");
-		
+
 		try {
 			service.insertUser(user);
 			System.out.println("insertUser succ");
@@ -106,6 +117,12 @@ public class UserMain {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+	}
+
+	private void Test() throws NotFoundException {
+		ClassPool pool = ClassPool.getDefault();
+		CtClass cc = pool.get("test.Rectangle");
+		cc.getAttribute("");
 	}
 
 }
