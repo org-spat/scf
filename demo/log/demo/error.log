@@ -717,3 +717,9 @@ java.io.IOException: 远程主机强迫关闭了一个现有的连接。
 [07-01 12:15:34 636 ERROR] [main] contract.log.SystemPrintStream - SLF4J: Found binding in [jar:file:E:\develop\scf\lib\log4j-slf4j-impl-2.2.jar!/org/slf4j/impl/StaticLoggerBinder.class]
 [07-01 12:15:34 636 ERROR] [main] contract.log.SystemPrintStream - SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
 [07-01 12:15:34 640 ERROR] [main] contract.log.SystemPrintStream - SLF4J: Actual binding is of type [org.apache.logging.slf4j.Log4jLoggerFactory]
+[07-01 12:30:50 218 ERROR] [main] contract.log.SystemPrintStream - SLF4J: Class path contains multiple SLF4J bindings.
+[07-01 12:30:50 221 ERROR] [main] contract.log.SystemPrintStream - SLF4J: Found binding in [jar:file:/E:/develop/scf/lib/log4j-slf4j-impl-2.2.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+[07-01 12:30:50 222 ERROR] [main] contract.log.SystemPrintStream - SLF4J: Found binding in [jar:file:E:\develop\scf\service\deploy\demo\lib\slf4j-log4j12-1.7.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+[07-01 12:30:50 222 ERROR] [main] contract.log.SystemPrintStream - SLF4J: Found binding in [jar:file:E:\develop\scf\lib\log4j-slf4j-impl-2.2.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+[07-01 12:30:50 222 ERROR] [main] contract.log.SystemPrintStream - SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+[07-01 12:30:50 226 ERROR] [main] contract.log.SystemPrintStream - SLF4J: Actual binding is of type [org.apache.logging.slf4j.Log4jLoggerFactory]

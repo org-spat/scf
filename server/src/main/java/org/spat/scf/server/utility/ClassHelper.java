@@ -155,16 +155,26 @@ public class ClassHelper {
 
 	@SuppressWarnings("unchecked")
 	private static Boolean CheckClass(JarFile jarFile, JarEntry entry) throws NotFoundException, IOException {
-		ClassFile cf = new ClassFile(new DataInputStream(jarFile.getInputStream(entry)));
-		List<AttributeInfo> attrs = cf.getAttributes();
-		for(AttributeInfo att : attrs){
-			if(att.toString().equals("@org.spat.scf.protocol.annotation.ServiceBehavior")){
-				return true;
-			}else if(att.toString().equals("@org.spat.scf.protocol.annotation.ServiceContract")){
-				return true;
+		Boolean result = false;
+		InputStream inputStream = jarFile.getInputStream(entry);
+		DataInputStream dataInputStream = new DataInputStream(inputStream);
+		try{
+			ClassFile cf = new ClassFile(dataInputStream);
+			List<AttributeInfo> attrs = cf.getAttributes();
+			for(AttributeInfo att : attrs){
+				if(att.toString().equals("@org.spat.scf.protocol.annotation.ServiceBehavior")){
+					result = true;
+					break;
+				}else if(att.toString().equals("@org.spat.scf.protocol.annotation.ServiceContract")){
+					result = true;
+					break;
+				}
 			}
+		}finally{
+			inputStream.close();
+			dataInputStream.close();
 		}
-		return false;
+		return result;
 	}
 
 }

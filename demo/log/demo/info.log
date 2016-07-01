@@ -8022,3 +8022,427 @@ java.io.IOException: 远程主机强迫关闭了一个现有的连接。
 
 [07-01 12:15:34 917 INFO ] [main] server.bootstrap.Main - +++++++++++++++++++++ server start success!!! +++++++++++++++++++++
 
+[07-01 12:30:33 431 INFO ] [main] server.bootstrap.Main - +++++++++++++++++++++ staring +++++++++++++++++++++
+
+[07-01 12:30:33 434 INFO ] [main] server.bootstrap.Main - user.dir: E:\develop\scf/bin
+[07-01 12:30:33 435 INFO ] [main] server.bootstrap.Main - rootPath: E:\develop\scf/
+[07-01 12:30:33 435 INFO ] [main] server.bootstrap.Main - service scf_config.xml: E:\develop\scf/service/deploy/demo/scf_config.xml
+[07-01 12:30:33 436 INFO ] [main] server.bootstrap.Main - default scf_config.xml: E:\develop\scf/conf/scf_config.xml
+[07-01 12:30:33 436 INFO ] [main] server.bootstrap.Main - service scf_log4j.xml: E:\develop\scf/service/deploy/demo/scf_log4j.xml
+[07-01 12:30:33 436 INFO ] [main] server.bootstrap.Main - default scf_log4j.xml: E:\develop\scf/conf/scf_log4j.xml
+[07-01 12:30:33 437 INFO ] [main] server.bootstrap.Main - load service config...
+[07-01 12:30:33 437 INFO ] [main] server.bootstrap.Main - scf.service.name: demo
+[07-01 12:30:33 437 INFO ] [main] server.bootstrap.Main - -----------------loading global jars------------------
+[07-01 12:30:33 455 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:E:\develop\scf\service\deploy\demo\component-0.0.1-SNAPSHOT.jar
+[07-01 12:30:33 456 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:E:\develop\scf\service\deploy\demo\lib\antlr-2.7.6.jar
+[07-01 12:30:33 456 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:E:\develop\scf\service\deploy\demo\lib\antlrall-2.7.2.jar
+[07-01 12:30:33 456 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:E:\develop\scf\service\deploy\demo\lib\aopalliance-1.0.jar
+[07-01 12:30:33 457 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:E:\develop\scf\service\deploy\demo\lib\asm-3.3.1.jar
+[07-01 12:30:33 457 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:E:\develop\scf\service\deploy\demo\lib\aspectjweaver-1.7.3.jar
+[07-01 12:30:33 458 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:E:\develop\scf\service\deploy\demo\lib\cglib-2.2.2.jar
+[07-01 12:30:33 458 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:E:\develop\scf\service\deploy\demo\lib\cn.laitou.base.contract-0.0.1-SNAPSHOT.jar
+[07-01 12:30:33 458 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:E:\develop\scf\service\deploy\demo\lib\cn.laitou.common.core-0.0.1-SNAPSHOT.jar
+[07-01 12:30:33 459 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:E:\develop\scf\service\deploy\demo\lib\cn.laitou.common.util-0.0.1-SNAPSHOT.jar
+[07-01 12:30:33 459 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:E:\develop\scf\service\deploy\demo\lib\commons-beanutils-1.8.0.jar
+[07-01 12:30:33 459 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:E:\develop\scf\service\deploy\demo\lib\commons-codec-1.8.jar
+[07-01 12:30:33 460 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:E:\develop\scf\service\deploy\demo\lib\commons-collections-3.2.jar
+[07-01 12:30:33 460 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:E:\develop\scf\service\deploy\demo\lib\commons-digester-2.0.jar
+[07-01 12:30:33 460 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:E:\develop\scf\service\deploy\demo\lib\commons-fileupload-1.3.1.jar
+[07-01 12:30:33 460 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:E:\develop\scf\service\deploy\demo\lib\commons-httpclient-3.1.jar
+[07-01 12:30:33 461 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:E:\develop\scf\service\deploy\demo\lib\commons-io-2.0.1.jar
+[07-01 12:30:33 461 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:E:\develop\scf\service\deploy\demo\lib\commons-io-2.4.jar
+[07-01 12:30:33 461 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:E:\develop\scf\service\deploy\demo\lib\commons-lang-2.5.jar
+[07-01 12:30:33 462 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:E:\develop\scf\service\deploy\demo\lib\commons-lang3-3.1.jar
+[07-01 12:30:33 462 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:E:\develop\scf\service\deploy\demo\lib\commons-logging-1.1.3.jar
+[07-01 12:30:33 462 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:E:\develop\scf\service\deploy\demo\lib\commons-pool2-2.0.jar
+[07-01 12:30:33 463 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:E:\develop\scf\service\deploy\demo\lib\commons-validator-1.1.4.jar
+[07-01 12:30:33 463 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:E:\develop\scf\service\deploy\demo\lib\dom4j-1.6.1.jar
+[07-01 12:30:33 463 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:E:\develop\scf\service\deploy\demo\lib\druid-0.2.23.jar
+[07-01 12:30:33 464 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:E:\develop\scf\service\deploy\demo\lib\ezmorph-1.0.6.jar
+[07-01 12:30:33 464 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:E:\develop\scf\service\deploy\demo\lib\fastjson-1.1.41.jar
+[07-01 12:30:33 464 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:E:\develop\scf\service\deploy\demo\lib\gson-2.2.4.jar
+[07-01 12:30:33 464 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:E:\develop\scf\service\deploy\demo\lib\guava-14.0.1.jar
+[07-01 12:30:33 465 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:E:\develop\scf\service\deploy\demo\lib\hamcrest-core-1.3.jar
+[07-01 12:30:33 465 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:E:\develop\scf\service\deploy\demo\lib\httpclient-4.3.3.jar
+[07-01 12:30:33 465 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:E:\develop\scf\service\deploy\demo\lib\httpcore-4.3.2.jar
+[07-01 12:30:33 466 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:E:\develop\scf\service\deploy\demo\lib\icu4j-3.4.4.jar
+[07-01 12:30:33 467 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:E:\develop\scf\service\deploy\demo\lib\jackson-annotations-2.0.6.jar
+[07-01 12:30:33 468 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:E:\develop\scf\service\deploy\demo\lib\jackson-core-2.0.6.jar
+[07-01 12:30:33 469 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:E:\develop\scf\service\deploy\demo\lib\jackson-core-asl-1.9.9.jar
+[07-01 12:30:33 469 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:E:\develop\scf\service\deploy\demo\lib\jackson-databind-2.0.6.jar
+[07-01 12:30:33 470 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:E:\develop\scf\service\deploy\demo\lib\jackson-datatype-joda-2.0.4.jar
+[07-01 12:30:33 470 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:E:\develop\scf\service\deploy\demo\lib\jackson-mapper-asl-1.9.9.jar
+[07-01 12:30:33 470 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:E:\develop\scf\service\deploy\demo\lib\jackson-module-jaxb-annotations-2.0.6.jar
+[07-01 12:30:33 471 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:E:\develop\scf\service\deploy\demo\lib\javassist-3.12.1.GA.jar
+[07-01 12:30:33 471 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:E:\develop\scf\service\deploy\demo\lib\javassist-3.20.0-GA.jar
+[07-01 12:30:33 472 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:E:\develop\scf\service\deploy\demo\lib\jaxen-1.1.1.jar
+[07-01 12:30:33 472 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:E:\develop\scf\service\deploy\demo\lib\jcl-over-slf4j-1.7.8.jar
+[07-01 12:30:33 472 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:E:\develop\scf\service\deploy\demo\lib\jdom-1.0.jar
+[07-01 12:30:33 473 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:E:\develop\scf\service\deploy\demo\lib\jdom-1.1.3.jar
+[07-01 12:30:33 473 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:E:\develop\scf\service\deploy\demo\lib\jedis-2.4.2.jar
+[07-01 12:30:33 474 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:E:\develop\scf\service\deploy\demo\lib\joda-time-2.5.jar
+[07-01 12:30:33 474 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:E:\develop\scf\service\deploy\demo\lib\json-lib-2.2.3.jar
+[07-01 12:30:33 475 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:E:\develop\scf\service\deploy\demo\lib\junit-4.11.jar
+[07-01 12:30:33 475 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:E:\develop\scf\service\deploy\demo\lib\jxl-2.6.12.jar
+[07-01 12:30:33 475 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:E:\develop\scf\service\deploy\demo\lib\log4j-1.2.17.jar
+[07-01 12:30:33 476 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:E:\develop\scf\service\deploy\demo\lib\log4j-api-2.2.jar
+[07-01 12:30:33 477 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:E:\develop\scf\service\deploy\demo\lib\log4j-core-2.2.jar
+[07-01 12:30:33 478 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:E:\develop\scf\service\deploy\demo\lib\log4j-jcl-2.2.jar
+[07-01 12:30:33 479 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:E:\develop\scf\service\deploy\demo\lib\lombok-1.12.2.jar
+[07-01 12:30:33 479 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:E:\develop\scf\service\deploy\demo\lib\mybatis-3.2.2.jar
+[07-01 12:30:33 479 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:E:\develop\scf\service\deploy\demo\lib\mysql-connector-java-5.1.8.jar
+[07-01 12:30:33 480 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:E:\develop\scf\service\deploy\demo\lib\netty-3.1.5.GA.jar
+[07-01 12:30:33 480 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:E:\develop\scf\service\deploy\demo\lib\ognl-3.0.6.jar
+[07-01 12:30:33 480 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:E:\develop\scf\service\deploy\demo\lib\ooxml-schemas-1.0.jar
+[07-01 12:30:33 481 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:E:\develop\scf\service\deploy\demo\lib\org.spat.scf.demo.contract-0.0.1-SNAPSHOT.jar
+[07-01 12:30:33 481 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:E:\develop\scf\service\deploy\demo\lib\oro-2.0.8.jar
+[07-01 12:30:33 482 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:E:\develop\scf\service\deploy\demo\lib\poi-3.5-FINAL.jar
+[07-01 12:30:33 482 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:E:\develop\scf\service\deploy\demo\lib\poi-ooxml-3.5-FINAL.jar
+[07-01 12:30:33 483 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:E:\develop\scf\service\deploy\demo\lib\serializer-2.7.1.jar
+[07-01 12:30:33 483 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:E:\develop\scf\service\deploy\demo\lib\slf4j-api-1.7.5.jar
+[07-01 12:30:33 484 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:E:\develop\scf\service\deploy\demo\lib\slf4j-log4j12-1.7.5.jar
+[07-01 12:30:33 484 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:E:\develop\scf\service\deploy\demo\lib\stax-api-1.0.1.jar
+[07-01 12:30:33 484 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:E:\develop\scf\service\deploy\demo\lib\xalan-2.7.1.jar
+[07-01 12:30:33 485 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:E:\develop\scf\service\deploy\demo\lib\xercesImpl-2.6.2.jar
+[07-01 12:30:33 485 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:E:\develop\scf\service\deploy\demo\lib\xercesImpl-2.9.1.jar
+[07-01 12:30:33 486 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:E:\develop\scf\service\deploy\demo\lib\xml-apis-1.0.b2.jar
+[07-01 12:30:33 486 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:E:\develop\scf\service\deploy\demo\lib\xmlbeans-2.3.0.jar
+[07-01 12:30:33 487 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:E:\develop\scf\service\deploy\demo\lib\xmlParserAPIs-2.6.2.jar
+[07-01 12:30:33 487 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:E:\develop\scf\service\deploy\demo\lib\xom-1.0.jar
+[07-01 12:30:33 487 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:E:\develop\scf\service\lib\jyaml-1.3.jar
+[07-01 12:30:33 488 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:E:\develop\scf\service\lib\mysql-connector-java-5.1.6-bin.jar
+[07-01 12:30:33 488 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:E:\develop\scf\service\lib\sqljdbc4-2.0.jar
+[07-01 12:30:33 489 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:E:\develop\scf\lib\junit-4.8.jar
+[07-01 12:30:33 489 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:E:\develop\scf\lib\log4j-slf4j-impl-2.2.jar
+[07-01 12:30:33 489 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:E:\develop\scf\lib\org.spat.scf.protocol-3.0.0-SNAPSHOT.jar
+[07-01 12:30:33 490 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:E:\develop\scf\lib\org.spat.scf.serializer-3.0.0-20160618.014523-1.jar
+[07-01 12:30:33 490 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:E:\develop\scf\lib\org.spat.scf.serializer-3.0.0-SNAPSHOT.jar
+[07-01 12:30:33 491 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:E:\develop\scf\lib\org.spat.scf.server-3.0.0-SNAPSHOT.jar
+[07-01 12:30:33 492 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:E:\develop\scf\lib\org.spat.utility-3.0.0-SNAPSHOT.jar
+[07-01 12:30:33 493 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:E:\develop\scf\lib\slf4j-api-1.7.8.jar
+[07-01 12:30:33 494 INFO ] [main] deploy.hotdeploy.DynamicClassLoader - append jar to classpath:E:\develop\scf\lib\tools.jar
+[07-01 12:30:33 502 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:E:\develop\scf\service\deploy\demo\component-0.0.1-SNAPSHOT.jar
+[07-01 12:30:33 503 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:E:\develop\scf\service\deploy\demo\lib\antlr-2.7.6.jar
+[07-01 12:30:33 503 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:E:\develop\scf\service\deploy\demo\lib\antlrall-2.7.2.jar
+[07-01 12:30:33 504 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:E:\develop\scf\service\deploy\demo\lib\aopalliance-1.0.jar
+[07-01 12:30:33 504 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:E:\develop\scf\service\deploy\demo\lib\asm-3.3.1.jar
+[07-01 12:30:33 505 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:E:\develop\scf\service\deploy\demo\lib\aspectjweaver-1.7.3.jar
+[07-01 12:30:33 505 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:E:\develop\scf\service\deploy\demo\lib\cglib-2.2.2.jar
+[07-01 12:30:33 505 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:E:\develop\scf\service\deploy\demo\lib\cn.laitou.base.contract-0.0.1-SNAPSHOT.jar
+[07-01 12:30:33 506 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:E:\develop\scf\service\deploy\demo\lib\cn.laitou.common.core-0.0.1-SNAPSHOT.jar
+[07-01 12:30:33 506 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:E:\develop\scf\service\deploy\demo\lib\cn.laitou.common.util-0.0.1-SNAPSHOT.jar
+[07-01 12:30:33 507 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:E:\develop\scf\service\deploy\demo\lib\commons-beanutils-1.8.0.jar
+[07-01 12:30:33 507 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:E:\develop\scf\service\deploy\demo\lib\commons-codec-1.8.jar
+[07-01 12:30:33 507 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:E:\develop\scf\service\deploy\demo\lib\commons-collections-3.2.jar
+[07-01 12:30:33 508 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:E:\develop\scf\service\deploy\demo\lib\commons-digester-2.0.jar
+[07-01 12:30:33 508 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:E:\develop\scf\service\deploy\demo\lib\commons-fileupload-1.3.1.jar
+[07-01 12:30:33 508 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:E:\develop\scf\service\deploy\demo\lib\commons-httpclient-3.1.jar
+[07-01 12:30:33 509 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:E:\develop\scf\service\deploy\demo\lib\commons-io-2.0.1.jar
+[07-01 12:30:33 510 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:E:\develop\scf\service\deploy\demo\lib\commons-io-2.4.jar
+[07-01 12:30:33 510 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:E:\develop\scf\service\deploy\demo\lib\commons-lang-2.5.jar
+[07-01 12:30:33 511 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:E:\develop\scf\service\deploy\demo\lib\commons-lang3-3.1.jar
+[07-01 12:30:33 512 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:E:\develop\scf\service\deploy\demo\lib\commons-logging-1.1.3.jar
+[07-01 12:30:33 513 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:E:\develop\scf\service\deploy\demo\lib\commons-pool2-2.0.jar
+[07-01 12:30:33 513 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:E:\develop\scf\service\deploy\demo\lib\commons-validator-1.1.4.jar
+[07-01 12:30:33 514 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:E:\develop\scf\service\deploy\demo\lib\dom4j-1.6.1.jar
+[07-01 12:30:33 514 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:E:\develop\scf\service\deploy\demo\lib\druid-0.2.23.jar
+[07-01 12:30:33 515 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:E:\develop\scf\service\deploy\demo\lib\ezmorph-1.0.6.jar
+[07-01 12:30:33 515 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:E:\develop\scf\service\deploy\demo\lib\fastjson-1.1.41.jar
+[07-01 12:30:33 515 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:E:\develop\scf\service\deploy\demo\lib\gson-2.2.4.jar
+[07-01 12:30:33 516 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:E:\develop\scf\service\deploy\demo\lib\guava-14.0.1.jar
+[07-01 12:30:33 516 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:E:\develop\scf\service\deploy\demo\lib\hamcrest-core-1.3.jar
+[07-01 12:30:33 517 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:E:\develop\scf\service\deploy\demo\lib\httpclient-4.3.3.jar
+[07-01 12:30:33 517 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:E:\develop\scf\service\deploy\demo\lib\httpcore-4.3.2.jar
+[07-01 12:30:33 517 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:E:\develop\scf\service\deploy\demo\lib\icu4j-3.4.4.jar
+[07-01 12:30:33 518 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:E:\develop\scf\service\deploy\demo\lib\jackson-annotations-2.0.6.jar
+[07-01 12:30:33 518 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:E:\develop\scf\service\deploy\demo\lib\jackson-core-2.0.6.jar
+[07-01 12:30:33 519 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:E:\develop\scf\service\deploy\demo\lib\jackson-core-asl-1.9.9.jar
+[07-01 12:30:33 519 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:E:\develop\scf\service\deploy\demo\lib\jackson-databind-2.0.6.jar
+[07-01 12:30:33 520 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:E:\develop\scf\service\deploy\demo\lib\jackson-datatype-joda-2.0.4.jar
+[07-01 12:30:33 520 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:E:\develop\scf\service\deploy\demo\lib\jackson-mapper-asl-1.9.9.jar
+[07-01 12:30:33 520 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:E:\develop\scf\service\deploy\demo\lib\jackson-module-jaxb-annotations-2.0.6.jar
+[07-01 12:30:33 521 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:E:\develop\scf\service\deploy\demo\lib\javassist-3.12.1.GA.jar
+[07-01 12:30:33 522 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:E:\develop\scf\service\deploy\demo\lib\javassist-3.20.0-GA.jar
+[07-01 12:30:33 522 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:E:\develop\scf\service\deploy\demo\lib\jaxen-1.1.1.jar
+[07-01 12:30:33 523 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:E:\develop\scf\service\deploy\demo\lib\jcl-over-slf4j-1.7.8.jar
+[07-01 12:30:33 523 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:E:\develop\scf\service\deploy\demo\lib\jdom-1.0.jar
+[07-01 12:30:33 525 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:E:\develop\scf\service\deploy\demo\lib\jdom-1.1.3.jar
+[07-01 12:30:33 526 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:E:\develop\scf\service\deploy\demo\lib\jedis-2.4.2.jar
+[07-01 12:30:33 527 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:E:\develop\scf\service\deploy\demo\lib\joda-time-2.5.jar
+[07-01 12:30:33 528 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:E:\develop\scf\service\deploy\demo\lib\json-lib-2.2.3.jar
+[07-01 12:30:33 528 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:E:\develop\scf\service\deploy\demo\lib\junit-4.11.jar
+[07-01 12:30:33 529 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:E:\develop\scf\service\deploy\demo\lib\jxl-2.6.12.jar
+[07-01 12:30:33 529 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:E:\develop\scf\service\deploy\demo\lib\log4j-1.2.17.jar
+[07-01 12:30:33 529 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:E:\develop\scf\service\deploy\demo\lib\log4j-api-2.2.jar
+[07-01 12:30:33 530 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:E:\develop\scf\service\deploy\demo\lib\log4j-core-2.2.jar
+[07-01 12:30:33 531 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:E:\develop\scf\service\deploy\demo\lib\log4j-jcl-2.2.jar
+[07-01 12:30:33 531 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:E:\develop\scf\service\deploy\demo\lib\lombok-1.12.2.jar
+[07-01 12:30:33 532 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:E:\develop\scf\service\deploy\demo\lib\mybatis-3.2.2.jar
+[07-01 12:30:33 532 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:E:\develop\scf\service\deploy\demo\lib\mysql-connector-java-5.1.8.jar
+[07-01 12:30:33 533 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:E:\develop\scf\service\deploy\demo\lib\netty-3.1.5.GA.jar
+[07-01 12:30:33 534 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:E:\develop\scf\service\deploy\demo\lib\ognl-3.0.6.jar
+[07-01 12:30:33 534 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:E:\develop\scf\service\deploy\demo\lib\ooxml-schemas-1.0.jar
+[07-01 12:30:33 535 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:E:\develop\scf\service\deploy\demo\lib\org.spat.scf.demo.contract-0.0.1-SNAPSHOT.jar
+[07-01 12:30:33 536 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:E:\develop\scf\service\deploy\demo\lib\oro-2.0.8.jar
+[07-01 12:30:33 536 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:E:\develop\scf\service\deploy\demo\lib\poi-3.5-FINAL.jar
+[07-01 12:30:33 537 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:E:\develop\scf\service\deploy\demo\lib\poi-ooxml-3.5-FINAL.jar
+[07-01 12:30:33 537 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:E:\develop\scf\service\deploy\demo\lib\serializer-2.7.1.jar
+[07-01 12:30:33 538 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:E:\develop\scf\service\deploy\demo\lib\slf4j-api-1.7.5.jar
+[07-01 12:30:33 539 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:E:\develop\scf\service\deploy\demo\lib\slf4j-log4j12-1.7.5.jar
+[07-01 12:30:33 540 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:E:\develop\scf\service\deploy\demo\lib\stax-api-1.0.1.jar
+[07-01 12:30:33 541 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:E:\develop\scf\service\deploy\demo\lib\xalan-2.7.1.jar
+[07-01 12:30:33 542 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:E:\develop\scf\service\deploy\demo\lib\xercesImpl-2.6.2.jar
+[07-01 12:30:33 543 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:E:\develop\scf\service\deploy\demo\lib\xercesImpl-2.9.1.jar
+[07-01 12:30:33 544 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:E:\develop\scf\service\deploy\demo\lib\xml-apis-1.0.b2.jar
+[07-01 12:30:33 545 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:E:\develop\scf\service\deploy\demo\lib\xmlbeans-2.3.0.jar
+[07-01 12:30:33 545 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:E:\develop\scf\service\deploy\demo\lib\xmlParserAPIs-2.6.2.jar
+[07-01 12:30:33 546 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:E:\develop\scf\service\deploy\demo\lib\xom-1.0.jar
+[07-01 12:30:33 546 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:E:\develop\scf\service\lib\jyaml-1.3.jar
+[07-01 12:30:33 547 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:E:\develop\scf\service\lib\mysql-connector-java-5.1.6-bin.jar
+[07-01 12:30:33 548 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:E:\develop\scf\service\lib\sqljdbc4-2.0.jar
+[07-01 12:30:33 548 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:E:\develop\scf\lib\junit-4.8.jar
+[07-01 12:30:33 549 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:E:\develop\scf\lib\log4j-slf4j-impl-2.2.jar
+[07-01 12:30:33 550 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:E:\develop\scf\lib\org.spat.scf.protocol-3.0.0-SNAPSHOT.jar
+[07-01 12:30:33 550 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:E:\develop\scf\lib\org.spat.scf.serializer-3.0.0-20160618.014523-1.jar
+[07-01 12:30:33 551 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:E:\develop\scf\lib\org.spat.scf.serializer-3.0.0-SNAPSHOT.jar
+[07-01 12:30:33 553 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:E:\develop\scf\lib\org.spat.scf.server-3.0.0-SNAPSHOT.jar
+[07-01 12:30:33 554 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:E:\develop\scf\lib\org.spat.utility-3.0.0-SNAPSHOT.jar
+[07-01 12:30:33 555 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:E:\develop\scf\lib\slf4j-api-1.7.8.jar
+[07-01 12:30:33 556 INFO ] [main] deploy.hotdeploy.GlobalClassLoader - append jar to classpath:file:E:\develop\scf\lib\tools.jar
+[07-01 12:30:33 556 INFO ] [main] server.bootstrap.Main - -------------------------end-------------------------
+
+[07-01 12:30:33 557 INFO ] [main] server.bootstrap.Main - --------------------loading proxys-------------------
+[07-01 12:30:33 565 INFO ] [main] deploy.bytecode.ScanClass - begin scan jar from path:E:\develop\scf/service/deploy/demo/
+[07-01 12:30:33 571 INFO ] [main] deploy.bytecode.ScanClass - scanning E:\develop\scf\service\deploy\demo\component-0.0.1-SNAPSHOT.jar
+[07-01 12:30:33 876 INFO ] [main] deploy.bytecode.ScanClass - scanning E:\develop\scf\service\deploy\demo\lib\antlr-2.7.6.jar
+[07-01 12:30:34 411 INFO ] [main] deploy.bytecode.ScanClass - scanning E:\develop\scf\service\deploy\demo\lib\antlrall-2.7.2.jar
+[07-01 12:30:34 778 INFO ] [main] deploy.bytecode.ScanClass - scanning E:\develop\scf\service\deploy\demo\lib\aopalliance-1.0.jar
+[07-01 12:30:34 782 INFO ] [main] deploy.bytecode.ScanClass - scanning E:\develop\scf\service\deploy\demo\lib\asm-3.3.1.jar
+[07-01 12:30:34 819 INFO ] [main] deploy.bytecode.ScanClass - scanning E:\develop\scf\service\deploy\demo\lib\aspectjweaver-1.7.3.jar
+[07-01 12:30:35 554 INFO ] [main] deploy.bytecode.ScanClass - scanning E:\develop\scf\service\deploy\demo\lib\cglib-2.2.2.jar
+[07-01 12:30:35 683 INFO ] [main] deploy.bytecode.ScanClass - scanning E:\develop\scf\service\deploy\demo\lib\cn.laitou.base.contract-0.0.1-SNAPSHOT.jar
+[07-01 12:30:35 781 INFO ] [main] deploy.bytecode.ScanClass - scanning E:\develop\scf\service\deploy\demo\lib\cn.laitou.common.core-0.0.1-SNAPSHOT.jar
+[07-01 12:30:35 892 INFO ] [main] deploy.bytecode.ScanClass - scanning E:\develop\scf\service\deploy\demo\lib\cn.laitou.common.util-0.0.1-SNAPSHOT.jar
+[07-01 12:30:35 893 INFO ] [main] deploy.bytecode.ScanClass - scanning E:\develop\scf\service\deploy\demo\lib\commons-beanutils-1.8.0.jar
+[07-01 12:30:35 984 INFO ] [main] deploy.bytecode.ScanClass - scanning E:\develop\scf\service\deploy\demo\lib\commons-codec-1.8.jar
+[07-01 12:30:36 037 INFO ] [main] deploy.bytecode.ScanClass - scanning E:\develop\scf\service\deploy\demo\lib\commons-collections-3.2.jar
+[07-01 12:30:36 236 INFO ] [main] deploy.bytecode.ScanClass - scanning E:\develop\scf\service\deploy\demo\lib\commons-digester-2.0.jar
+[07-01 12:30:36 280 INFO ] [main] deploy.bytecode.ScanClass - scanning E:\develop\scf\service\deploy\demo\lib\commons-fileupload-1.3.1.jar
+[07-01 12:30:36 298 INFO ] [main] deploy.bytecode.ScanClass - scanning E:\develop\scf\service\deploy\demo\lib\commons-httpclient-3.1.jar
+[07-01 12:30:36 399 INFO ] [main] deploy.bytecode.ScanClass - scanning E:\develop\scf\service\deploy\demo\lib\commons-io-2.0.1.jar
+[07-01 12:30:36 454 INFO ] [main] deploy.bytecode.ScanClass - scanning E:\develop\scf\service\deploy\demo\lib\commons-io-2.4.jar
+[07-01 12:30:36 516 INFO ] [main] deploy.bytecode.ScanClass - scanning E:\develop\scf\service\deploy\demo\lib\commons-lang-2.5.jar
+[07-01 12:30:36 612 INFO ] [main] deploy.bytecode.ScanClass - scanning E:\develop\scf\service\deploy\demo\lib\commons-lang3-3.1.jar
+[07-01 12:30:36 720 INFO ] [main] deploy.bytecode.ScanClass - scanning E:\develop\scf\service\deploy\demo\lib\commons-logging-1.1.3.jar
+[07-01 12:30:36 739 INFO ] [main] deploy.bytecode.ScanClass - scanning E:\develop\scf\service\deploy\demo\lib\commons-pool2-2.0.jar
+[07-01 12:30:36 775 INFO ] [main] deploy.bytecode.ScanClass - scanning E:\develop\scf\service\deploy\demo\lib\commons-validator-1.1.4.jar
+[07-01 12:30:36 795 INFO ] [main] deploy.bytecode.ScanClass - scanning E:\develop\scf\service\deploy\demo\lib\dom4j-1.6.1.jar
+[07-01 12:30:36 912 INFO ] [main] deploy.bytecode.ScanClass - scanning E:\develop\scf\service\deploy\demo\lib\druid-0.2.23.jar
+[07-01 12:30:37 514 INFO ] [main] deploy.bytecode.ScanClass - scanning E:\develop\scf\service\deploy\demo\lib\ezmorph-1.0.6.jar
+[07-01 12:30:37 541 INFO ] [main] deploy.bytecode.ScanClass - scanning E:\develop\scf\service\deploy\demo\lib\fastjson-1.1.41.jar
+[07-01 12:30:37 715 INFO ] [main] deploy.bytecode.ScanClass - scanning E:\develop\scf\service\deploy\demo\lib\gson-2.2.4.jar
+[07-01 12:30:37 790 INFO ] [main] deploy.bytecode.ScanClass - scanning E:\develop\scf\service\deploy\demo\lib\guava-14.0.1.jar
+[07-01 12:30:38 502 INFO ] [main] deploy.bytecode.ScanClass - scanning E:\develop\scf\service\deploy\demo\lib\hamcrest-core-1.3.jar
+[07-01 12:30:38 518 INFO ] [main] deploy.bytecode.ScanClass - scanning E:\develop\scf\service\deploy\demo\lib\httpclient-4.3.3.jar
+[07-01 12:30:38 684 INFO ] [main] deploy.bytecode.ScanClass - scanning E:\develop\scf\service\deploy\demo\lib\httpcore-4.3.2.jar
+[07-01 12:30:38 768 INFO ] [main] deploy.bytecode.ScanClass - scanning E:\develop\scf\service\deploy\demo\lib\icu4j-3.4.4.jar
+[07-01 12:30:39 078 INFO ] [main] deploy.bytecode.ScanClass - scanning E:\develop\scf\service\deploy\demo\lib\jackson-annotations-2.0.6.jar
+[07-01 12:30:39 088 INFO ] [main] deploy.bytecode.ScanClass - scanning E:\develop\scf\service\deploy\demo\lib\jackson-core-2.0.6.jar
+[07-01 12:30:39 137 INFO ] [main] deploy.bytecode.ScanClass - scanning E:\develop\scf\service\deploy\demo\lib\jackson-core-asl-1.9.9.jar
+[07-01 12:30:39 202 INFO ] [main] deploy.bytecode.ScanClass - scanning E:\develop\scf\service\deploy\demo\lib\jackson-databind-2.0.6.jar
+[07-01 12:30:39 446 INFO ] [main] deploy.bytecode.ScanClass - scanning E:\develop\scf\service\deploy\demo\lib\jackson-datatype-joda-2.0.4.jar
+[07-01 12:30:39 454 INFO ] [main] deploy.bytecode.ScanClass - scanning E:\develop\scf\service\deploy\demo\lib\jackson-mapper-asl-1.9.9.jar
+[07-01 12:30:39 678 INFO ] [main] deploy.bytecode.ScanClass - scanning E:\develop\scf\service\deploy\demo\lib\jackson-module-jaxb-annotations-2.0.6.jar
+[07-01 12:30:39 685 INFO ] [main] deploy.bytecode.ScanClass - scanning E:\develop\scf\service\deploy\demo\lib\javassist-3.12.1.GA.jar
+[07-01 12:30:39 860 INFO ] [main] deploy.bytecode.ScanClass - scanning E:\develop\scf\service\deploy\demo\lib\javassist-3.20.0-GA.jar
+[07-01 12:30:40 086 INFO ] [main] deploy.bytecode.ScanClass - scanning E:\develop\scf\service\deploy\demo\lib\jaxen-1.1.1.jar
+[07-01 12:30:40 151 INFO ] [main] deploy.bytecode.ScanClass - scanning E:\develop\scf\service\deploy\demo\lib\jcl-over-slf4j-1.7.8.jar
+[07-01 12:30:40 155 INFO ] [main] deploy.bytecode.ScanClass - scanning E:\develop\scf\service\deploy\demo\lib\jdom-1.0.jar
+[07-01 12:30:40 195 INFO ] [main] deploy.bytecode.ScanClass - scanning E:\develop\scf\service\deploy\demo\lib\jdom-1.1.3.jar
+[07-01 12:30:40 236 INFO ] [main] deploy.bytecode.ScanClass - scanning E:\develop\scf\service\deploy\demo\lib\jedis-2.4.2.jar
+[07-01 12:30:40 443 INFO ] [main] deploy.bytecode.ScanClass - scanning E:\develop\scf\service\deploy\demo\lib\joda-time-2.5.jar
+[07-01 12:30:40 589 INFO ] [main] deploy.bytecode.ScanClass - scanning E:\develop\scf\service\deploy\demo\lib\json-lib-2.2.3.jar
+[07-01 12:30:40 629 INFO ] [main] deploy.bytecode.ScanClass - scanning E:\develop\scf\service\deploy\demo\lib\junit-4.11.jar
+[07-01 12:30:40 701 INFO ] [main] deploy.bytecode.ScanClass - scanning E:\develop\scf\service\deploy\demo\lib\jxl-2.6.12.jar
+[07-01 12:30:40 897 INFO ] [main] deploy.bytecode.ScanClass - scanning E:\develop\scf\service\deploy\demo\lib\log4j-1.2.17.jar
+[07-01 12:30:41 038 INFO ] [main] deploy.bytecode.ScanClass - scanning E:\develop\scf\service\deploy\demo\lib\log4j-api-2.2.jar
+[07-01 12:30:41 077 INFO ] [main] deploy.bytecode.ScanClass - scanning E:\develop\scf\service\deploy\demo\lib\log4j-core-2.2.jar
+[07-01 12:30:41 295 INFO ] [main] deploy.bytecode.ScanClass - scanning E:\develop\scf\service\deploy\demo\lib\log4j-jcl-2.2.jar
+[07-01 12:30:41 297 INFO ] [main] deploy.bytecode.ScanClass - scanning E:\develop\scf\service\deploy\demo\lib\lombok-1.12.2.jar
+[07-01 12:30:41 594 INFO ] [main] deploy.bytecode.ScanClass - scanning E:\develop\scf\service\deploy\demo\lib\mybatis-3.2.2.jar
+[07-01 12:30:41 801 INFO ] [main] deploy.bytecode.ScanClass - scanning E:\develop\scf\service\deploy\demo\lib\mysql-connector-java-5.1.8.jar
+[07-01 12:30:42 005 INFO ] [main] deploy.bytecode.ScanClass - scanning E:\develop\scf\service\deploy\demo\lib\netty-3.1.5.GA.jar
+[07-01 12:30:42 189 INFO ] [main] deploy.bytecode.ScanClass - scanning E:\develop\scf\service\deploy\demo\lib\ognl-3.0.6.jar
+[07-01 12:30:42 258 INFO ] [main] deploy.bytecode.ScanClass - scanning E:\develop\scf\service\deploy\demo\lib\ooxml-schemas-1.0.jar
+[07-01 12:30:46 628 INFO ] [main] deploy.bytecode.ScanClass - scanning E:\develop\scf\service\deploy\demo\lib\org.spat.scf.demo.contract-0.0.1-SNAPSHOT.jar
+[07-01 12:30:46 631 INFO ] [main] deploy.bytecode.ScanClass - scanning E:\develop\scf\service\deploy\demo\lib\oro-2.0.8.jar
+[07-01 12:30:46 653 INFO ] [main] deploy.bytecode.ScanClass - scanning E:\develop\scf\service\deploy\demo\lib\poi-3.5-FINAL.jar
+[07-01 12:30:47 139 INFO ] [main] deploy.bytecode.ScanClass - scanning E:\develop\scf\service\deploy\demo\lib\poi-ooxml-3.5-FINAL.jar
+[07-01 12:30:47 258 INFO ] [main] deploy.bytecode.ScanClass - scanning E:\develop\scf\service\deploy\demo\lib\serializer-2.7.1.jar
+[07-01 12:30:47 331 INFO ] [main] deploy.bytecode.ScanClass - scanning E:\develop\scf\service\deploy\demo\lib\slf4j-api-1.7.5.jar
+[07-01 12:30:47 340 INFO ] [main] deploy.bytecode.ScanClass - scanning E:\develop\scf\service\deploy\demo\lib\slf4j-log4j12-1.7.5.jar
+[07-01 12:30:47 343 INFO ] [main] deploy.bytecode.ScanClass - scanning E:\develop\scf\service\deploy\demo\lib\stax-api-1.0.1.jar
+[07-01 12:30:47 355 INFO ] [main] deploy.bytecode.ScanClass - scanning E:\develop\scf\service\deploy\demo\lib\xalan-2.7.1.jar
+[07-01 12:30:48 273 INFO ] [main] deploy.bytecode.ScanClass - scanning E:\develop\scf\service\deploy\demo\lib\xercesImpl-2.6.2.jar
+[07-01 12:30:48 612 INFO ] [main] deploy.bytecode.ScanClass - scanning E:\develop\scf\service\deploy\demo\lib\xercesImpl-2.9.1.jar
+[07-01 12:30:48 991 INFO ] [main] deploy.bytecode.ScanClass - scanning E:\develop\scf\service\deploy\demo\lib\xml-apis-1.0.b2.jar
+[07-01 12:30:49 045 INFO ] [main] deploy.bytecode.ScanClass - scanning E:\develop\scf\service\deploy\demo\lib\xmlbeans-2.3.0.jar
+[07-01 12:30:49 858 INFO ] [main] deploy.bytecode.ScanClass - scanning E:\develop\scf\service\deploy\demo\lib\xmlParserAPIs-2.6.2.jar
+[07-01 12:30:49 897 INFO ] [main] deploy.bytecode.ScanClass - scanning E:\develop\scf\service\deploy\demo\lib\xom-1.0.jar
+[07-01 12:30:49 935 INFO ] [main] deploy.bytecode.ScanClass - finish scan jar
+[07-01 12:30:49 939 INFO ] [main] deploy.bytecode.ProxyClassCreater - loading dynamic proxy ...
+[07-01 12:30:49 939 INFO ] [main] deploy.bytecode.ProxyClassCreater - loading => UserInfoServiceProxyStub1467347449935
+[07-01 12:30:49 940 INFO ] [main] deploy.bytecode.ProxyClassCreater - class name:org.spat.scf.demo.component.UserInfoService
+[07-01 12:30:50 165 INFO ] [main] deploy.bytecode.ProxyClassCreater - load dynamic proxy success!!!
+[07-01 12:30:50 166 INFO ] [main] deploy.bytecode.CreateManager - proxy class buffer creater finish!!!
+[07-01 12:30:50 167 INFO ] [main] deploy.bytecode.ProxyFactoryCreater - begin create ProxyFactory:ProxyFactory1467347449935
+[07-01 12:30:50 188 INFO ] [main] deploy.bytecode.ProxyFactoryCreater - create ProxyFactory success!!!
+[07-01 12:30:50 192 INFO ] [main] deploy.bytecode.CreateManager - proxy factory buffer creater finish!!!
+[07-01 12:30:50 193 INFO ] [main] deploy.bytecode.CreateManager - dynamic load class:UserInfoServiceProxyStub1467347449935
+[07-01 12:30:50 194 INFO ] [main] deploy.bytecode.CreateManager - crate ProxyFactory instance!!!
+[07-01 12:30:50 195 INFO ] [main] server.bootstrap.Main - -------------------------end-------------------------
+
+[07-01 12:30:50 195 INFO ] [main] server.bootstrap.Main - -----------------loading init beans------------------
+[07-01 12:30:50 195 INFO ] [main] server.bootstrap.Main - load: org.spat.scf.server.contract.context.SerializerClassInit
+[07-01 12:30:50 199 INFO ] [main] server.bootstrap.Main - -------------------------end-------------------------
+
+[07-01 12:30:50 199 INFO ] [main] server.bootstrap.Main - -----------loading global request filters------------
+[07-01 12:30:50 200 INFO ] [main] server.bootstrap.Main - load: org.spat.scf.server.filter.ProtocolParseFilter
+[07-01 12:30:50 202 INFO ] [main] server.bootstrap.Main - load: org.spat.scf.server.filter.HandclaspFilter
+[07-01 12:30:50 203 INFO ] [main] server.bootstrap.Main - load: org.spat.scf.server.filter.ExecuteMethodFilter
+[07-01 12:30:50 205 INFO ] [main] server.bootstrap.Main - -------------------------end-------------------------
+
+[07-01 12:30:50 205 INFO ] [main] server.bootstrap.Main - -----------loading global response filters-----------
+[07-01 12:30:50 205 INFO ] [main] server.bootstrap.Main - load: org.spat.scf.server.filter.ProtocolCreateFilter
+[07-01 12:30:50 218 ERROR] [main] contract.log.SystemPrintStream - SLF4J: Class path contains multiple SLF4J bindings.
+[07-01 12:30:50 221 ERROR] [main] contract.log.SystemPrintStream - SLF4J: Found binding in [jar:file:/E:/develop/scf/lib/log4j-slf4j-impl-2.2.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+[07-01 12:30:50 222 ERROR] [main] contract.log.SystemPrintStream - SLF4J: Found binding in [jar:file:E:\develop\scf\service\deploy\demo\lib\slf4j-log4j12-1.7.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+[07-01 12:30:50 222 ERROR] [main] contract.log.SystemPrintStream - SLF4J: Found binding in [jar:file:E:\develop\scf\lib\log4j-slf4j-impl-2.2.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+[07-01 12:30:50 222 ERROR] [main] contract.log.SystemPrintStream - SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+[07-01 12:30:50 226 ERROR] [main] contract.log.SystemPrintStream - SLF4J: Actual binding is of type [org.apache.logging.slf4j.Log4jLoggerFactory]
+[07-01 12:30:50 234 INFO ] [main] server.bootstrap.Main - load: org.spat.scf.server.filter.ExecuteTimeFilter
+[07-01 12:30:50 240 INFO ] [main] server.bootstrap.Main - -------------------------end-------------------------
+
+[07-01 12:30:50 241 INFO ] [main] server.bootstrap.Main - -----------loading connection filters-----------
+[07-01 12:30:50 241 INFO ] [main] server.bootstrap.Main - load: org.spat.scf.server.filter.IPFilter
+[07-01 12:30:50 242 INFO ] [main] server.bootstrap.Main - -------------------------end-------------------------
+
+[07-01 12:30:50 242 INFO ] [main] server.bootstrap.Main - ------------------load secureKey start---------------------
+[07-01 12:30:50 242 INFO ] [main] server.bootstrap.Main - ------------------load secureKey end----------------------
+
+[07-01 12:30:50 243 INFO ] [main] server.bootstrap.Main - ------------------signal registr start---------------------
+[07-01 12:30:50 243 INFO ] [main] server.bootstrap.Main - ------------------signal registr success----------------------
+
+[07-01 12:30:50 243 INFO ] [main] server.bootstrap.Main - ------------------ starting servers -----------------
+[07-01 12:30:50 243 INFO ] [main] server.bootstrap.Main - scf.server.tcp is starting...
+[07-01 12:30:50 277 INFO ] [main] communication.tcp.SocketServer - loading invoker...
+[07-01 12:30:50 323 INFO ] [main] server.proxy.AsyncInvokerHandle - async worker steal:false
+[07-01 12:30:50 324 INFO ] [main] server.proxy.AsyncInvokerHandle - async worker limitSize:0
+[07-01 12:30:50 325 INFO ] [main] server.proxy.AsyncInvokerHandle - async worker mode:false
+[07-01 12:30:50 326 INFO ] [main] server.proxy.AsyncInvokerHandle - async worker count:64
+[07-01 12:30:50 327 INFO ] [main] communication.tcp.SocketServer - initing server...
+[07-01 12:30:50 328 INFO ] [main] communication.tcp.SocketServer - -- socket server config --
+[07-01 12:30:50 329 INFO ] [main] communication.tcp.SocketServer - -- listen ip: 0.0.0.0
+[07-01 12:30:50 330 INFO ] [main] communication.tcp.SocketServer - -- port: 10019
+[07-01 12:30:50 331 INFO ] [main] communication.tcp.SocketServer - -- tcpNoDelay: true
+[07-01 12:30:50 332 INFO ] [main] communication.tcp.SocketServer - -- receiveBufferSize: 65536
+[07-01 12:30:50 332 INFO ] [main] communication.tcp.SocketServer - -- sendBufferSize: 65536
+[07-01 12:30:50 333 INFO ] [main] communication.tcp.SocketServer - -- frameMaxLength: 524288
+[07-01 12:30:50 334 INFO ] [main] communication.tcp.SocketServer - -- worker thread count: 32
+[07-01 12:30:50 334 INFO ] [main] communication.tcp.SocketServer - --------------------------
+[07-01 12:30:50 335 INFO ] [main] communication.tcp.SocketServer - demo SocketServer starting...
+[07-01 12:30:50 444 INFO ] [main] server.bootstrap.Main - scf.server.tcpstarted success!!!
+
+[07-01 12:30:50 445 INFO ] [main] server.bootstrap.Main - scf.server.telnet is starting...
+[07-01 12:30:50 447 INFO ] [main] communication.telnet.TelnetServer - ----------------telnet server config------------------
+[07-01 12:30:50 447 INFO ] [main] communication.telnet.TelnetServer - -- telnet server listen ip: 0.0.0.0
+[07-01 12:30:50 448 INFO ] [main] communication.telnet.TelnetServer - -- telnet server port: 20019
+[07-01 12:30:50 448 INFO ] [main] communication.telnet.TelnetServer - ------------------------------------------------------
+[07-01 12:30:50 453 INFO ] [main] server.bootstrap.Main - scf.server.telnetstarted success!!!
+
+[07-01 12:30:50 454 INFO ] [main] server.bootstrap.Main - -------------------------end-------------------------
+
+[07-01 12:30:50 454 INFO ] [main] server.bootstrap.Main - ------------------init file monitor-----------------
+[07-01 12:30:50 460 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:E:\develop\scf\service\deploy\demo\component-0.0.1-SNAPSHOT.jar
+[07-01 12:30:50 462 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:E:\develop\scf\service\deploy\demo\lib\antlr-2.7.6.jar
+[07-01 12:30:50 463 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:E:\develop\scf\service\deploy\demo\lib\antlrall-2.7.2.jar
+[07-01 12:30:50 463 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:E:\develop\scf\service\deploy\demo\lib\aopalliance-1.0.jar
+[07-01 12:30:50 463 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:E:\develop\scf\service\deploy\demo\lib\asm-3.3.1.jar
+[07-01 12:30:50 463 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:E:\develop\scf\service\deploy\demo\lib\aspectjweaver-1.7.3.jar
+[07-01 12:30:50 464 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:E:\develop\scf\service\deploy\demo\lib\cglib-2.2.2.jar
+[07-01 12:30:50 465 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:E:\develop\scf\service\deploy\demo\lib\cn.laitou.base.contract-0.0.1-SNAPSHOT.jar
+[07-01 12:30:50 465 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:E:\develop\scf\service\deploy\demo\lib\cn.laitou.common.core-0.0.1-SNAPSHOT.jar
+[07-01 12:30:50 466 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:E:\develop\scf\service\deploy\demo\lib\cn.laitou.common.util-0.0.1-SNAPSHOT.jar
+[07-01 12:30:50 466 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:E:\develop\scf\service\deploy\demo\lib\commons-beanutils-1.8.0.jar
+[07-01 12:30:50 466 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:E:\develop\scf\service\deploy\demo\lib\commons-codec-1.8.jar
+[07-01 12:30:50 467 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:E:\develop\scf\service\deploy\demo\lib\commons-collections-3.2.jar
+[07-01 12:30:50 467 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:E:\develop\scf\service\deploy\demo\lib\commons-digester-2.0.jar
+[07-01 12:30:50 467 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:E:\develop\scf\service\deploy\demo\lib\commons-fileupload-1.3.1.jar
+[07-01 12:30:50 468 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:E:\develop\scf\service\deploy\demo\lib\commons-httpclient-3.1.jar
+[07-01 12:30:50 468 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:E:\develop\scf\service\deploy\demo\lib\commons-io-2.0.1.jar
+[07-01 12:30:50 468 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:E:\develop\scf\service\deploy\demo\lib\commons-io-2.4.jar
+[07-01 12:30:50 469 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:E:\develop\scf\service\deploy\demo\lib\commons-lang-2.5.jar
+[07-01 12:30:50 469 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:E:\develop\scf\service\deploy\demo\lib\commons-lang3-3.1.jar
+[07-01 12:30:50 470 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:E:\develop\scf\service\deploy\demo\lib\commons-logging-1.1.3.jar
+[07-01 12:30:50 470 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:E:\develop\scf\service\deploy\demo\lib\commons-pool2-2.0.jar
+[07-01 12:30:50 471 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:E:\develop\scf\service\deploy\demo\lib\commons-validator-1.1.4.jar
+[07-01 12:30:50 472 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:E:\develop\scf\service\deploy\demo\lib\dom4j-1.6.1.jar
+[07-01 12:30:50 473 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:E:\develop\scf\service\deploy\demo\lib\druid-0.2.23.jar
+[07-01 12:30:50 474 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:E:\develop\scf\service\deploy\demo\lib\ezmorph-1.0.6.jar
+[07-01 12:30:50 475 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:E:\develop\scf\service\deploy\demo\lib\fastjson-1.1.41.jar
+[07-01 12:30:50 476 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:E:\develop\scf\service\deploy\demo\lib\gson-2.2.4.jar
+[07-01 12:30:50 477 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:E:\develop\scf\service\deploy\demo\lib\guava-14.0.1.jar
+[07-01 12:30:50 478 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:E:\develop\scf\service\deploy\demo\lib\hamcrest-core-1.3.jar
+[07-01 12:30:50 478 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:E:\develop\scf\service\deploy\demo\lib\httpclient-4.3.3.jar
+[07-01 12:30:50 479 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:E:\develop\scf\service\deploy\demo\lib\httpcore-4.3.2.jar
+[07-01 12:30:50 479 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:E:\develop\scf\service\deploy\demo\lib\icu4j-3.4.4.jar
+[07-01 12:30:50 480 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:E:\develop\scf\service\deploy\demo\lib\jackson-annotations-2.0.6.jar
+[07-01 12:30:50 481 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:E:\develop\scf\service\deploy\demo\lib\jackson-core-2.0.6.jar
+[07-01 12:30:50 482 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:E:\develop\scf\service\deploy\demo\lib\jackson-core-asl-1.9.9.jar
+[07-01 12:30:50 482 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:E:\develop\scf\service\deploy\demo\lib\jackson-databind-2.0.6.jar
+[07-01 12:30:50 483 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:E:\develop\scf\service\deploy\demo\lib\jackson-datatype-joda-2.0.4.jar
+[07-01 12:30:50 484 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:E:\develop\scf\service\deploy\demo\lib\jackson-mapper-asl-1.9.9.jar
+[07-01 12:30:50 484 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:E:\develop\scf\service\deploy\demo\lib\jackson-module-jaxb-annotations-2.0.6.jar
+[07-01 12:30:50 485 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:E:\develop\scf\service\deploy\demo\lib\javassist-3.12.1.GA.jar
+[07-01 12:30:50 486 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:E:\develop\scf\service\deploy\demo\lib\javassist-3.20.0-GA.jar
+[07-01 12:30:50 486 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:E:\develop\scf\service\deploy\demo\lib\jaxen-1.1.1.jar
+[07-01 12:30:50 487 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:E:\develop\scf\service\deploy\demo\lib\jcl-over-slf4j-1.7.8.jar
+[07-01 12:30:50 488 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:E:\develop\scf\service\deploy\demo\lib\jdom-1.0.jar
+[07-01 12:30:50 489 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:E:\develop\scf\service\deploy\demo\lib\jdom-1.1.3.jar
+[07-01 12:30:50 490 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:E:\develop\scf\service\deploy\demo\lib\jedis-2.4.2.jar
+[07-01 12:30:50 491 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:E:\develop\scf\service\deploy\demo\lib\joda-time-2.5.jar
+[07-01 12:30:50 492 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:E:\develop\scf\service\deploy\demo\lib\json-lib-2.2.3.jar
+[07-01 12:30:50 494 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:E:\develop\scf\service\deploy\demo\lib\junit-4.11.jar
+[07-01 12:30:50 495 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:E:\develop\scf\service\deploy\demo\lib\jxl-2.6.12.jar
+[07-01 12:30:50 495 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:E:\develop\scf\service\deploy\demo\lib\log4j-1.2.17.jar
+[07-01 12:30:50 496 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:E:\develop\scf\service\deploy\demo\lib\log4j-api-2.2.jar
+[07-01 12:30:50 498 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:E:\develop\scf\service\deploy\demo\lib\log4j-core-2.2.jar
+[07-01 12:30:50 498 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:E:\develop\scf\service\deploy\demo\lib\log4j-jcl-2.2.jar
+[07-01 12:30:50 499 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:E:\develop\scf\service\deploy\demo\lib\lombok-1.12.2.jar
+[07-01 12:30:50 499 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:E:\develop\scf\service\deploy\demo\lib\mybatis-3.2.2.jar
+[07-01 12:30:50 500 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:E:\develop\scf\service\deploy\demo\lib\mysql-connector-java-5.1.8.jar
+[07-01 12:30:50 500 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:E:\develop\scf\service\deploy\demo\lib\netty-3.1.5.GA.jar
+[07-01 12:30:50 501 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:E:\develop\scf\service\deploy\demo\lib\ognl-3.0.6.jar
+[07-01 12:30:50 501 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:E:\develop\scf\service\deploy\demo\lib\ooxml-schemas-1.0.jar
+[07-01 12:30:50 501 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:E:\develop\scf\service\deploy\demo\lib\org.spat.scf.demo.contract-0.0.1-SNAPSHOT.jar
+[07-01 12:30:50 502 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:E:\develop\scf\service\deploy\demo\lib\oro-2.0.8.jar
+[07-01 12:30:50 502 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:E:\develop\scf\service\deploy\demo\lib\poi-3.5-FINAL.jar
+[07-01 12:30:50 503 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:E:\develop\scf\service\deploy\demo\lib\poi-ooxml-3.5-FINAL.jar
+[07-01 12:30:50 503 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:E:\develop\scf\service\deploy\demo\lib\serializer-2.7.1.jar
+[07-01 12:30:50 503 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:E:\develop\scf\service\deploy\demo\lib\slf4j-api-1.7.5.jar
+[07-01 12:30:50 504 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:E:\develop\scf\service\deploy\demo\lib\slf4j-log4j12-1.7.5.jar
+[07-01 12:30:50 504 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:E:\develop\scf\service\deploy\demo\lib\stax-api-1.0.1.jar
+[07-01 12:30:50 504 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:E:\develop\scf\service\deploy\demo\lib\xalan-2.7.1.jar
+[07-01 12:30:50 505 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:E:\develop\scf\service\deploy\demo\lib\xercesImpl-2.6.2.jar
+[07-01 12:30:50 506 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:E:\develop\scf\service\deploy\demo\lib\xercesImpl-2.9.1.jar
+[07-01 12:30:50 507 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:E:\develop\scf\service\deploy\demo\lib\xml-apis-1.0.b2.jar
+[07-01 12:30:50 507 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:E:\develop\scf\service\deploy\demo\lib\xmlbeans-2.3.0.jar
+[07-01 12:30:50 508 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:E:\develop\scf\service\deploy\demo\lib\xmlParserAPIs-2.6.2.jar
+[07-01 12:30:50 508 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:E:\develop\scf\service\deploy\demo\lib\xom-1.0.jar
+[07-01 12:30:50 508 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:E:\develop\scf\service\deploy\demo\scf_config.xml
+[07-01 12:30:50 509 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:E:\develop\scf\service\deploy\demo\scf_log4j.xml
+[07-01 12:30:50 509 INFO ] [main] deploy.filemonitor.FileMonitor - add monitor file:E:\develop\scf\service\deploy\demo\scf_log4j2.xml
+[07-01 12:30:50 515 INFO ] [main] server.bootstrap.Main - -------------------------end-------------------------
+
+[07-01 12:30:50 519 INFO ] [main] server.bootstrap.Main - +++++++++++++++++++++ server start success!!! +++++++++++++++++++++
+
