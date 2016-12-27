@@ -299,7 +299,7 @@ public class Main {
 					|| !"xml".equalsIgnoreCase(fName.substring(fName.lastIndexOf(".") + 1))) {
 				continue;
 			}
-			sc.getSecureConfig(f.getPath());
+			ServiceConfig.getSecureConfig(f.getPath());
 		}
 	}
 

@@ -1,5 +1,6 @@
 package org.spat.scf.demo.client;
 
+import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
@@ -10,6 +11,7 @@ import org.spat.scf.client.proxy.component.ProxyFactory;
 import org.spat.scf.demo.contract.IUserInfoService;
 import org.spat.scf.demo.entity.UserInfo;
 
+import cn.laitou.cache.contract.ILoanCacheService;
 import javassist.ClassPool;
 import javassist.CtClass;
 import javassist.NotFoundException;
@@ -22,6 +24,7 @@ public class UserMain {
 	private static CountDownLatch latch = new CountDownLatch(1);
 
 	public static void testThreads() throws Exception {
+		
 		long start = System.currentTimeMillis();
 		for (int j = 1; j <= 60; j++) {
 			System.err.println("Ïß³ÌÊý£º" + j);
@@ -87,7 +90,9 @@ public class UserMain {
 		}
 	}
 
+	
 	private static void getUser() {
+		
 		UserInfo user = null;
 		try {
 			user = service.getUserByUserId(1223L);

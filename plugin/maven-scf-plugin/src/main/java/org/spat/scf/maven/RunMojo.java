@@ -23,7 +23,9 @@ public class RunMojo extends AbstractSCFMojo {
 	public void execute() throws MojoExecutionException, MojoFailureException {
 		String scf_home = this.getScfhome();
 		if(scf_home==null || scf_home.length()==0){
-			getLog().error("Please set <scfhome></scfhome> node in the pom.xml");
+			String errInfo = "Please set <scfhome></scfhome> node in the pom.xml";
+			getLog().error(errInfo);
+			System.err.println(errInfo);
 			return;
 		}
 		Deployer deployer = new Deployer();

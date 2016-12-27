@@ -1,13 +1,14 @@
 package org.spat.scf.server.bootstrap;
 
+import org.spat.scf.server.contract.context.Global;
+import org.spat.scf.server.contract.context.ServerStateType;
+import org.spat.scf.server.contract.log.ILog;
+import org.spat.scf.server.contract.log.LogFactory;
+
 import sun.misc.Signal;
 import sun.misc.SignalHandler;
 
-import org.spat.scf.server.contract.log.ILog;
-import org.spat.scf.server.contract.log.LogFactory;
-import org.spat.scf.server.contract.context.Global;
-import org.spat.scf.server.contract.context.ServerStateType;
-
+@SuppressWarnings("restriction")
 public class OperateSignal implements SignalHandler{
 	
 	private static ILog logger = LogFactory.getLogger(OperateSignal.class);

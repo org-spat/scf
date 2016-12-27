@@ -54,7 +54,7 @@ public class ProxyFactoryCreater {
 
 				sbBody.append("if(lookup.equalsIgnoreCase(\"" + lookup + "\")){");
 				sbBody.append("return proxy");
-				sbBody.append(lookup);
+				sbBody.append(lookup); 
 				sbBody.append(Global.getSingleton().getServiceConfig().getString("scf.service.name"));
 				sbBody.append(";}");
 				

@@ -122,11 +122,12 @@ public class CSocket {
 	    		sendBuffer.flip();
 	    		
 	    		int retryCount = 0;
+	    		logger.debug("send buffer size:"+sendBuffer.remaining());
 	    		while(sendBuffer.hasRemaining()) {
 	    			count += channel.write(sendBuffer);
 	    				
 	    			if(retryCount++ > 30) {
-	    				throw new Exception("retry write count(" + retryCount + ") above 30");
+	    				throw new Exception("retry write count(" + retryCount + ") above 30,count:"+count);
 	    			}
 	    		}
 	    		return count;
